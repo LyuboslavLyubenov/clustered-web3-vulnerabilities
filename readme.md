@@ -9,7 +9,7 @@ This repository contains a systematically organized database of Web3/smart contr
 ## 🔍 What's Inside
 
 ### Vulnerability Clusters
-- **29k+ unique vulnerabilities** across **1461 clusters**
+- **29k+ unique vulnerabilities** across **461 clusters**
 - Ranked by frequency of occurrence
 - Detailed examples with code snippets and impact analysis
 - Automated labeling with human verification
