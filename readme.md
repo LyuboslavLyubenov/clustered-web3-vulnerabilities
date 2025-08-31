@@ -17,7 +17,7 @@ This repository contains a systematically organized database of Web3/smart contr
 ### Structure
 ```
 📁 
-├── 📄 README.md                 # This file
+├── 📄 readme.md                 # This file
 ├── 📁 cluster_pages/
 │   ├── 📄 index.md                  # Complete cluster index
 │   ├── 📄 cluster_-1015.md 
@@ -29,13 +29,13 @@ This repository contains a systematically organized database of Web3/smart contr
 
 | Rank | Count | Category | Severity |
 |------|-------|----------|----------|
-| 1 | 1879 | Use of unchecked arithmetic operations bypasses overflow/underflow checks, introducing risks of incorrect state transitions, exploitable integer overflows, and compromised arithmetic integrity in critical financial calculations. | [View](cluster_-1015.md) |
-| 2 | 1227 | Failure to validate account ownership or token identity leads to unauthorized access, mint manipulation, or invalid state transitions, enabling attackers to bypass authorization and exploit token or account mismatches. | [View](cluster_-1030.md) |
-| 3 | 1085 | Inconsistent reward accounting and improper stake validation lead to incorrect or unfair reward distribution, enabling economic manipulation, loss of trust, and denial-of-service through flawed data tracking or unchecked access. | [View](cluster_-1395.md) |
-| 4 | 1068 | Failure to validate or remove token state entries enables malicious actors to manipulate contract state, leading to denial of service, incorrect rewards, or unauthorized transfers through inadequate input checks or missing state updates. | [View](cluster_-1041.md) |
-| 5 | 1049 | Precision loss and logic flaws in reward calculations due to improper handling of fixed-point arithmetic, incorrect loop bounds, and inconsistent state updates, leading to systematic underpayment, denial of service, and wealth leakage. | [View](cluster_-1005.md) |
+| 1 | 1879 | Use of unchecked arithmetic operations bypasses overflow/underflow checks, introducing risks of incorrect state transitions, exploitable integer overflows, and compromised arithmetic integrity in critical financial calculations. | [View](clustered_pages/cluster_-1015.md) |
+| 2 | 1227 | Failure to validate account ownership or token identity leads to unauthorized access, mint manipulation, or invalid state transitions, enabling attackers to bypass authorization and exploit token or account mismatches. | [View](clustered_pages/cluster_-1030.md) |
+| 3 | 1085 | Inconsistent reward accounting and improper stake validation lead to incorrect or unfair reward distribution, enabling economic manipulation, loss of trust, and denial-of-service through flawed data tracking or unchecked access. | [View](clustered_pages/cluster_-1395.md) |
+| 4 | 1068 | Failure to validate or remove token state entries enables malicious actors to manipulate contract state, leading to denial of service, incorrect rewards, or unauthorized transfers through inadequate input checks or missing state updates. | [View](clustered_pages/cluster_-1041.md) |
+| 5 | 1049 | Precision loss and logic flaws in reward calculations due to improper handling of fixed-point arithmetic, incorrect loop bounds, and inconsistent state updates, leading to systematic underpayment, denial of service, and wealth leakage. | [View](clustered_pages/cluster_-1005.md) |
 
-*[View complete ranking →](index.md)*
+*[View complete ranking →](clustered_pages/index.md)*
 
 ## 📖 How to Use This Repository
 
