@@ -35,7 +35,7 @@ This repository contains a systematically organized database of Web3/smart contr
 | 4 | 1068 | Failure to validate or remove token state entries enables malicious actors to manipulate contract state, leading to denial of service, incorrect rewards, or unauthorized transfers through inadequate input checks or missing state updates. | [View](cluster_pages/cluster_-1041.md) |
 | 5 | 1049 | Precision loss and logic flaws in reward calculations due to improper handling of fixed-point arithmetic, incorrect loop bounds, and inconsistent state updates, leading to systematic underpayment, denial of service, and wealth leakage. | [View](cluster_pages/cluster_-1005.md) |
 
-*[View complete ranking →](clustered_pages/index.md)*
+*[View complete ranking →](cluster_pages/index.md)*
 
 ## 📖 How to Use This Repository
 
