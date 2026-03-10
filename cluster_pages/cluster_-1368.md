@@ -4,7 +4,7 @@
 **Count:** 73  
 
 ## Label
-Rounding and arithmetic flaws in fixed-point calculations enable attackers to exploit precision errors, leading to free token issuance, incorrect allocations, or denial-of-service—undermining fund accuracy and system integrity.
+Truncation and rounding flaws in fixed-point share/debt math let attackers exploit precision loss, causing underburned shares or debt forgiveness that drains treasury funds and dilutes honest holders.
 
 ## Cluster Information
 - **Total Findings:** 73

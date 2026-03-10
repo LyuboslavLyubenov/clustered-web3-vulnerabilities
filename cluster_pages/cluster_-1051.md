@@ -4,7 +4,7 @@
 **Count:** 9  
 
 ## Label
-Users bypass deposit caps by transferring funds to other addresses before depositing, exploiting flawed balance checks that ignore actual balances or recipient addresses, leading to unauthorized, unbounded deposits and fund loss.
+Using msg.sender balance for cap checks instead of the recipient allows attackers to deposit through fresh receivers, bypassing limits and enabling unlimited deposits that bleed funds from the protocol.
 
 ## Cluster Information
 - **Total Findings:** 9

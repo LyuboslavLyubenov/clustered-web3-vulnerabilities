@@ -4,7 +4,7 @@
 **Count:** 58  
 
 ## Label
-Hash collisions from improper ABI encoding due to lack of type boundaries, enabling signature forgery, unauthorized claims, and misrouted callbacks through malleable, non-deterministic byte concatenation.
+Using abi.encodePacked without clear type boundaries causes ABI encoding hash collisions, letting attackers forge signatures, trigger unauthorized claims, and misroute callbacks when dynamic data is concatenated.
 
 ## Cluster Information
 - **Total Findings:** 58

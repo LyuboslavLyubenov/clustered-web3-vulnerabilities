@@ -4,7 +4,7 @@
 **Count:** 12  
 
 ## Label
-Insufficient input validation and improper state transitions enable attackers to manipulate fees, exploit timing, or bypass safeguards, leading to unauthorized revenue capture, overcharging, or denial of service.
+Missing validation of input parameters and state transitions combined with premature resource billing lets attackers tamper with fee logic or disable safeguards, resulting in unauthorized revenue extraction, overcharging users, or denial-of-service.
 
 ## Cluster Information
 - **Total Findings:** 12

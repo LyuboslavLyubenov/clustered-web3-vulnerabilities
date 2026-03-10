@@ -4,7 +4,7 @@
 **Count:** 152  
 
 ## Label
-Missing input validation and unchecked fee parameter manipulation enable malicious actors to bypass protocol fees, redirect revenue, or render token sales unviable—leading to revenue loss, rug pulls, and governance failures.
+Lack of validation for fee parameter updates lets unauthenticated actors supply malicious values that bypass intended fee checks, enabling unauthorized fee redirection, revenue drains, or unfair transaction economics.
 
 ## Cluster Information
 - **Total Findings:** 152

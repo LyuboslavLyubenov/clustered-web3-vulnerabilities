@@ -4,7 +4,7 @@
 **Count:** 110  
 
 ## Label
-Inaccurate decimal precision and flawed mathematical operations in financial calculations lead to incorrect token valuations, allocations, and conversions, compromising accuracy and trust in token pricing and user outcomes.
+Mixed assumptions about token decimals and weight precision cause rounding errors as swap ownerships and cross-chain transfers use hardcoded scales, resulting in misallocated tokens and borrowers receiving wrong amounts, creating financial losses.
 
 ## Cluster Information
 - **Total Findings:** 110

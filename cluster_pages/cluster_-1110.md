@@ -4,7 +4,7 @@
 **Count:** 19  
 
 ## Label
-Inadequate input validation for slippage parameters leads to inconsistent, unsafe, or invalid arithmetic operations, enabling exploitable trading risks and potential user capital loss.
+Different slippage thresholds for longs vs shorts allow invalid prices to pass through, causing attackers to execute out-of-range trades and drain user capital.
 
 ## Cluster Information
 - **Total Findings:** 19

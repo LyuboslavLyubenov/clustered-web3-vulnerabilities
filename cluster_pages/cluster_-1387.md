@@ -4,7 +4,7 @@
 **Count:** 34  
 
 ## Label
-Failure to validate time-based eligibility or cycle progression enables users to claim rewards prematurely or stake after periods end, trapping rewards and undermining fair distribution and staking integrity.
+Skipping validation of period boundaries and epoch transitions lets attackers claim or update rewards outside their intended window, draining epoch-raised incentives and leaving honest stakers unable to receive fair payouts.
 
 ## Cluster Information
 - **Total Findings:** 34

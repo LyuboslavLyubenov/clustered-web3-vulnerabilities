@@ -4,7 +4,7 @@
 **Count:** 12  
 
 ## Label
-Inadequate arithmetic validation and flawed logic in interest rate and parameter calculations lead to incorrect rate caps, negative values, or invalid state, enabling exploitable financial misbehavior.
+Failing to reset allowance state or applying flawed owner/rebalancer checks leaves stale caps and incorrect balances, so removed callers keep permissions and rebalancing locks out legitimate operators, breaking protocol liquidity.
 
 ## Cluster Information
 - **Total Findings:** 12

@@ -4,7 +4,7 @@
 **Count:** 31  
 
 ## Label
-Insufficient ownership and authorization checks enable unauthorized asset manipulation, leading to loss of control, unauthorized transfers, and potential theft through improper validation of caller identity or transaction order.
+Omitting the NFT transfer to the buy order creator once sellNFT completes leaves ownership trapped in the buyOrder contract, causing creators to lose their NFTs and allowing unauthorized parties to retain asset control.
 
 ## Cluster Information
 - **Total Findings:** 31

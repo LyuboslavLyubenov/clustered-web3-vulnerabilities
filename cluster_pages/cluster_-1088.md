@@ -4,7 +4,7 @@
 **Count:** 29  
 
 ## Label
-Memory management flaws leading to undefined behavior, data corruption, or state inconsistencies due to improper memory allocation, pointer handling, or failure to distinguish between memory and storage.
+Confusing Solidity memory and storage pointers when recycling or reallocating space after external calls corrupts data structures and yields unpredictable state transitions due to overlapping allocations.
 
 ## Cluster Information
 - **Total Findings:** 29

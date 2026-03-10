@@ -4,7 +4,7 @@
 **Count:** 37  
 
 ## Label
-Improper handling of return data and state mutations leads to incorrect execution, replay attacks, and loss of funds due to flawed assumptions about EVM data persistence and error propagation.
+Failing to validate callback return data and state mutation assumptions about EVM persistence lets operations proceed with stale state, causing incorrect execution, replay opportunities, and potential loss of caller funds.
 
 ## Cluster Information
 - **Total Findings:** 37

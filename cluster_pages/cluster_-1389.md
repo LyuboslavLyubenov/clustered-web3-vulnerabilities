@@ -4,7 +4,7 @@
 **Count:** 145  
 
 ## Label
-Insufficient validation of critical state conditions enables unauthorized manipulation of stake, rewards, or access, leading to fund loss, incorrect balances, or denial of service.
+Inadequate validation of lingering stake state and fee recalculations lets attackers reuse registrations or force mismatched payouts, enabling unauthorized double unstake operations and draining funds or corrupting balances.
 
 ## Cluster Information
 - **Total Findings:** 145

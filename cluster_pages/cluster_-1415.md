@@ -4,7 +4,7 @@
 **Count:** 10  
 
 ## Label
-Unrestricted or unauthorized withdrawal of staked assets, enabling centralization, fund loss, and bypassing governance or emergency safeguards.
+Allowing privileged actors to trigger emergency or unstaking withdrawals without validation removes access controls and lets them siphon staked funds, centralizing control and leaving other users exposed to unrecoverable losses.
 
 ## Cluster Information
 - **Total Findings:** 10

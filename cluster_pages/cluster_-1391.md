@@ -4,7 +4,7 @@
 **Count:** 17  
 
 ## Label
-Improper conditional logic and division-by-zero lead to incorrect gauge point calculations or transaction reverts, disrupting reward distribution and enabling denial-of-service in governance progression.
+Unchecked reward-and-lock looping triggered by improper conditional checks causes gas to spiral into reverts, leading to DOS on reward claims and governance progression when updates exceed limits.
 
 ## Cluster Information
 - **Total Findings:** 17

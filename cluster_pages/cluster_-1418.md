@@ -4,7 +4,7 @@
 **Count:** 26  
 
 ## Label
-Precision loss in financial calculations due to improper arithmetic ordering and rounding, leading to under-delivery of assets, false validations, and exploitable mispricings.
+Using current mutable totals and misordered arithmetic causes rounding drift in historical bid/sell calculations, so simulations and min-receive checks produce under-delivered assets and exploitable mispricing.
 
 ## Cluster Information
 - **Total Findings:** 26

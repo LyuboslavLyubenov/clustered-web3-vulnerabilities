@@ -4,7 +4,7 @@
 **Count:** 23  
 
 ## Label
-**Improper data validation and type handling lead to incorrect parsing, memory access, or execution of invalid or malformed inputs, enabling logic errors, buffer overflows, or exploitation of outdated code.**
+**Inadequate validation of input types and additional information fields causes parsers to mis-handle malformed CBOR or ACL data, leading to logic errors, memory corruption, or unauthorized access when attackers craft unexpected inputs.**
 
 ## Cluster Information
 - **Total Findings:** 23

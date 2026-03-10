@@ -4,7 +4,7 @@
 **Count:** 49  
 
 ## Label
-Common vulnerability type: **Insufficient validation and improper state handling leading to denial-of-service, fee loss, or unauthorized asset manipulation through edge-case arithmetic or hook exploitation.**
+Common vulnerability type: Inadequate validation of edge-case arithmetic and hook conditions allows bypassing slippage and allowance safeguards, letting liquidity operations revert or over-approve and causing denial-of-service, fee losses, or unauthorized asset drains.
 
 ## Cluster Information
 - **Total Findings:** 49

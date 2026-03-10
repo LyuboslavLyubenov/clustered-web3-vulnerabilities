@@ -4,7 +4,7 @@
 **Count:** 182  
 
 ## Label
-Inadequate input validation and arithmetic safeguards lead to incorrect state transitions, financial misalignment, and potential overflow or underflow, enabling malicious actors to manipulate fees, liquidity, or ratios.
+Mismatched fee attribution between caller-controlled recipient/owner parameters and exemption checks causes incorrect accounting and double charges or unpaid fees, leading to protocol financial imbalance and theft opportunities.
 
 ## Cluster Information
 - **Total Findings:** 182

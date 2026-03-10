@@ -4,7 +4,7 @@
 **Count:** 704  
 
 ## Label
-Inadequate documentation and poor code clarity introduce exploitable logic gaps, misinterpretations, and implementation ambiguities, increasing risks of security flaws and errors during audits or development.
+Outdated or missing documentation about adapters and pools misleads implementers about actual behavior, causing reliance on incorrect assumptions and raising the risk that sensitive flows remain unvalidated or exploitable.
 
 ## Cluster Information
 - **Total Findings:** 704

@@ -4,7 +4,7 @@
 **Count:** 17  
 
 ## Label
-**State transition flaws leading to inconsistent market states and unauthorized operations during critical lifecycle events.**
+Unchecked timing in transition requests lets oracle purchase or state updates complete after the phase ends, breaking market state consistency and causing failed operations plus lost fees when off-chain work overruns.
 
 ## Cluster Information
 - **Total Findings:** 17

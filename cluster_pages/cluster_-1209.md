@@ -4,7 +4,7 @@
 **Count:** 235  
 
 ## Label
-Insufficient state validation enables unauthorized state overwrites or double execution, leading to fund loss, inconsistent transitions, or unintended payments due to missing checks on existing states or values.
+Missing validation of evolving contract state (balances, caps, share ratios) between user intent and execution allows state manipulations to bypass limits, leading to failed bids, over-minting, or stolen value when balances shift.
 
 ## Cluster Information
 - **Total Findings:** 235

@@ -4,7 +4,7 @@
 **Count:** 106  
 
 ## Label
-Insufficient or incorrect accounting of user funds leads to double withdrawals, unaccounted surpluses, and unauthorized borrowing, causing severe user losses and enabling attacker exploitation through flawed state tracking and validation.
+Flawed asset accounting caused by incorrect share math/rounding and missing fee adjustments misreports user balances, letting withdrawals or deposits drain value and favor attackers over honest users.
 
 ## Cluster Information
 - **Total Findings:** 106

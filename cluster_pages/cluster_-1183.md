@@ -4,7 +4,7 @@
 **Count:** 56  
 
 ## Label
-Failure to validate or check contract state before execution leads to incorrect state updates, unauthorized operations, or silent failures, risking asset loss, inconsistent accounting, or exploitation during invalid or transitional states.
+Skipping validation of contract state or external conditions before executing operations allows the transaction to run while paused, misconfigured, or using non-compliant tokens, causing blocked withdrawals, silent failures, or misaccounted funds.
 
 ## Cluster Information
 - **Total Findings:** 56

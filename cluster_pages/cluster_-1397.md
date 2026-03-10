@@ -4,7 +4,7 @@
 **Count:** 51  
 
 ## Label
-Missing or flawed validation of critical thresholds leads to incorrect state calculations, enabling unauthorized exposure, under-collateralization, and financial loss through improper bounds checking and logic errors.
+Failing to validate critical thresholds for collateral and trade ownership lets calculations assume safe balances, causing incorrect exposures, under-collateralization, and financial losses when transfers rely on invalid available collateral or ownership totals.
 
 ## Cluster Information
 - **Total Findings:** 51

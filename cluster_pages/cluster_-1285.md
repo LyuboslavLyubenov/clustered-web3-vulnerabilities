@@ -4,7 +4,7 @@
 **Count:** 8  
 
 ## Label
-Failure to validate critical state invariants during parameter updates, enabling invalid configurations, inconsistent pricing, and potential data leakage or system instability.
+Missing validation of permanent rollup pricing mode during fee-param updates lets invalid pricing configuration persist, risking security assumptions and pricing instability.
 
 ## Cluster Information
 - **Total Findings:** 8

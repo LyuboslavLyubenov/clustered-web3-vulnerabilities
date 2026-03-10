@@ -4,7 +4,7 @@
 **Count:** 132  
 
 ## Label
-Failure to validate input data or transaction outcomes leads to unauthorized asset transfers, bypassed invariants, or unintended function executions, enabling exploitation through invalid signatures, missing approvals, or flawed logic ordering.
+Missing parameter and state validation before configuring fee recipients or transaction flags allows attackers to misconfigure critical addresses, which can trap funds, misdirect fees, or permit unauthorized transfers.
 
 ## Cluster Information
 - **Total Findings:** 132

@@ -4,7 +4,7 @@
 **Count:** 64  
 
 ## Label
-Failure to validate caller identity enables unauthorized access and front-running attacks, allowing attackers to steal tokens or disrupt staking through improper access control and missing sender checks.
+Missing caller identity validation lets unauthorized actors impersonate legitimate contracts, enabling access control bypass that can steal tokens or disrupt staking through front-running and unauthorized fund movements.
 
 ## Cluster Information
 - **Total Findings:** 64

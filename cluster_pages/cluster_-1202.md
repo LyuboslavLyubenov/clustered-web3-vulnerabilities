@@ -4,7 +4,7 @@
 **Count:** 14  
 
 ## Label
-Redundant storage usage leading to increased gas costs, inconsistent state, and poor performance due to unnecessary variable declarations, improper memory-to-storage interactions, and inefficient storage reads.
+Inefficient storage layout with redundant declarations and scattered slots forces repeated storage reads/writes, causing higher gas costs and degraded transaction throughput while raising risk of inconsistently updated state.
 
 ## Cluster Information
 - **Total Findings:** 14

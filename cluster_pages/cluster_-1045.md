@@ -4,7 +4,7 @@
 **Count:** 24  
 
 ## Label
-Attackers exploit timing and price arbitrage to manipulate reward distributions, capturing disproportionate yields through front-running, flashloan sandwiches, or short-duration deposits—undermining fairness, equity, and time-weighted incentive alignment.
+Missing time-weighted balance accounting and enforced holding periods lets flashloan or timed staking actors skew snapshots and drain rewards, allowing them to capture outsized incentives while other participants lose fairness.
 
 ## Cluster Information
 - **Total Findings:** 24

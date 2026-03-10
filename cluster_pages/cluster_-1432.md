@@ -4,7 +4,7 @@
 **Count:** 12  
 
 ## Label
-Insufficient input validation leads to unauthorized operations, fund loss, or state manipulation through unchecked external calls or missing value verification.
+Missing granular validation of epoch increments and unchecked external call returns lets attackers advance epochs or ignore errors, locking out legitimate rewards and corrupting chain state.
 
 ## Cluster Information
 - **Total Findings:** 12

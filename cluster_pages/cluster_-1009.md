@@ -4,7 +4,7 @@
 **Count:** 242  
 
 ## Label
-Inadequate access control and state validation create exploitable windows, enabling unauthorized state modifications, front-running, and deadlocks—compromising security, transparency, and decentralization.
+The `execute` function shadows the proposal `status`, so the on-chain state never updates and `tailEmissionRate` stays fixed, preventing successful votes from raising emissions and preserving an unintended privileged control flow.
 
 ## Cluster Information
 - **Total Findings:** 242

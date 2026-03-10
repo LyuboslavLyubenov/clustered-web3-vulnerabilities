@@ -4,7 +4,7 @@
 **Count:** 13  
 
 ## Label
-State inconsistency due to improper sequencing, validation, or immutability handling, leading to incorrect state exposure, transaction failures, or financial loss.
+Conflicting or missing validation of uninitialized settlement records allows unsettled auctions to bypass filtration, leading to inaccurate settlement history exposure and potential downstream data loss for clients.
 
 ## Cluster Information
 - **Total Findings:** 13

@@ -4,7 +4,7 @@
 **Count:** 695  
 
 ## Label
-Use of unchecked arithmetic operations bypasses overflow/underflow checks, introducing risks of incorrect state transitions, exploitable integer overflows, and compromised arithmetic integrity in critical financial calculations.
+Unchecked arithmetic operations and casts allow intermediate multiplications or type conversions to overflow unwatched, causing transactions to revert or corrupt balances and creating exploitable integrity gaps in financial state transitions.
 
 ## Cluster Information
 - **Total Findings:** 695

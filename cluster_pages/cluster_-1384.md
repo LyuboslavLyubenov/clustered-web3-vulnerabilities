@@ -4,7 +4,7 @@
 **Count:** 70  
 
 ## Label
-Failure to validate WBTC price against on-chain reality due to reliance on BTC/USD oracles, enabling depeg exploitation, overcollateralization, and bad debt.
+Failing to verify WBTC prices against on-chain feeds when relying solely on BTC/USD oracles lets attackers inject stale/manipulated rates, causing depeg, over-collateralized positions, and bad debt during liquidations.
 
 ## Cluster Information
 - **Total Findings:** 70

@@ -4,7 +4,7 @@
 **Count:** 30  
 
 ## Label
-Lack of access control and input validation enabling unauthorized modifications or bypasses of critical security checks, leading to fund exposure, protocol manipulation, or unauthorized operations.
+Missing or misplaced access, signature, or state validation before privileged transfers or gas-consuming operations lets attackers bypass restrictions, causing unauthorized fund transfers, stale balance pollution, or gas burn/DoS for restoration servers.
 
 ## Cluster Information
 - **Total Findings:** 30

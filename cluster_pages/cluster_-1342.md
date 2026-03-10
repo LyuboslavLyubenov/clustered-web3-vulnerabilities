@@ -4,7 +4,7 @@
 **Count:** 183  
 
 ## Label
-Missing account or input validation enables attackers to forge or manipulate token accounts, bypass ownership checks, and drain vaults or misrepresent balances, leading to financial loss and protocol compromise.
+Absence of validation on swap parameters and token/nonce expectations allows attackers to force arbitrary calls or skip swaps, corrupting accounting and letting them siphon high-value assets from the protocol.
 
 ## Cluster Information
 - **Total Findings:** 183

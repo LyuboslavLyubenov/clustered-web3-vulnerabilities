@@ -4,7 +4,7 @@
 **Count:** 22  
 
 ## Label
-Lack of asset validation and state consistency checks enables attackers to misconfigure or manipulate asset handling, leading to unauthorized transfers, fund lock-ups, or incorrect valuation.
+Failing to validate rescue permissions and ensure consistent asset state during migrations lets attackers misconfigure pools, leaving tokens irrecoverable and enabling unauthorized transfers or mispriced assets.
 
 ## Cluster Information
 - **Total Findings:** 22

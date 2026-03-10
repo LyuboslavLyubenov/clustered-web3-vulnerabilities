@@ -4,7 +4,7 @@
 **Count:** 7  
 
 ## Label
-Rounding errors in integer arithmetic cause imprecise balance tracking and residual dust, leading to inconsistent state, incorrect event emissions, and potential underpayment of user deposits.
+Rounding down while converting between stETH shares and pooled ETH causes tiny unreleased balances, leading adapters to observe incorrect holdings, emit misleading events, and sometimes underpay or fail subsequent deposit/transfer flows.
 
 ## Cluster Information
 - **Total Findings:** 7

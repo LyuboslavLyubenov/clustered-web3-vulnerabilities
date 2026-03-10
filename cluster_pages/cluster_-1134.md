@@ -4,7 +4,7 @@
 **Count:** 154  
 
 ## Label
-Insufficient input validation and authorization checks lead to unauthorized access, state corruption, and denial-of-service through flawed logic and missing ownership or parameter validation.
+Failure to validate untrusted strings and SQL inputs before processing and enforcing permissions lets attackers inject payloads, corrupt database state, and trigger unauthorized data changes that can cascade into denial of service.
 
 ## Cluster Information
 - **Total Findings:** 154

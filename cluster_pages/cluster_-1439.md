@@ -4,7 +4,7 @@
 **Count:** 14  
 
 ## Label
-Inconsistent or inaccurate cap enforcement in withdrawal and redemption limits, leading to user misalignment, fund locking, and potential financial loss due to failed validation of actual availability versus displayed limits.
+Insufficient availability validation in withdrawal/redemption paths—e.g., ignoring paused states or missing caps—lets contracts advertise redeemable balances they cannot honor, locking user funds and blocking exits.
 
 ## Cluster Information
 - **Total Findings:** 14

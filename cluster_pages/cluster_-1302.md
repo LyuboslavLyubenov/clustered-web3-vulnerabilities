@@ -4,7 +4,7 @@
 **Count:** 280  
 
 ## Label
-Unused code elements introduce unnecessary complexity, expand attack surface, and increase risk of unintended state changes or future exploitation through dead paths and poor maintainability.
+Redundant imports, unused variables, and dead functions leave vestigial code that confuses logic, bloats bytecode, and increases attack surface and maintenance risk while inviting unintended behaviors and future exploitation.
 
 ## Cluster Information
 - **Total Findings:** 280

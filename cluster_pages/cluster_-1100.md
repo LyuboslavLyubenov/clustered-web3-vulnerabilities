@@ -4,7 +4,7 @@
 **Count:** 24  
 
 ## Label
-Missing validation of critical contract addresses leads to unauthorized state transitions, inconsistent operations, or loss of assets due to invalid or stale vaults or logic dependencies.
+Controllers can configure incorrect contract addresses without validation, causing the protocol to call zero or stale addresses and resulting in unauthorized state changes, failed interactions, and frozen funds.
 
 ## Cluster Information
 - **Total Findings:** 24

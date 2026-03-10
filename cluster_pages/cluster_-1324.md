@@ -4,7 +4,7 @@
 **Count:** 16  
 
 ## Label
-Premature exits and flawed validation lead to missed callbacks, cascading failures, and unauthorized fee drainage, compromising oracle integrity and protocol reliability.
+Skipping validation or refund of ETH oracle fees lets extra payments remain trapped, so overpayments drain user funds and erode the trustworthiness of fee handling in oracle flows.
 
 ## Cluster Information
 - **Total Findings:** 16

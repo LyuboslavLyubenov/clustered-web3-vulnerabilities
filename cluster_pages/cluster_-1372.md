@@ -4,7 +4,7 @@
 **Count:** 42  
 
 ## Label
-Precision loss and logic flaws in reward calculations due to improper handling of fixed-point arithmetic, incorrect loop bounds, and inconsistent state updates, leading to systematic underpayment, denial of service, and wealth leakage.
+Improper fixed-point scaling and loop bounds in reward math drop tiny increments to zero, so staking/payout calculations repeatedly underpay winners, can halt distributions, and leave rewards stranded.
 
 ## Cluster Information
 - **Total Findings:** 42

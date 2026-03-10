@@ -4,7 +4,7 @@
 **Count:** 120  
 
 ## Label
-Unvalidated transfers and unchecked hook executions enable attackers to manipulate rewards, redirect funds, or seize staked assets through unauthorized state modifications and contract impersonation.
+Failing to revalidate transfer ordering and queue entries before executing hooks lets attackers front-run bids or spam redemption slots, corrupting auction state and blocking favorable executions or legitimate redemptions.
 
 ## Cluster Information
 - **Total Findings:** 120

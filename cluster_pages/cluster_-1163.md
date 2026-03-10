@@ -4,7 +4,7 @@
 **Count:** 11  
 
 ## Label
-Poor control flow design leads to inconsistent state management, hard-to-maintain logic, and unintended behavior under varying conditions, increasing vulnerability to bugs and attack surface expansion.
+Flawed conditional checks in critical functions, including inverted guards and redundant modifiers, break intended control flow and let pools or wrappers stay stuck in incorrect states or bypass required execution modes, increasing bug and attack surface.
 
 ## Cluster Information
 - **Total Findings:** 11

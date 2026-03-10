@@ -4,7 +4,7 @@
 **Count:** 95  
 
 ## Label
-Inadequate price adjustment mechanisms lead to misaligned token valuations, distorted incentives, and exploitable market behaviors due to lack of downward rebase capability or discontinuous rebase events.
+Rebase math that ignores downward adjustments double-counts rebase components, so mint amounts exceed documented emissions and inflate supply, breaking tokenomics and inviting exploitative incentives.
 
 ## Cluster Information
 - **Total Findings:** 95

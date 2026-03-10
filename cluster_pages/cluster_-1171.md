@@ -4,7 +4,7 @@
 **Count:** 43  
 
 ## Label
-Hardcoded addresses limit flexibility, expose contracts to misconfiguration, and prevent dynamic updates—increasing attack surface and undermining cross-chain deployability and maintainability.
+Hardcoding router or dependency addresses at deployment removes the ability to update contracts when environments change, so any compromised, deprecated, or inaccessible address stops swaps and locks funds behind an unfixable dependency.
 
 ## Cluster Information
 - **Total Findings:** 43

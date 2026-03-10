@@ -4,7 +4,7 @@
 **Count:** 491  
 
 ## Label
-Inadequate timestamp validation and bounds checking lead to incorrect time-based logic, enabling malicious manipulation of time-dependent operations and compromising security, correctness, and deterministic behavior.
+ Lack of timestamp boundary checks on DAO endTime extensions allows the owner to extend deadlines indefinitely, blocking refunds and trapping user funds while centralizing control over withdrawal timing.
 
 ## Cluster Information
 - **Total Findings:** 491

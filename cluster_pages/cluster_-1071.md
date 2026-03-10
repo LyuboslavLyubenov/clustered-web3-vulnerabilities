@@ -4,7 +4,7 @@
 **Count:** 18  
 
 ## Label
-**Inaccurate asset accounting due to unadjusted slashing events, leading to overstatement of total assets, distorted share prices, and irreversible fund misrepresentation.**
+Missing balance and reserve adjustments after slashing events causes the protocol to keep inflated asset/reserve states, so share prices and depositor stake values are overstated and users cannot trust their funds.
 
 ## Cluster Information
 - **Total Findings:** 18

@@ -4,7 +4,7 @@
 **Count:** 621  
 
 ## Label
-Failure to validate or handle zero addresses leads to incorrect state updates, failed transactions, unintended fund transfers, or bypassed fee mechanisms—enabling loss of funds, reward inflation, or unauthorized control.
+Neglecting to validate or update zero/invalid addresses before storage writes allows contracts to assign burned gateways or keep stale authorization entries, causing fund allocation failures, locked resources, and unauthorized privilege escalation.
 
 ## Cluster Information
 - **Total Findings:** 621

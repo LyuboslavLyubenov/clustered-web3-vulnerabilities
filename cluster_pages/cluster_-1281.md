@@ -4,7 +4,7 @@
 **Count:** 21  
 
 ## Label
-Redundant or misaligned inheritance leading to unnecessary access controls, code bloat, and potential security misconfigurations due to unused or inconsistent code paths.
+Duplicated or misaligned inheritance hierarchies cause redundant access-control grants and modifiers, introducing unnecessary complexity and gas waste while raising risk of inconsistent privilege checks or misconfigurations that weaken security posture.
 
 ## Cluster Information
 - **Total Findings:** 21

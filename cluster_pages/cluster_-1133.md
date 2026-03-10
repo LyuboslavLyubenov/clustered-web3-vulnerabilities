@@ -4,7 +4,7 @@
 **Count:** 33  
 
 ## Label
-Mismanagement of liquidity and asset pricing due to flawed assumptions, inadequate fee mechanisms, and lack of real-time balance validation enables malicious actors to manipulate token values, extract value, or cause denial-of-service through arbitrage and front-running.
+Insufficient validation of pooled fees and strategy weight updates lets attackers omit required denom payments or leave total weight zero, causing fee underpayment or division-by-zero denial-of-service when creating pools or reallocating assets.
 
 ## Cluster Information
 - **Total Findings:** 33

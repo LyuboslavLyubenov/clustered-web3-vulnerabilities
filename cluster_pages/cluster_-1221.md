@@ -4,7 +4,7 @@
 **Count:** 139  
 
 ## Label
-Failure to validate critical state conditions allows attackers to bypass access controls, execute invalid operations, or manipulate system state, leading to unauthorized transactions, denial of service, or inconsistent outcomes.
+Skipping vault state validation that enforces unique token-to-vault mappings and matching underlying assets lets attackers assign duplicate or mismatched vaults, corrupting accounting and enabling unauthorized interactions or asset loss.
 
 ## Cluster Information
 - **Total Findings:** 139

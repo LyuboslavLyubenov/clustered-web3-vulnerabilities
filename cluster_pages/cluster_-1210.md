@@ -4,7 +4,7 @@
 **Count:** 14  
 
 ## Label
-**Inaccurate or missing fee calculations due to flawed cost modeling, improper validation, or lack of real-time on-chain visibility, leading to financial loss, incorrect transactions, or user risk.**
+**Inconsistent fee or gas pricing calculations stem from flawed cost modeling, validation gaps, or missing on-chain visibility, so relayers and users misestimate costs, discouraging participation and risking financial loss or incorrect payments.**
 
 ## Cluster Information
 - **Total Findings:** 14

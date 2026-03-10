@@ -4,7 +4,7 @@
 **Count:** 211  
 
 ## Label
-Failure to validate or control cross-chain inputs and message execution leads to unauthorized operations, inconsistent address generation, and loss of state integrity, enabling reentrancy, privilege escalation, and unintended fund transfers.
+Allowing cross-chain messaging to rely on insecure default modules and unvalidated senders lets actors bypass authorization, triggering unintended executions that drain funds and halt cross-chain workflows.
 
 ## Cluster Information
 - **Total Findings:** 211

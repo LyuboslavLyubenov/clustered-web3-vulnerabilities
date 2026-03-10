@@ -4,7 +4,7 @@
 **Count:** 41  
 
 ## Label
-Inadequate slashing penalty calculation and distribution due to flawed balance scaling and improper share tracking, enabling stakers to evade penalties and misallocate penalties across cohorts.
+Rounding and scaling errors when updating slashingFactor and addedShares for beaconChainETHStrategy reduce the slashing factor to zero after penalties, enabling operators to drain stakers’ withdrawable shares while enjoying inflated operator shares.
 
 ## Cluster Information
 - **Total Findings:** 41

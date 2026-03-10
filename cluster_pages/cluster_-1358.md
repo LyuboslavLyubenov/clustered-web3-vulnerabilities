@@ -4,7 +4,7 @@
 **Count:** 259  
 
 ## Label
-Inadequate input validation and arithmetic safeguards lead to incorrect state transitions, financial misalignment, and potential overflow or underflow, enabling malicious actors to manipulate fees, liquidity, or ratios.
+Lack of validation around fee configuration and collateral adjustments allows incorrect ownership/fee states, causing miscalculated collateral transfers and enabling attackers to manipulate fees, liquidity, or trade ratios resulting in financial loss.
 
 ## Cluster Information
 - **Total Findings:** 259

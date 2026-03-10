@@ -4,7 +4,7 @@
 **Count:** 12  
 
 ## Label
-Inconsistent state modeling and flawed logic in asset tracking lead to incorrect calculations, unauthorized state access, and inaccurate pool valuations, enabling fund loss, misinformed risk assessments, and potential manipulation.
+Rounding up asset conversion during yield-phase withdrawals because previewWithdraw reports shares causes misaccounted balances and lets redemptions drain value, undermining pool valuations and hurting other depositors.
 
 ## Cluster Information
 - **Total Findings:** 12

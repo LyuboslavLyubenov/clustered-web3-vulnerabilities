@@ -4,7 +4,7 @@
 **Count:** 128  
 
 ## Label
-Inadequate state validation and access control lead to incorrect balance tracking and denial-of-service, enabling attackers to withdraw inflated funds through unchecked token duplication and unauthorized state reads.
+Incorrect ordering of cap validation before minting combined with wrongly mapped cross-chain tokens lets attackers mint beyond limits or break liquidation flows, corrupting balances and letting user or protocol funds be lost or stuck.
 
 ## Cluster Information
 - **Total Findings:** 128

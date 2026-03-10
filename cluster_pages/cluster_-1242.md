@@ -4,7 +4,7 @@
 **Count:** 24  
 
 ## Label
-Lack of proper state synchronization and access control leads to inconsistent token relationships, unauthorized cross-chain operations, and incorrect denomination handling, enabling misuse and system instability.
+Hard-coded approvals and absent state synchronization prevent token mappings from reflecting the current bridge configuration, which lets transfers revert, double-bridge, or mint tokens without authorization while destabilizing balances.
 
 ## Cluster Information
 - **Total Findings:** 24

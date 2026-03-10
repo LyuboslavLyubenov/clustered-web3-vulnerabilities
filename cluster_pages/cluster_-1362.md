@@ -4,7 +4,7 @@
 **Count:** 28  
 
 ## Label
-Lack of access control and input validation enabling unauthorized modifications or bypasses of critical security checks, leading to fund exposure, protocol manipulation, or unauthorized operations.
+Insufficient access control and unchecked caller-controlled inputs allow external actors to trigger privileged flows or unbalanced swaps, leading to stolen funds, protocol imbalance, and unauthorized asset manipulations.
 
 ## Cluster Information
 - **Total Findings:** 28

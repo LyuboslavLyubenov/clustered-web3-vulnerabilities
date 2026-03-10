@@ -4,7 +4,7 @@
 **Count:** 38  
 
 ## Label
-Insufficient ownership and authorization checks enable unauthorized asset manipulation, leading to loss of control, unauthorized transfers, and potential theft through improper validation of caller identity or transaction order.
+Missing authorization when canceling or confirming withdrawals lets callers bypass manager-only flows and manipulate buffer/withdrawals, causing incorrect liquidity accounting, unauthorized validator exits, and potential asset drains.
 
 ## Cluster Information
 - **Total Findings:** 38

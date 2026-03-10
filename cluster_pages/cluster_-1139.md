@@ -4,7 +4,7 @@
 **Count:** 61  
 
 ## Label
-Failure to properly handle podded assets in autocompounding and leverage flows, leading to reward misallocation, liquidity loss, and system failures due to unaccounted token taxes and missing deposit logic.
+Skipping tax-aware handling of podded assets during autocompounding and leverage flows causes reward misallocation, liquidity loss, and systemic failures when taxed deposits bypass accounting.
 
 ## Cluster Information
 - **Total Findings:** 61

@@ -4,7 +4,7 @@
 **Count:** 281  
 
 ## Label
-Inaccurate asset or share calculations due to flawed mathematical modeling or improper handling of fees and supply states, leading to misaligned user incentives, value leakage, and compromised economic behavior.
+Accounting drift stems from double-counting unsettled swap tokens, misapplying rebase math, or ignoring fee-on-transfer deductions, causing share-price calculations to misrepresent assets and enabling fast withdrawers to seize excess value.
 
 ## Cluster Information
 - **Total Findings:** 281

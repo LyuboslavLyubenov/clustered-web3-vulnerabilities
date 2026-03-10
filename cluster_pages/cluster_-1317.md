@@ -4,7 +4,7 @@
 **Count:** 739  
 
 ## Label
-Unbounded loops and improper input validation lead to excessive gas consumption, infinite loops, or invalid state transitions, causing transaction failures, denial-of-service, or revenue loss.
+Unbounded queue processing without batching or input limits causes loops that exceed gas limits, producing Out-of-Gas reverts that halt operations, deny service, and can trigger revenue loss for users.
 
 ## Cluster Information
 - **Total Findings:** 739

@@ -4,7 +4,7 @@
 **Count:** 27  
 
 ## Label
-Inconsistent decimal handling across contracts leads to arithmetic errors, precision loss, and miscalculated token amounts, risking incorrect balances, dust accumulation, and severe financial misstatements.
+Assuming every asset uses 18 decimals causes decimal mismatch between vault share arithmetic and actual tokens, breaking conversions and making shares, borrows, and withdrawals mispriced so balances and repayments are wrong.
 
 ## Cluster Information
 - **Total Findings:** 27

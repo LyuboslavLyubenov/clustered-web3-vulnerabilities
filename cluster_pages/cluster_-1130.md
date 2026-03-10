@@ -4,7 +4,7 @@
 **Count:** 361  
 
 ## Label
-Failure to synchronize or validate state during critical operations leads to irreversible fund loss, incorrect balances, or denial-of-service, enabling irreversible or erroneous token transfers.
+Assuming ERC20 `approve` acts standard and failing to validate allowance updates causes nonstandard tokens or overflowed timestamps to revert or block swaps, leading to stuck withdrawals and denial-of-service.
 
 ## Cluster Information
 - **Total Findings:** 361

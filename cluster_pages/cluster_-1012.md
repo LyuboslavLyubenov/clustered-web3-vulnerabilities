@@ -4,7 +4,7 @@
 **Count:** 50  
 
 ## Label
-Insufficient state validation and improper token flow ordering enable attackers to mint unauthorized tokens or create imbalances, leading to insolvency, unauthorized exposure, and loss of value.
+Allowing crossChainBorrows and crossChainCollaterals to be populated simultaneously for the same user and asset on one chain (root cause) causes `borrowWithInterest` to revert, leaving those positions uncloseable and generating uncollectible debt.
 
 ## Cluster Information
 - **Total Findings:** 50

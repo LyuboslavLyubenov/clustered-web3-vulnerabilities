@@ -4,7 +4,7 @@
 **Count:** 196  
 
 ## Label
-Failure to account for accrued interest in rate calculations and state updates leads to mispriced rates, retroactive rate application, and inaccurate utilization, enabling financial exploitation and protocol instability.
+Not incorporating actual elapsed interest accrual (from rebase timing and cross-chain borrow indexes) skews rates and debt records, so rates misprice, debt calculations fail, and funds can be exploited.
 
 ## Cluster Information
 - **Total Findings:** 196

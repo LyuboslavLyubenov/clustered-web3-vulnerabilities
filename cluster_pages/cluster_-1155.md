@@ -4,7 +4,7 @@
 **Count:** 702  
 
 ## Label
-Inaccurate boost calculation due to flawed arithmetic, improper state tracking, and failure to validate or aggregate user contributions, leading to unfair rewards, incentive misalignment, and potential reward manipulation.
+Mis-invoking or shadowing reward-accounting state updates keeps rewardRate and epoch reward mappings stale, so claimed tokens bypass proper accounting and users either drain the pool or lose rightful rewards.
 
 ## Cluster Information
 - **Total Findings:** 702

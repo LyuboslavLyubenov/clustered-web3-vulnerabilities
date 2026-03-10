@@ -4,7 +4,7 @@
 **Count:** 22  
 
 ## Label
-Missing state constraints allow malicious actors to bypass critical validation checks, enabling invalid state transitions and compromised proof integrity through insufficient logical enforcement of row-level execution boundaries.
+Missing constraints enforcing row-type/phase sequencing let provers swap in inappropriate rows, so invalid top-level hashes bypass hashing/validation and can be accepted without proving proper row incorporation.
 
 ## Cluster Information
 - **Total Findings:** 22

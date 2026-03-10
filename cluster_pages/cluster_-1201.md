@@ -4,7 +4,7 @@
 **Count:** 29  
 
 ## Label
-Precision loss and incorrect validation thresholds due to flawed arithmetic ordering, improper scaling, and inconsistent units, leading to undercharged fees, reverts, or manipulated fee calculations.
+Misordered arithmetic, uneven scaling, and mismatched units in fee math cause precision loss and wrong validation thresholds, letting protocols undercharge fees, revert transactions, or otherwise manipulate calculated fees.
 
 ## Cluster Information
 - **Total Findings:** 29

@@ -4,7 +4,7 @@
 **Count:** 564  
 
 ## Label
-Lack of proper event emissions and view functions undermines transparency, auditability, and real-time observability, enabling misrepresentation of state and limiting external access to critical on-chain data.
+Ignoring paired start/end event emissions or flooding redundant signals when transitions repeat leaves off-chain bots blind to auctions and rebalances, so their trading logic desynchronizes and investors can lose money.
 
 ## Cluster Information
 - **Total Findings:** 564

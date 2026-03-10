@@ -4,7 +4,7 @@
 **Count:** 90  
 
 ## Label
-Failure to validate critical state conditions allows attackers to bypass access controls, execute invalid operations, or manipulate system state, leading to unauthorized transactions, denial of service, or inconsistent outcomes.
+Skipping validation of critical state conditions before updating vault mappings lets attackers bypass access controls and hijack vault assignments, leading to unauthorized transactions and corrupted asset accounting.
 
 ## Cluster Information
 - **Total Findings:** 90

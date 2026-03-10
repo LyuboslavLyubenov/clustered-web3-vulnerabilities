@@ -4,7 +4,7 @@
 **Count:** 11  
 
 ## Label
-Timestamp-based epoch boundary flaws lead to reward double-claiming, improper state tracking, and incorrect event signaling, causing reward depletion or loss for users.
+Flawed timestamp comparisons at epoch boundaries (e.g. equality checks and unconditional checkpoint updates) allow rewards to be skipped or double-claimed, draining reward pools and preventing rightful users from receiving payouts.
 
 ## Cluster Information
 - **Total Findings:** 11

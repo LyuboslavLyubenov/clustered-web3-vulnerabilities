@@ -4,7 +4,7 @@
 **Count:** 821  
 
 ## Label
-Insufficient state validation and incorrect power calculations allow users to manipulate voting power and locked supply, bypassing caps and distorting governance incentives through biased, time-ignoring, or double-counted updates.
+Overreliance on current smNFT states and mismatched quorum metrics fails to validate historical locking and opposing votes, letting attackers misstate voting power so proposals cannot pass even when valid or execute with inflated influence.
 
 ## Cluster Information
 - **Total Findings:** 821

@@ -4,7 +4,7 @@
 **Count:** 21  
 
 ## Label
-Failure to properly validate or update ownership and state during stake delegation and migration leads to unclaimed rewards, double-accounting, and inconsistent stake balances.
+Delegating stake before confirming EVC ownership causes delegation to stay tied to placeholder accounts, so rewards earned before migration remain locked and real owners cannot claim their yield.
 
 ## Cluster Information
 - **Total Findings:** 21

@@ -4,7 +4,7 @@
 **Count:** 11  
 
 ## Label
-Failure to validate input or contract compliance leads to silent failures, unauthorized operations, or exploitable state transitions, enabling theft, denial-of-service, or unintended token behavior.
+Missing input length validation in precompiles causes out-of-range panics when calldata is too short, which aborts cross-chain votes and leaves outbound CCTXs pending, effectively enabling DoS.
 
 ## Cluster Information
 - **Total Findings:** 11

@@ -4,7 +4,7 @@
 **Count:** 56  
 
 ## Label
-**Unauthorized participation and validation bypasses enabling malicious control or spam attacks through flawed access checks and insufficient state verification.**
+Missing state validation when associating vaults or enforcing asset invariants lets attackers reuse or swap vault assignments, leading to unauthorized participation, validation bypasses, and corrupt accounts or asset drains.
 
 ## Cluster Information
 - **Total Findings:** 56

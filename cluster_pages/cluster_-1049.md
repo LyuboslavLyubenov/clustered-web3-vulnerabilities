@@ -4,7 +4,7 @@
 **Count:** 20  
 
 ## Label
-Inconsistent state cleanup and persistence mechanisms lead to stale, inaccurate, or lost data, enabling state inconsistencies, front-running, and unintended behavior due to improper storage management across operations.
+Failing to refresh TTLs or delete mappings after state changes leaves contract data either archived unexpectedly or leftover stale values, forcing manual restoration and causing inconsistent balances or state when the contract is next used.
 
 ## Cluster Information
 - **Total Findings:** 20

@@ -4,7 +4,7 @@
 **Count:** 36  
 
 ## Label
-Outdated function calls fail to align with updated EVM standards, causing transaction failures, incorrect execution, or security vulnerabilities across chains.
+Compilers default to newer EVM targets when projects omit explicit versions, so bytecode can include opcodes unsupported by some chains, leading those deployments or executions to fail or be rejected.
 
 ## Cluster Information
 - **Total Findings:** 36

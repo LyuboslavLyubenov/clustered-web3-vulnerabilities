@@ -4,7 +4,7 @@
 **Count:** 93  
 
 ## Label
-Failure to account for dynamic token supply changes leads to stale balance tracking, incorrect entitlement calculations, and flawed distribution—causing unfair rewards, claim failures, and governance misallocations.
+Failing to detect zero-total-supply epochs causes reward notifications to skip updating per-token accounting, leaving distributed tokens locked on the contract and making rewards impossible to claim or recover.
 
 ## Cluster Information
 - **Total Findings:** 93

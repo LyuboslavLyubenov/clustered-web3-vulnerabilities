@@ -4,7 +4,7 @@
 **Count:** 154  
 
 ## Label
-Inconsistent interface-implementation alignment leads to runtime errors, incorrect ABI calls, and security risks due to missing or mismatched function signatures, data types, and visibility.
+Missing or mismatched interface declarations between contracts and their SDK/trait implementations cause ABI selector collisions or incorrect calls, leading to runtime failures, interoperability breaks, and potential security exploits.
 
 ## Cluster Information
 - **Total Findings:** 154

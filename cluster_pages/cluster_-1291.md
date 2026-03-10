@@ -4,7 +4,7 @@
 **Count:** 163  
 
 ## Label
-Merkle proof validation flaws enabling unauthorized access, replay, or manipulation through missing bounds checks, chain identity verification, or function context differentiation.
+Merkle proof handling assumes commutative hashing and omits operation-specific context like callbacks, so attackers can bypass guards, replay operations, or manipulate outcomes without proper validation.
 
 ## Cluster Information
 - **Total Findings:** 163

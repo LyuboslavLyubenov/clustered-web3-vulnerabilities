@@ -4,7 +4,7 @@
 **Count:** 583  
 
 ## Label
-Failure to validate or check contract state before execution leads to incorrect state updates, unauthorized operations, or silent failures, risking asset loss, inconsistent accounting, or exploitation during invalid or transitional states.
+Failing to validate gateway registration state and fee-dependent invariants before execution allows attackers to inject stale registrations or altered fees, letting them bind unauthorized addresses, unstake twice, or misallocate payouts to steal funds.
 
 ## Cluster Information
 - **Total Findings:** 583

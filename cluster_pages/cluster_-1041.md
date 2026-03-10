@@ -4,7 +4,7 @@
 **Count:** 1068  
 
 ## Label
-Failure to validate or remove token state entries enables malicious actors to manipulate contract state, leading to denial of service, incorrect rewards, or unauthorized transfers through inadequate input checks or missing state updates.
+Failing to verify token state transitions or transfer outcomes lets stale or unverified balances accumulate, enabling attackers to cause DoS, misallocate rewards, or perform unauthorized transfers when the system assumes incorrect state.
 
 ## Cluster Information
 - **Total Findings:** 1068

@@ -4,7 +4,7 @@
 **Count:** 26  
 
 ## Label
-Failure to validate or derive Program-Defined Addresses (PDAs) securely, enabling attackers to forge or manipulate account identities, leading to unauthorized access, state tampering, or fund theft.
+Incorrect derivation or validation of state PDAs (root cause) lets attackers impersonate or hijack program-owned accounts, enabling unauthorized token transfers, state tampering, and asset theft.
 
 ## Cluster Information
 - **Total Findings:** 26

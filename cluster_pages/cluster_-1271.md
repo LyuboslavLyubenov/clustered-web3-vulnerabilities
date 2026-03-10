@@ -4,7 +4,7 @@
 **Count:** 15  
 
 ## Label
-Hardcoded parameters in cross-chain interactions disable critical fee routing and flexibility, leading to denial-of-service, failed transactions, and loss of composability in LayerZero integrations.
+Hardcoded refund destinations and fee routing parameters in LayerZero cross-chain calls tie refunds to bridge contracts instead of users, breaking fee flexibility and causing DoS, failed transfers, and locked funds.
 
 ## Cluster Information
 - **Total Findings:** 15

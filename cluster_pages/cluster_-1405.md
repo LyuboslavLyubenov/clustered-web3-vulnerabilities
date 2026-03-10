@@ -4,7 +4,7 @@
 **Count:** 771  
 
 ## Label
-Malicious or flawed reward calculations lead to unintended reward dilution, incorrect distribution, or unjustified fee deductions, causing user loss or degraded incentive structures through logical or economic misalignments.
+Reward state updates either call the wrong helper function, shadow the storage variable, or skip owner resolution, leaving reward accounting stale and leading to over-distribution, wrong recipients, or lost user funds.
 
 ## Cluster Information
 - **Total Findings:** 771

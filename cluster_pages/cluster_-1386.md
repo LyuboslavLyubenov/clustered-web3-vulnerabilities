@@ -4,7 +4,7 @@
 **Count:** 717  
 
 ## Label
-Inconsistent reward accounting due to flawed state updates, improper compounding, and precision errors, leading to overstatement, underpayment, and systemic loss of distributed rewards.
+Failing to update reward state via the correct recoverERC20 call or by shadowing AVM-aware variables leaves on-chain rewardRate and reward recipient data stale, so users can overclaim or permanently lose earned tokens.
 
 ## Cluster Information
 - **Total Findings:** 717

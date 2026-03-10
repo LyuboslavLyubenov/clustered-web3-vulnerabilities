@@ -4,7 +4,7 @@
 **Count:** 107  
 
 ## Label
-Decimal precision mismatches in token handling lead to incorrect value calculations, flawed transfers, and financial losses due to improper scaling and lack of consistent decimal normalization across functions and chains.
+Assuming consistent decimals when tokens cross chains or combine ownership causes fractional rounding errors that yield undersized transfers, so protocols misallocate funds and expose users to measurable financial loss.
 
 ## Cluster Information
 - **Total Findings:** 107

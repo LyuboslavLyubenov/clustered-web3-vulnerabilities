@@ -4,7 +4,7 @@
 **Count:** 279  
 
 ## Label
-Failure to validate array length equality during iteration leads to out-of-bounds access, incorrect state updates, or infinite loops, enabling denial-of-service, data corruption, or unintended transactions.
+Skipping validation of paired array lengths before iterating allows out-of-bounds access, causing panics or incorrect updates and enabling denial-of-service, data corruption, or unintended transactions.
 
 ## Cluster Information
 - **Total Findings:** 279

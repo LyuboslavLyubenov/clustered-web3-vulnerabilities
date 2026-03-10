@@ -4,7 +4,7 @@
 **Count:** 147  
 
 ## Label
-Centralized administrative control through single-point ownership enables unauthorized manipulation of critical functions, exposing systems to governance abuse, fund withdrawal, and irreversible attacks.
+Single actor ownership of admin/upgrade roles centralizes critical controls, so a compromised key can rewrite logic, pause protocols, or drain funds.
 
 ## Cluster Information
 - **Total Findings:** 147

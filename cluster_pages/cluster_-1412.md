@@ -4,7 +4,7 @@
 **Count:** 49  
 
 ## Label
-Failure to accurately track or adjust token balances during deposits/withdrawals leads to incorrect pool allocations, reward misdistribution, and transaction deadlocks, undermining liquidity and incentive mechanisms.
+Failing to adjust for tokens that charge transfer fees or report lower-than-expected balances causes pool shares and rewards to be calculated from incorrect amounts, resulting in misallocated liquidity, skewed incentives, and locked transactions.
 
 ## Cluster Information
 - **Total Findings:** 49

@@ -4,7 +4,7 @@
 **Count:** 52  
 
 ## Label
-Truncation in integer arithmetic causes cumulative precision loss, enabling attackers to evade fees, manipulate debt distribution, and drain funds through systematic rounding errors in interest and share calculations.
+Integer truncation during fee and liquidity math loses precision, letting attackers slightly underpay fees and drain revenue over repeated swaps.
 
 ## Cluster Information
 - **Total Findings:** 52

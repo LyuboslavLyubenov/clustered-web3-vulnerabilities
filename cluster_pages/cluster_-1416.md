@@ -4,7 +4,7 @@
 **Count:** 308  
 
 ## Label
-Inadequate state validation and access control lead to misleading reward visibility, incorrect entitlement calculations, or unauthorized governance—enabling attackers to manipulate or misrepresent user balances or permissions.
+Failure to validate and clear vault-related state before reassigning tokens lets attackers reuse stale mappings, causing incorrect vault ownership tracking that enables unauthorized vault creation or double claiming of rewards.
 
 ## Cluster Information
 - **Total Findings:** 308

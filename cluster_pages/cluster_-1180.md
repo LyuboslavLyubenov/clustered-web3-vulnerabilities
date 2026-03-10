@@ -4,7 +4,7 @@
 **Count:** 40  
 
 ## Label
-Inconsistent state handling during validator updates leads to incorrect performance calculations, stale balances, and denial-of-service conditions by failing to synchronize or properly account for balance and status changes.
+Failing to refresh validator reward, slash, and balance data before deactivation leaves ValidatorManager relying on stale metrics, causing inaccurate performance calculations and temporary denial-of-service when updates revert.
 
 ## Cluster Information
 - **Total Findings:** 40

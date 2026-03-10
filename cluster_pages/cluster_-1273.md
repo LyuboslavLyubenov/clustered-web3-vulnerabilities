@@ -4,7 +4,7 @@
 **Count:** 9  
 
 ## Label
-Failure to validate modules against a registry at runtime due to out-of-order execution, enabling unauthorized or revoked modules to operate with unchecked access.
+Out-of-order module installation bypasses registry validation during enable mode/initialization, so unauthorized or revoked module types gain immediate execution rights, undermining validator integrity and enabling unchecked access.
 
 ## Cluster Information
 - **Total Findings:** 9

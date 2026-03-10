@@ -4,7 +4,7 @@
 **Count:** 82  
 
 ## Label
-Insufficient input validation allows invalid or zero-value parameters to pass through, leading to incorrect state updates, denial-of-service, or unintended behavior in critical financial logic.
+Omitted validation of critical inputs (default edges, bounds checks, signature keys) allows malformed or zero-value parameters to survive, corrupting on-chain state and enabling incorrect financial flows, DoS, or unauthorized contract updates.
 
 ## Cluster Information
 - **Total Findings:** 82

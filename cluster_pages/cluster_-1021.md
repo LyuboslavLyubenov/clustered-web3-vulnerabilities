@@ -4,7 +4,7 @@
 **Count:** 7  
 
 ## Label
-Failure to validate pending state or identities before allowing updates enables unauthorized actions, leading to unjustified settlements, rule mismatches, or orphaned commitments and resulting in denial of service or asset loss.
+Because updates to runner/RNG can occur without checking pending commitments or ensuring the incoming component shares the rightful governance identity, attackers can swap in malicious handlers and corrupt governance, resulting in DoS and asset loss.
 
 ## Cluster Information
 - **Total Findings:** 7

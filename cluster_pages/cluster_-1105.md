@@ -4,7 +4,7 @@
 **Count:** 20  
 
 ## Label
-Poor array management leading to unbounded growth and excessive gas consumption, causing denial-of-service through out-of-gas failures in participation or processing loops.
+Dynamic arrays let attackers add entries without enforcing max limits or reused slots, causing loops that scan user requests to traverse ever-growing data and eventually run out of gas, denying withdrawals or lock creation.
 
 ## Cluster Information
 - **Total Findings:** 20

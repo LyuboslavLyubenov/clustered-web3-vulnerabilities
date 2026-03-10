@@ -4,7 +4,7 @@
 **Count:** 165  
 
 ## Label
-Unvalidated inputs and unchecked function calls enable attackers to manipulate governance, bypass controls, or execute arbitrary actions, leading to fund theft, state corruption, or privilege escalation.
+Unchecked exchange/router inputs and swap parameters let attackers make arbitrary calls or misreport swap activity, corrupting protocol state while draining funds or bypassing protections.
 
 ## Cluster Information
 - **Total Findings:** 165

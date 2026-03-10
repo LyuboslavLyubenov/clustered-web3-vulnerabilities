@@ -4,7 +4,7 @@
 **Count:** 117  
 
 ## Label
-Insufficient input validation and incorrect state initialization lead to denial-of-service and functional failures by allowing invalid or zero values to disable critical transaction processing and retry mechanisms.
+Inconsistent input and state validation (missing alpha, liquidity, and edge sanity checks) allows invalid configurations to slip through, causing swaps, deposits, or other transactions to revert and leaving trading state unusable.
 
 ## Cluster Information
 - **Total Findings:** 117

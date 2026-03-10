@@ -4,7 +4,7 @@
 **Count:** 17  
 
 ## Label
-Inconsistent state management due to improper array indexing, missing deletions, or flawed iterator/ordering, leading to data corruption, incorrect state transitions, and erroneous operations.
+Off-by-one indexing plus missing deletions and unvalidated queue indexes corrupt proposal, lock, and withdrawal records, causing stale entries to survive and later trigger incorrect executions, reverts, and locked funds.
 
 ## Cluster Information
 - **Total Findings:** 17

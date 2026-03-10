@@ -4,7 +4,7 @@
 **Count:** 25  
 
 ## Label
-Insufficient input validation leads to unauthorized data manipulation, financial loss, or system compromise through malformed or malicious inputs exploiting parsing and cryptographic weaknesses.
+Failing to validate or sanitize user-controlled source strings before incorporating them into dialogs, sandboxed code, or ACLs lets attackers inject spoofed payloads that mislead users, alter behavior, and risk unauthorized transactions or outages.
 
 ## Cluster Information
 - **Total Findings:** 25

@@ -4,7 +4,7 @@
 **Count:** 95  
 
 ## Label
-Race conditions enabling front-running and state-dependent exploits, allowing attackers to manipulate share allocations, trigger reverts, or withdraw funds prematurely through transaction ordering vulnerabilities.
+Unchecked transaction ordering and oracle dependency allow nimble actors to time state updates (race conditions/front-running) so they skew share allocations, trigger reverts, or siphon funds before honest users settle.
 
 ## Cluster Information
 - **Total Findings:** 95

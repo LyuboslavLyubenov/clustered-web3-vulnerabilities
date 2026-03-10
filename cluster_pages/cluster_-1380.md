@@ -4,7 +4,7 @@
 **Count:** 41  
 
 ## Label
-Insufficient state validation and incorrect time-based access controls lead to unauthorized actions, bid manipulation, and denial of critical operations, enabling exploitation of auction lifecycles and user permissions.
+Mismatched unit validation between seconds-based durations and block-based thresholds causes epoch timing checks to fail, allowing delayed transitions to revert and block new epochs or auction states.
 
 ## Cluster Information
 - **Total Findings:** 41

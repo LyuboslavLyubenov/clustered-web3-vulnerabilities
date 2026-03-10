@@ -4,7 +4,7 @@
 **Count:** 300  
 
 ## Label
-Improper state indexing and value handling in value-based operations enable incorrect value transfers, balance inflation, and fee bypass through misaligned or unmasked state access and flawed input-output accounting.
+Lack of strict validation for state-dependent amounts in value-based operations leaves misindexed or stale balances flowing through, so attackers can trigger failed bids, inflate holdings, or bypass fees when execution reconciles inconsistent state.
 
 ## Cluster Information
 - **Total Findings:** 300

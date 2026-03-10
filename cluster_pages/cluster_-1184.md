@@ -4,7 +4,7 @@
 **Count:** 21  
 
 ## Label
-Improper state mutation due to memory vs. storage misuse leads to out-of-bounds access, incorrect state updates, and overpayments, enabling financial loss and inconsistent ledger tracking.
+Misplacing memory and storage causes improper state mutation, letting calculations write out-of-bounds or double-update balances and ultimately resulting in overpayments and inconsistent ledger totals that leak funds.
 
 ## Cluster Information
 - **Total Findings:** 21

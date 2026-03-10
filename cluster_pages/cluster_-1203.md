@@ -4,7 +4,7 @@
 **Count:** 762  
 
 ## Label
-Failure to detect or handle reverted token transfers leads to incorrect state updates, orphaned accounts, and improper collateral accounting, compromising data integrity and exposing users to financial risk.
+Not checking ERC20 transfer results (relying on transfer/transferFrom without safe wrappers) lets silent failures skip updates, causing missing funds or asset drainage that destabilizes accounting and user withdrawals.
 
 ## Cluster Information
 - **Total Findings:** 762

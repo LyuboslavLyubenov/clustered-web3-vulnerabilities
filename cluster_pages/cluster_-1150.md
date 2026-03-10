@@ -4,7 +4,7 @@
 **Count:** 38  
 
 ## Label
-Failure to validate or check contract state before execution leads to incorrect state updates, unauthorized operations, or silent failures, risking asset loss, inconsistent accounting, or exploitation during invalid or transitional states.
+Skipping validation of expected execution phases or contract state before acting allows invalid or partial transactions to reach the parser, causing observer go-routines to panic and stop processing inbound deposits.
 
 ## Cluster Information
 - **Total Findings:** 38

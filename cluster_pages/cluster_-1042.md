@@ -4,7 +4,7 @@
 **Count:** 126  
 
 ## Label
-Inadequate test coverage and validation lead to undetected vulnerabilities in core contract logic, exposing risks of exploitable behavior under edge cases or real-world conditions.
+Fragmented test suites plus missing validation of newly merged logic leave behaviors unexercised, so regressions and integration bugs slip through reviews and attackers can exploit unseen, unverified contract flows.
 
 ## Cluster Information
 - **Total Findings:** 126

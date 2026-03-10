@@ -4,7 +4,7 @@
 **Count:** 22  
 
 ## Label
-Failure to validate or check contract state before execution leads to incorrect state updates, unauthorized operations, or silent failures, risking asset loss, inconsistent accounting, or exploitation during invalid or transitional states.
+Skipping state or contract existence checks before invoking hooks or delegations allows dispatch to run with defaults or missing contracts, leading to unintended operations, wrong state transitions, or asset/accounting losses.
 
 ## Cluster Information
 - **Total Findings:** 22

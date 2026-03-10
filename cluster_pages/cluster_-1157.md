@@ -4,7 +4,7 @@
 **Count:** 211  
 
 ## Label
-Insufficient parameter validation enables unauthorized operations, allowing attackers to bypass authorization, inject invalid rules, or redirect assets to arbitrary addresses, leading to potential financial loss or protocol compromise.
+Unvalidated parameters such as arbitrary exchange/router addresses or empty swap data let attackers bypass intended swaps or nonce flows, forcing unauthorized calls that drain high-value assets and disrupt critical protocol state.
 
 ## Cluster Information
 - **Total Findings:** 211

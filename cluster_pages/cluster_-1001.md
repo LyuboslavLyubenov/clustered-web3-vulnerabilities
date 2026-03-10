@@ -4,7 +4,7 @@
 **Count:** 7  
 
 ## Label
-Lack of SPDX license identifiers compromises legal clarity and trust by creating ambiguity in licensing terms, exposing projects to intellectual property risks and undermining auditability and compliance in smart contracts.
+Mixing SPDX identifiers like MIT, Apache-2.0, BUSL-1.1, and UNLICENSED across contracts causes uncertain licensing roots, leading to legal ambiguity and blocking redistribution or reuse of combined code.
 
 ## Cluster Information
 - **Total Findings:** 7

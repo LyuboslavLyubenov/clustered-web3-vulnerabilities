@@ -4,7 +4,7 @@
 **Count:** 24  
 
 ## Label
-Failure to properly deactivate or remove validators leads to persistent stake exposure, state mismatches, and incorrect economic calculations, creating liquidity risks and undermining protocol integrity.
+Neglecting to fully deactivate or withdraw from validators after slashing allows inactive validators to retain delegations, causing persistent exposure of staked funds and blocking withdrawals, which destabilizes liquidity and protocol operations.
 
 ## Cluster Information
 - **Total Findings:** 24

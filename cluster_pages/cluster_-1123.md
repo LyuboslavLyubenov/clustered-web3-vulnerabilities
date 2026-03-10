@@ -4,7 +4,7 @@
 **Count:** 33  
 
 ## Label
-Cross-chain trust vulnerabilities arising from insufficient validation of chain context, state mutations, and message integrity, enabling spoofing, fund redirection, and denial of service.
+Selecting uplift fee data instead of swap fee context and failing to normalize low-decimal arithmetic lets MEV actors bypass intended fees, causing unauthorized fee-free swaps and protocol revenue loss.
 
 ## Cluster Information
 - **Total Findings:** 33

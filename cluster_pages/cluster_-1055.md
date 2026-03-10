@@ -4,7 +4,7 @@
 **Count:** 14  
 
 ## Label
-Unauthorized access to critical configuration or state parameters, enabling attackers to manipulate market operations, trigger malicious callbacks, or bypass access controls and sanctions.
+Allowing anyone to set the market maker address and toggle the _should_invoke_on_trade flag when it is zero lets attackers install malicious market makers that invoke callbacks to launch sandwich attacks and distort trade execution.
 
 ## Cluster Information
 - **Total Findings:** 14

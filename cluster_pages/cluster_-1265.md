@@ -4,7 +4,7 @@
 **Count:** 613  
 
 ## Label
-Insufficient or incorrect accounting of user funds leads to double withdrawals, unaccounted surpluses, and unauthorized borrowing, causing severe user losses and enabling attacker exploitation through flawed state tracking and validation.
+Failing to reset per-gateway unstaked totals when unregistering allows attackers to reuse prior stakes, leading to unauthorized double withdrawals and drained user funds.
 
 ## Cluster Information
 - **Total Findings:** 613

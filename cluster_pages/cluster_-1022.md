@@ -4,7 +4,7 @@
 **Count:** 21  
 
 ## Label
-Inaccurate reserve or share calculations due to flawed arithmetic or missing inputs, leading to premature unwinds, inflated user shares, or broken pool mechanics and potential asset loss.
+Failing to deduct returned fees or zero out unallocated shares leaves phantom balances in reserves, overstating liquidity and risking insolvency when operators act on the inflated totals.
 
 ## Cluster Information
 - **Total Findings:** 21

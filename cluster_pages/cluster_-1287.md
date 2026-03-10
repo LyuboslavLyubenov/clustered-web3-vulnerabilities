@@ -4,7 +4,7 @@
 **Count:** 14  
 
 ## Label
-Inconsistent or incorrect fee calculation due to improper rounding, missing logic paths, or flawed input handling, leading to revenue loss, free swaps, or denial-of-service via invalid transaction validation.
+Fee computation uses uninitialized or mis-applied variables so swap/remove operations skip intended protocol fees, causing revenue loss and enabling fee-free trades that undermine protocol economics.
 
 ## Cluster Information
 - **Total Findings:** 14

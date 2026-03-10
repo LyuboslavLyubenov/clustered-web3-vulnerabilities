@@ -4,7 +4,7 @@
 **Count:** 159  
 
 ## Label
-Insufficient input validation enables attackers to manipulate profit, reward, or liquidity calculations by injecting forged or invalid data, leading to unauthorized fund drainage, reward theft, or profit minimization.
+Accepting arbitrary external exchange addresses and balance inputs without validation lets attackers inject forged swap data that forces permit flows to revert or misreports completion, disrupting swaps and leaving balances inconsistent.
 
 ## Cluster Information
 - **Total Findings:** 159

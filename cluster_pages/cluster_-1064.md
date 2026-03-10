@@ -4,7 +4,7 @@
 **Count:** 32  
 
 ## Label
-Out-of-bounds array access leading to undefined behavior, incorrect selections, or denial-of-service due to improper index validation and unbounded iteration.
+Failing to validate or clamp the caller-supplied range end before iterating over `pools` lets the loop read beyond the array, triggering reverts or DoS that halt gauge updates.
 
 ## Cluster Information
 - **Total Findings:** 32

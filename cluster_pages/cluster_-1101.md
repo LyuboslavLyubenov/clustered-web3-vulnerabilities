@@ -4,7 +4,7 @@
 **Count:** 313  
 
 ## Label
-Failure to validate array length equality during iteration leads to out-of-bounds access, incorrect state updates, or infinite loops, enabling denial-of-service, data corruption, or unintended transactions.
+Failing to clamp user-supplied iteration bounds or verify slice length lets loops traverse past array ends, which triggers panics or reverts and enables denial-of-service or corrupted state updates.
 
 ## Cluster Information
 - **Total Findings:** 313

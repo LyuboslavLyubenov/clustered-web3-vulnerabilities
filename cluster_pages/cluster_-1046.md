@@ -4,7 +4,7 @@
 **Count:** 100  
 
 ## Label
-**Insufficient state validation and threshold checks enable attackers to manipulate debt settlements, freeze withdrawals, or exploit pricing inaccuracies, leading to unfair advantages and system instability.**
+Absence of phase-specific state checks and caps on settlement thresholds lets attackers skew debt calculations or stall auctions, so they can siphon funds and leave liquidity stranded.
 
 ## Cluster Information
 - **Total Findings:** 100

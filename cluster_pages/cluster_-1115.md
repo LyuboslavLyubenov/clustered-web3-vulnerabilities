@@ -4,7 +4,7 @@
 **Count:** 522  
 
 ## Label
-Inadequate timestamp validation and bounds checking lead to incorrect time-based logic, enabling malicious manipulation of time-dependent operations and compromising security, correctness, and deterministic behavior.
+Hardcoding inaccurate block time assumptions while allowing unrestricted endTime updates and omitting swap deadlines lets attackers freeze refunds, revert swaps, and otherwise break all time-based flows.
 
 ## Cluster Information
 - **Total Findings:** 522

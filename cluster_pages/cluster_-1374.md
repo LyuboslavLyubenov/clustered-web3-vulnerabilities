@@ -4,7 +4,7 @@
 **Count:** 103  
 
 ## Label
-Lack of access control and input validation enabling unauthorized modifications or bypasses of critical security checks, leading to fund exposure, protocol manipulation, or unauthorized operations.
+Weak or absent access-control and parameter validation in state-mutating routines lets attackers bypass protections and change funds or protocol state without authorization, risking asset loss and inconsistent access.
 
 ## Cluster Information
 - **Total Findings:** 103

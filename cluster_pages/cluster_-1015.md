@@ -4,7 +4,7 @@
 **Count:** 1879  
 
 ## Label
-Use of unchecked arithmetic operations bypasses overflow/underflow checks, introducing risks of incorrect state transitions, exploitable integer overflows, and compromised arithmetic integrity in critical financial calculations.
+Intermediate overflows in balance math due to missing overflow/underflow guards allow transactions to revert or corrupt token accounting when large multiplications exceed uint256 before the final division.
 
 ## Cluster Information
 - **Total Findings:** 1879

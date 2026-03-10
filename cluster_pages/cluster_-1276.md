@@ -4,7 +4,7 @@
 **Count:** 37  
 
 ## Label
-Inadequate calldata validation enables attackers to manipulate input lengths or structures, leading to unintended function execution, malformed decoding, or denial of service through invalid or padded payloads.
+Assuming fixed calldata layouts and skipping length/padding validation lets crafted payloads mislead version checks or parameter extraction, leading to unintended execution, mis-decoding, or bypassed session-key constraints.
 
 ## Cluster Information
 - **Total Findings:** 37

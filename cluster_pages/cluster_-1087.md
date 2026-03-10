@@ -4,7 +4,7 @@
 **Count:** 70  
 
 ## Label
-Common vulnerability type: **Unbounded resource consumption via input validation failures**, leading to denial-of-service through excessive CPU, memory, or cryptographic resource usage under attacker-controlled inputs.
+Unbounded input sizes for the Addresses/data fields let attackers flood RPC/mempool processing with oversized payloads, exhausting CPU, memory, or transport limits and denying service to legitimate clients.
 
 ## Cluster Information
 - **Total Findings:** 70

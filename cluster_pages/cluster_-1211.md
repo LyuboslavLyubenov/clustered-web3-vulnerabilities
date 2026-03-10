@@ -4,7 +4,7 @@
 **Count:** 26  
 
 ## Label
-Inaccurate off-chain assumptions and flawed data validation lead to incorrect on-chain calculations, resulting in misleading liquidity assessments, improper token valuations, and potential undercollateralization due to dynamic price ignorance.
+Assuming uniform token precision and skipping accrued treasury data causes on-chain calculations to misstate collateral and liquidity, which can undercollateralize positions or trigger erroneous caps, undermining risk accounting.
 
 ## Cluster Information
 - **Total Findings:** 26

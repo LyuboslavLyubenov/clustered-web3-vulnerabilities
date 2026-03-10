@@ -4,7 +4,7 @@
 **Count:** 49  
 
 ## Label
-Failure to properly handle and propagate errors leads to silent failures, misleading messages, or unhandled panics, compromising system reliability, observability, and security.
+Reversing _tryExecute’s success flag by applying iszero and ignoring revert information (root cause) causes try-mode executions to report failure when they succeed and hide genuine failures, confusing users and losing error visibility.
 
 ## Cluster Information
 - **Total Findings:** 49

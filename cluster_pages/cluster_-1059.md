@@ -4,7 +4,7 @@
 **Count:** 104  
 
 ## Label
-Underflow vulnerabilities in unsigned integer arithmetic, triggered by improper bounds checking and price/asset fluctuations, leading to reverts, stalled withdrawals, or incorrect state calculations with significant operational and financial impacts.
+Unsigned reward calculations omit explicit bounds checks while multiplying reward growth deltas, so overflow/underflow can revert earned() execution and block reward claims, effectively creating a denial-of-service for stakers.
 
 ## Cluster Information
 - **Total Findings:** 104

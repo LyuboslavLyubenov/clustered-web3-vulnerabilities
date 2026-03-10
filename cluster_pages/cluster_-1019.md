@@ -4,7 +4,7 @@
 **Count:** 30  
 
 ## Label
-Improper session validation and state management lead to unauthorized access, session hijacking, and resource exhaustion through flawed access checks, incorrect timestamp logic, and unbounded iteration.
+Failing to track expired sessions and enforce session validation lets attackers treat stale keys as active, enabling them to bypass checks, hijack ownership flows, and execute unauthorized, replayed transactions that drain funds.
 
 ## Cluster Information
 - **Total Findings:** 30

@@ -4,7 +4,7 @@
 **Count:** 56  
 
 ## Label
-Memory management flaws leading to undefined behavior, data corruption, or state inconsistencies due to improper memory allocation, pointer handling, or failure to distinguish between memory and storage.
+Failure to enforce precise memory layouts or initialization before expanding buffers causes undefined behavior, memory corruption, or inconsistent state when deserializing Anchor zero-copy structs or resizing account-backed vectors.
 
 ## Cluster Information
 - **Total Findings:** 56

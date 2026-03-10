@@ -4,7 +4,7 @@
 **Count:** 8  
 
 ## Label
-Failure to enforce critical parameters or validate configurations during pool creation or factory transitions, leading to unbounded control, incorrect behavior, and potential fund exposure.
+Failing to verify pool existence or configuration before manipulating identifiers lets default modules or overrides land on nonexistent pools, causing incorrect behavior, unauthorized control, and risking fund exposure.
 
 ## Cluster Information
 - **Total Findings:** 8

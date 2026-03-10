@@ -4,7 +4,7 @@
 **Count:** 109  
 
 ## Label
-Insufficient state validation enables unauthorized state overwrites or double execution, leading to fund loss, inconsistent transitions, or unintended payments due to missing checks on existing states or values.
+Failing to validate existing vault assignments and position health before applying diffs causes stale mappings or double execution that corrupts vault links and leads to asset loss and inconsistent balances.
 
 ## Cluster Information
 - **Total Findings:** 109

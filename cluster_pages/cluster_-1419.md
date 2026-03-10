@@ -4,7 +4,7 @@
 **Count:** 18  
 
 ## Label
-Underflow errors enable attackers to front-run debt repayments, causing transaction failures and allowing malicious users to prevent full debt settlement and manipulate on-chain state.
+Miscalculations subtracting repaid principal from outstanding without guarding against repaying more than lent cause underflows that revert lending operations and let borrowers block debt settlement flows.
 
 ## Cluster Information
 - **Total Findings:** 18

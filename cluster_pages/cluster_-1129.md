@@ -4,7 +4,7 @@
 **Count:** 69  
 
 ## Label
-Price-based front-running and immutable bounds lead to permanent collateral locking or unfair liquidation incentives during market volatility or oracle delays.
+Failing to verify that a signer_public_key exists and maps to the asset lets unauthorized oracles submit forged prices, triggering false liquidations and mispriced collateral during market swings.
 
 ## Cluster Information
 - **Total Findings:** 69

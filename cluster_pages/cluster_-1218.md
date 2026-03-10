@@ -4,7 +4,7 @@
 **Count:** 64  
 
 ## Label
-Unauthorized fee control and modification leading to potential fund misappropriation, denial-of-service, or prolonged exposure to malicious actors through lack of access restrictions or revocation mechanisms.
+Lack of granular fee controls and access restrictions lets pool creators or contracts override protocol fees, enabling incorrect pricing, reverts, and revenue loss for protocol stakeholders.
 
 ## Cluster Information
 - **Total Findings:** 64

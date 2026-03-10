@@ -4,7 +4,7 @@
 **Count:** 17  
 
 ## Label
-Failure to validate inputs or maintain consistent state leads to incorrect asset handling, fund loss, or erroneous accounting due to unverified assumptions, inconsistent indexing, or redundant state variables.
+Failing to validate or refresh indexes when asset or distribution metadata changes leaves caches or events stale, so on-chain handlers process incorrect assets, misallocate funds, and expose misleading integration data.
 
 ## Cluster Information
 - **Total Findings:** 17

@@ -4,7 +4,7 @@
 **Count:** 17  
 
 ## Label
-Flawed comparison logic in post-only order validation enables unintended executions and unauthorized commission payments, leading to financial loss and violated order behavior.
+Tight sell-amount comparison against changing filler liquidity plus downstream price impacts blocks otherwise acceptable fills, causing trades to fail or execute at worse prices and inflicting avoidable financial losses.
 
 ## Cluster Information
 - **Total Findings:** 17

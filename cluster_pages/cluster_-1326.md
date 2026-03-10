@@ -4,7 +4,7 @@
 **Count:** 126  
 
 ## Label
-Failure to validate contract existence or caller identity during delegatecall enables arbitrary code execution, state manipulation, and unintended self-destruction, leading to loss of control and asset exposure.
+Delegatecalls to unverified addresses or callers bypass contract existence and identity checks, letting attackers run arbitrary code, corrupt state, and self-destruct proxies, exposing funds and owners to takeover.
 
 ## Cluster Information
 - **Total Findings:** 126

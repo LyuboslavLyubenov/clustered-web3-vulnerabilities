@@ -4,7 +4,7 @@
 **Count:** 38  
 
 ## Label
-Front-running attacks exploit transaction ordering and inadequate fee controls, allowing malicious actors to profit from or disrupt legitimate claims by manipulating gas pricing and reward mechanisms.
+Inadequate protections around transaction ordering and claim thresholds enable front-runners to manipulate reward or withdrawal flows, preventing legitimate withdrawals or locking in favorable rates before honest users can act.
 
 ## Cluster Information
 - **Total Findings:** 38

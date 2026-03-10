@@ -4,7 +4,7 @@
 **Count:** 15  
 
 ## Label
-Arbitrary token issuance without supply constraints enables centralization, supply manipulation, and bridge inconsistencies, allowing malicious actors to create or alter token supply beyond authorized limits.
+Lack of access control on mint functions and unrestricted minting paths lets attackers inflate supply or block services, centralizing power and disrupting downstream transfers, governance, and economic stability.
 
 ## Cluster Information
 - **Total Findings:** 15

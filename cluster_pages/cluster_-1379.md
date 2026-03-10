@@ -4,7 +4,7 @@
 **Count:** 48  
 
 ## Label
-Lack of proper access control and validation leads to unauthorized asset manipulation, fund locking, and incorrect liquidity assessments, enabling users to bypass safety checks and exploit system invariants.
+Failing to revoke approvals from outgoing liquidation managers and to grant approvals to new ones leaves vault shares controllable by compromised actors and causes liquidations to stall, exposing keepers and lenders to losses.
 
 ## Cluster Information
 - **Total Findings:** 48

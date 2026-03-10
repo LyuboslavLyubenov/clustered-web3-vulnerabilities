@@ -4,7 +4,7 @@
 **Count:** 170  
 
 ## Label
-Precision loss and logic flaws in reward calculations due to improper handling of fixed-point arithmetic, incorrect loop bounds, and inconsistent state updates, leading to systematic underpayment, denial of service, and wealth leakage.
+Gauge state isn't updated when epochs change, so rewardRate and period guards fall out of sync, letting attackers seize or prematurely claim rewards while honest participants receive nothing.
 
 ## Cluster Information
 - **Total Findings:** 170

@@ -4,7 +4,7 @@
 **Count:** 33  
 
 ## Label
-Inconsistent payload validation and cryptographic mismatch due to flawed field inclusion, incorrect hashing, and improper message parsing, leading to unauthorized operations and potential fund lockups.
+Payload parsing and hash verification routines omit or misplace the action/hash fields and length validation, causing cryptographic verification mismatches that let unauthorized unlocks slip through and leave funds irreversibly stuck.
 
 ## Cluster Information
 - **Total Findings:** 33

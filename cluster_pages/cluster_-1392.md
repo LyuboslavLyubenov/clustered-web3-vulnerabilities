@@ -4,7 +4,7 @@
 **Count:** 24  
 
 ## Label
-**Lack of gauge state validation enables unauthorized deposits or staking into invalid or killed gauges, leading to reward misallocation, fund draining, or exploitation of reward mechanisms.**
+Missing validation of gauge status lets attackers deposit or stake into invalid or killed gauges, enabling unauthorized fund transfers, reward misallocation, and eventual draining or exploitation of reward mechanisms.
 
 ## Cluster Information
 - **Total Findings:** 24

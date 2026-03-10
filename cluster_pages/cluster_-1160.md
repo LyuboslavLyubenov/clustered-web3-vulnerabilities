@@ -4,7 +4,7 @@
 **Count:** 49  
 
 ## Label
-Insufficient state validation leads to persistent or incorrect access control, enabling unauthorized interactions, asset draining, or invalid operations.
+Failing to validate vault/token mappings and asset compatibility before updating state allows stale or conflicting vault registrations, leading to overwritten access controls, corrupted accounting, or drains of unrelated assets.
 
 ## Cluster Information
 - **Total Findings:** 49

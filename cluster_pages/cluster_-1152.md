@@ -4,8 +4,7 @@
 **Count:** 194  
 
 ## Label
-**State manipulation via missing validation and improper state updates**  
-Attackers exploit unverified state transitions and absent balance checks to inflate balances, override investor records, or lock funds—enabling fund theft, DoS, or unauthorized control through flawed logic and lack of real-time validation.
+Missing validation of critical state transitions and balance checks lets attackers manipulate auction and recovery state, causing fund theft, denial of service, or perpetual recovery lockouts.
 
 ## Cluster Information
 - **Total Findings:** 194

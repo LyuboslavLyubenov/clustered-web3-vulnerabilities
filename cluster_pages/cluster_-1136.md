@@ -4,7 +4,7 @@
 **Count:** 17  
 
 ## Label
-Failure to validate module state or lifecycle leads to unauthorized execution, state inconsistency, or unintended module operations, compromising security and transaction integrity.
+Skipping runtime validation of module state or lifecycle lets unauthorized or outdated modules bypass safeguards, leading to unintended execution, canceled transactions, or denial of service when modules operate outside expected registry or nonce order.
 
 ## Cluster Information
 - **Total Findings:** 17

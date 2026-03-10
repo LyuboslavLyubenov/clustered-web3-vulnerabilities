@@ -4,7 +4,7 @@
 **Count:** 11  
 
 ## Label
-Insufficient input validation and missing cross-checks between order parameters enable attackers to manipulate transaction values, inflate prices, or bypass validation, leading to fund theft or unauthorized asset transfers.
+Ordering parameter mismatch and insufficient validation of input contracts allows attackers to misstate prices and transfer funds, letting them siphon assets from users or the protocol.
 
 ## Cluster Information
 - **Total Findings:** 11

@@ -4,7 +4,7 @@
 **Count:** 605  
 
 ## Label
-Insufficient input validation allows malformed or invalid hex strings to be processed, leading to incorrect address generation, unauthorized operations, and potential permanent system damage or misrouting.
+Missing validation and safeguards when processing address parameters causes invalid hex or stale addresses to propagate through state, enabling unauthorized transactions, incorrect authorization checks, and potential misrouting or asset loss.
 
 ## Cluster Information
 - **Total Findings:** 605

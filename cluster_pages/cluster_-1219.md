@@ -4,7 +4,7 @@
 **Count:** 47  
 
 ## Label
-Price misrepresentation due to stale or incorrect rate usage in concurrent or dynamic redemption scenarios, enabling user losses, manipulation, or unfair valuation.
+Relying on the pre-redeem exchange rate stored value creates stale pricing that miscalculates payouts, so CoreRouter can overpay or underpay, draining token reserves and leaving redeemers with unexpected losses.
 
 ## Cluster Information
 - **Total Findings:** 47

@@ -4,7 +4,7 @@
 **Count:** 173  
 
 ## Label
-Failure to account for accrued interest in rate calculations and state updates leads to mispriced rates, retroactive rate application, and inaccurate utilization, enabling financial exploitation and protocol instability.
+Omitting accrued interest or state migration when recalculating rates relies on stale parameters, producing mispriced interest curves that expose the protocol to financial exploitation and destabilized utilization.
 
 ## Cluster Information
 - **Total Findings:** 173

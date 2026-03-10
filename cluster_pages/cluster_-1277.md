@@ -4,7 +4,7 @@
 **Count:** 88  
 
 ## Label
-Lack of immutability in state variables leads to unnecessary gas costs, compromised contract integrity, and potential runtime manipulation, undermining security and efficiency.
+Not marking state variables that never change as immutable causes unnecessary storage reads and gas burn, making constructor initialization less efficient and leaving deployment logic susceptible to accidental modifications that degrade performance.
 
 ## Cluster Information
 - **Total Findings:** 88

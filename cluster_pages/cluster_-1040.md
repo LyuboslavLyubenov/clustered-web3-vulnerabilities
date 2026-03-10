@@ -4,7 +4,7 @@
 **Count:** 21  
 
 ## Label
-Race conditions caused by unsynchronized access to shared state, leading to panics, data corruption, and incorrect message delivery due to concurrent operations without proper locking or isolation.
+Concurrent reads and writes touch shared state without any locking to guard maps or header fields, causing race conditions that can panic, corrupt data, or produce inconsistent validations when operations interleave.
 
 ## Cluster Information
 - **Total Findings:** 21

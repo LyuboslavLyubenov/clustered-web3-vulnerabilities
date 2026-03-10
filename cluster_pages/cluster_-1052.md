@@ -4,7 +4,7 @@
 **Count:** 30  
 
 ## Label
-Redundant function calls and poor abstraction lead to inconsistent state, duplicated logic, and unpredictable behavior, increasing attack surface and undermining secure, deterministic token address management.
+Duplicated prediction logic lacking abstraction keeps upgraded stake-token implementations stale, causing dependent state and address tracking to diverge, so mismatched tokens undermine deterministic deployments and enlarge the attack surface.
 
 ## Cluster Information
 - **Total Findings:** 30

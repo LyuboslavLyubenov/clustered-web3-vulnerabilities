@@ -4,7 +4,7 @@
 **Count:** 34  
 
 ## Label
-Failure to revoke or properly authorize privileged role assignments creates unauthorized access and disrupts protocol initialization, enabling attacks through persistent or misaligned permissions.
+Leaving privileged roles authorized without revocation (or misauthorizing new assignments) lets attackers keep admin rights, so they can hijack initialization flows, block legitimate setup, and cause denial-of-service or contract takeover.
 
 ## Cluster Information
 - **Total Findings:** 34

@@ -4,7 +4,7 @@
 **Count:** 411  
 
 ## Label
-Failure to validate sender or recipient when handling native tokens leads to unauthorized fund transfers, misappropriation, or improper token routing, enabling exploitation and operational failures.
+Failing to validate ERC20 transfer outcomes or recipient eligibility lets malicious actors trigger unauthorized fund transfers or drain wrapped assets, undermining user withdrawals and misrouting protocol holdings.
 
 ## Cluster Information
 - **Total Findings:** 411

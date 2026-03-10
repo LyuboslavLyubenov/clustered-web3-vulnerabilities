@@ -4,7 +4,7 @@
 **Count:** 26  
 
 ## Label
-Missing or misconfigured role-based access control leads to unauthorized administrative power or failed deployment, enabling unauthorized control or denial of critical functions.
+Missing or misconfigured role-based access control checks in the constructor role grants prevents the admin contract from inheriting DEFAULT_ADMIN_ROLE, causing deployment failures and leaving critical functions open or blocked.
 
 ## Cluster Information
 - **Total Findings:** 26

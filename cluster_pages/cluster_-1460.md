@@ -4,7 +4,7 @@
 **Count:** 41  
 
 ## Label
-Insufficient input validation and state transition flaws enable attackers to exploit financial invariants, cause unintended portfolio exposure, or manipulate auction outcomes through bid re-execution, zero-value bids, or unbounded challenge cycles.
+Weak bid/rent validation and state transition checks (missing fee accounting, allowing zero or oversized bids) let attackers corrupt auction limits, leading to failed rounds, blocked money flows, and fee starvation.
 
 ## Cluster Information
 - **Total Findings:** 41

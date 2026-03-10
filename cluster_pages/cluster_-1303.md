@@ -4,7 +4,7 @@
 **Count:** 41  
 
 ## Label
-Buffer overflows and memory safety flaws due to inadequate bounds checking, improper input validation, and unsafe memory access patterns, leading to data corruption, undefined behavior, or exposure of sensitive information.
+Insufficient bounds and overflow checks combined with byte-based shift values used as bit counts or missing double-free guards cause incomplete masking and repeated pointer returns, enabling memory corruption, undefined behavior, and exploitable state corruption.
 
 ## Cluster Information
 - **Total Findings:** 41

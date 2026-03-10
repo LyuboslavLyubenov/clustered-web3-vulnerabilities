@@ -4,7 +4,7 @@
 **Count:** 96  
 
 ## Label
-Inconsistent or incorrect fee calculation due to improper rounding, missing logic paths, or flawed input handling, leading to revenue loss, free swaps, or denial-of-service via invalid transaction validation.
+Overwriting zeroed gauge fee slots with a sentinel 1 causes CLGauge to treat empty fees as positive, so the flawed persistence path adds phantom fees and eventually reverts or misallocates funds.
 
 ## Cluster Information
 - **Total Findings:** 96

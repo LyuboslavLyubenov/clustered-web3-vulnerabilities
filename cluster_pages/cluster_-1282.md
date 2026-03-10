@@ -4,7 +4,7 @@
 **Count:** 22  
 
 ## Label
-Insufficient input validation leads to out-of-bounds access, invalid data storage, and incorrect state enforcement, compromising data integrity and enabling denial-of-service or inconsistent behavior.
+Insufficient validation of input size and array indexes allows attackers to exhaust resources or corrupt state via overly large payloads, CONTINUATION frames, or invalid indices, causing denial-of-service and inconsistent behavior.
 
 ## Cluster Information
 - **Total Findings:** 22

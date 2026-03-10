@@ -4,7 +4,7 @@
 **Count:** 196  
 
 ## Label
-Cryptographic signature validation flaws due to incorrect message encoding or structural mismatches, leading to forgery, invalid signer recovery, or failed verification under standardized hashing rules.
+Signature validation assumes EOA-only ECDSA recovery without verifying contract-based or ERC-1271 signatures (root cause), causing smart-contract wallets and their users to be unable to authenticate transactions or access protocol features (impact).
 
 ## Cluster Information
 - **Total Findings:** 196

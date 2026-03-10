@@ -4,7 +4,7 @@
 **Count:** 733  
 
 ## Label
-Unbounded loops and improper input validation lead to excessive gas consumption, infinite loops, or invalid state transitions, causing transaction failures, denial-of-service, or revenue loss.
+Deleting the entire pending deposit queue in one transaction without batching causes gas to exceed limits, so a spammed queue forces processing functions to fail and produces a denial-of-service.
 
 ## Cluster Information
 - **Total Findings:** 733

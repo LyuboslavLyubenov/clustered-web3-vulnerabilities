@@ -4,7 +4,7 @@
 **Count:** 43  
 
 ## Label
-Use of an experimental, unstable ABI encoding feature leads to undefined behavior, enabling attackers to manipulate contract state through type mismatches or incorrect data serialization.
+Unsafe ABI encoding/decoding without type-safe selectors or validation permits malformed calldata to misalign function signatures or lengths, causing runtime reverts and crashes that attackers can trigger to disrupt contract processing.
 
 ## Cluster Information
 - **Total Findings:** 43

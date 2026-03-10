@@ -4,7 +4,7 @@
 **Count:** 8  
 
 ## Label
-Unchecked input validation enables attackers to manipulate core economic parameters, distorting oracle data and violating protocol invariants with high impact on financial integrity and system stability.
+Lack of validation on admin-supplied pool and oracle parameters allows attackers to set unsupported economic parameters or fake suppliers, enabling price manipulation that destabilizes valuations and drains pooled funds.
 
 ## Cluster Information
 - **Total Findings:** 8

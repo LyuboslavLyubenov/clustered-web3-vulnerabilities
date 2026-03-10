@@ -4,7 +4,7 @@
 **Count:** 14  
 
 ## Label
-Failure to validate real-time price movements or transaction logic leads to exploitable price manipulation, missed liquidations, and risk-free profit extraction through timing and market abuse.
+Failing to validate price movements and transaction logic allows attackers to reuse stale parameters and ambiguous checks, enabling option mispricing, unreliable execution, and manipulable liquidations that yield risk-free profits.
 
 ## Cluster Information
 - **Total Findings:** 14

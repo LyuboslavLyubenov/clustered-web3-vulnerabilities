@@ -4,7 +4,7 @@
 **Count:** 168  
 
 ## Label
-Inadequate input validation and improper state synchronization lead to invalid state transitions, incorrect data returns, and unauthorized operations, enabling malicious actors to forge messages, manipulate validator sets, or trigger harmful side effects.
+Missing validation of critical inputs and state synchronization when configuring accounts allows malicious guardians or callers to overwrite recovery data, trigger reverts, and lock out owners, causing denial of service and loss of control.
 
 ## Cluster Information
 - **Total Findings:** 168

@@ -4,7 +4,7 @@
 **Count:** 13  
 
 ## Label
-Insufficient ownership and authorization checks enable unauthorized asset manipulation, leading to loss of control, unauthorized transfers, and potential theft through improper validation of caller identity or transaction order.
+Failure to verify NFT owner identity before executing transfers lets attackers seize assets once sale finalizes, leaving order creators or protocol left without their NFTs and losing control.
 
 ## Cluster Information
 - **Total Findings:** 13

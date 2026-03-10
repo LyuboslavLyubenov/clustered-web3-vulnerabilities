@@ -4,7 +4,7 @@
 **Count:** 10  
 
 ## Label
-Inconsistent state tracking and improper validation of position status across loan cycles lead to incorrect calculations, fund locking, and denial of exits, enabling malicious actors to manipulate or withhold funds and disrupt liquidity.
+Not validating detached positions when preparing each new loan zeroes withdrawn amounts, so borrowers cannot exit and funds stay locked while lenders miss expected accruals.
 
 ## Cluster Information
 - **Total Findings:** 10

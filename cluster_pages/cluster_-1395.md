@@ -4,7 +4,7 @@
 **Count:** 1085  
 
 ## Label
-Inconsistent reward accounting and improper stake validation lead to incorrect or unfair reward distribution, enabling economic manipulation, loss of trust, and denial-of-service through flawed data tracking or unchecked access.
+Mixing outdated reward ratios or misconfigured reward functions with improperly validated stakes causes stored conversions to diverge, which lets early withdrawers deplete reserves and leave remaining stakers unrewarded.
 
 ## Cluster Information
 - **Total Findings:** 1085

@@ -4,7 +4,7 @@
 **Count:** 67  
 
 ## Label
-Inadequate input validation and logic errors lead to incorrect state updates, invalid position creation, or improper liquidity calculations, causing financial inaccuracies, transaction reverts, or exploitable discrepancies in user balances and pool behavior.
+Mixing local and global accounting values or using incorrect conditional checks causes per-manager exchange rates and payouts to diverge, producing inconsistent valuations, wrong tokens, and exploitable imbalance that harms users.
 
 ## Cluster Information
 - **Total Findings:** 67

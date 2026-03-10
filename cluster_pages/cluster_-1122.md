@@ -4,7 +4,7 @@
 **Count:** 46  
 
 ## Label
-Insufficient input validation and improper state transitions enable attackers to manipulate fees, exploit timing, or bypass safeguards, leading to unauthorized revenue capture, overcharging, or denial of service.
+Omitting minimum fee validation while using an uninitialized fee state lets the system compute zero protocol fees, so attackers bypass charges and create revenue loss or denial-of-service.
 
 ## Cluster Information
 - **Total Findings:** 46

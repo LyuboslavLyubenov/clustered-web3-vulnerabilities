@@ -4,7 +4,7 @@
 **Count:** 96  
 
 ## Label
-Insufficient input validation and missing fee enforcement lead to unauthorized parameter manipulation, underpayment, or spam, enabling denial-of-service, incorrect state changes, or economic exploitation.
+Lack of strict fee/config validation lets callers manipulate parameters, underpay, or send zero deltas, resulting in DoS, transaction failures, or permanently locked funds and other economic harm.
 
 ## Cluster Information
 - **Total Findings:** 96

@@ -4,7 +4,7 @@
 **Count:** 488  
 
 ## Label
-Inadequate state validation and access control lead to incorrect balance tracking and denial-of-service, enabling attackers to withdraw inflated funds through unchecked token duplication and unauthorized state reads.
+Skipping validation of ERC20 transferFrom return values and governor state updates means external calls can fail silently while the contract assumes success, leading to undelivered funds or persistent proposals that derail repayments.
 
 ## Cluster Information
 - **Total Findings:** 488

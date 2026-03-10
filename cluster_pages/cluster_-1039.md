@@ -4,7 +4,7 @@
 **Count:** 580  
 
 ## Label
-Redundant validation and control flow checks that fail to enforce critical invariants, leading to unnecessary gas costs, potential state corruption, or inconsistent execution—often due to poor logic design or lack of abstraction.
+Misunderstanding that `_votes` is non-negative leads to redundant control-flow guards that add unnecessary gas costs and risk inconsistent state updates when unreachable branches assume a negative value.
 
 ## Cluster Information
 - **Total Findings:** 580

@@ -4,7 +4,7 @@
 **Count:** 53  
 
 ## Label
-Failure to claim rewards before token burning leads to permanent loss of user-entitled yields due to improper state transitions and ownership invalidation.
+Improper validation of token lifecycles and reward claims before burning or disabling tokens leaves locked liquidity unreleased, causing stakers to permanently lose their entitled payouts.
 
 ## Cluster Information
 - **Total Findings:** 53

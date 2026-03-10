@@ -4,7 +4,7 @@
 **Count:** 9  
 
 ## Label
-Unauthorized access to critical pool functions due to missing caller validation and permission checks, enabling state manipulation, malicious rule setting, and griefing of offchain monitoring systems.
+Missing caller validation on critical pool functions lets arbitrary addresses set rules or query data, enabling attackers to bypass permissions, emit misleading events, and disrupt on-chain state plus offchain monitors.
 
 ## Cluster Information
 - **Total Findings:** 9

@@ -4,7 +4,7 @@
 **Count:** 249  
 
 ## Label
-Failure to account for accrued interest in rate calculations and state updates leads to mispriced rates, retroactive rate application, and inaccurate utilization, enabling financial exploitation and protocol instability.
+Skipping accrued-interest adjustments when updating rate calculations leaves stored indices stale, which misprices lending rates and inflates perceived debt, exposing the protocol to exploitation and unjust liquidations.
 
 ## Cluster Information
 - **Total Findings:** 249

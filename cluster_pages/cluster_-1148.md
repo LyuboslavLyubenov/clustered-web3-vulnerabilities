@@ -4,7 +4,7 @@
 **Count:** 60  
 
 ## Label
-Common vulnerability type: **Missing access control and improper referral validation** enabling unauthorized reward claims, fee manipulation, and revenue leakage through self-referencing or expired referrals.
+Missing referral access control and validation lets self-referencing or expired referrers repeatedly trigger reward claims, allowing attackers to steal incentives and distort campaign revenue accounting.
 
 ## Cluster Information
 - **Total Findings:** 60

@@ -4,7 +4,7 @@
 **Count:** 12  
 
 ## Label
-All entries involve input manipulation leading to resource exhaustion—either via excessive data size, unbounded query complexity, or malformed requests—resulting in denial-of-service through computational or gas overhead.
+Malformed or overly complex client inputs bypass limits and overwhelm query processing, exhausting compute/gas resources and denying service to legitimate users.
 
 ## Cluster Information
 - **Total Findings:** 12

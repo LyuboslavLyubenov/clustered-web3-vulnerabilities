@@ -4,7 +4,7 @@
 **Count:** 28  
 
 ## Label
-Inadequate input validation and improper state synchronization lead to invalid state transitions, incorrect data returns, and unauthorized operations, enabling malicious actors to forge messages, manipulate validator sets, or trigger harmful side effects.
+Missing validation of initialization arguments and independent updates lets malformed state persist, causing account lockouts, failed validations, and unchecked registry changes that leave deployments nonfunctional or weaponize transitions.
 
 ## Cluster Information
 - **Total Findings:** 28

@@ -4,7 +4,7 @@
 **Count:** 91  
 
 ## Label
-Inconsistent or incorrect precision handling in financial calculations leads to flawed value computations, risking under-collateralization, erroneous liquidations, and compromised asset valuation across systems.
+Misaligned precision and rounding in option and liquidation math leads to stale strike or collateral figures, causing undercollateralization, mispriced trades, and unfair liquidations that compromise financial integrity.
 
 ## Cluster Information
 - **Total Findings:** 91

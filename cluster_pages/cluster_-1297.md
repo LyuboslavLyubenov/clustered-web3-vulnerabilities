@@ -4,7 +4,7 @@
 **Count:** 69  
 
 ## Label
-Failure to validate or update state before deletion leads to persistent, incorrect state representations, causing downstream errors, financial misstatements, and unauthorized manipulation of allowances.
+Reusing vault mappings without verifying new vault uniqueness leaves obsolete mapping entries or mismatched vault assets, allowing stale state to trigger unauthorized actions, incorrect asset accounting, or failed redeems.
 
 ## Cluster Information
 - **Total Findings:** 69

@@ -4,7 +4,7 @@
 **Count:** 25  
 
 ## Label
-Redundant and misapplied access checks lead to unreachable requirements, increased code duplication, and inconsistent authorization, resulting in denial-of-service or unexpected behavior.
+Redundant use of the onlyLOBPermission modifier on a view function unnecessarily restricts access, preventing approved callers from reading state and triggering availability failures in workflows that rely on that data.
 
 ## Cluster Information
 - **Total Findings:** 25

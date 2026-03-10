@@ -4,7 +4,7 @@
 **Count:** 192  
 
 ## Label
-Failure to validate state integrity leads to corrupted data structures, infinite loops, or unintended state mutations, enabling denial-of-service and unfair resource distribution through unchecked updates or self-referential loops.
+Failing to re-verify critical invariants before and after asynchronous callbacks lets reentrancy mutate shared approvals or state, so assets become mispriced or transactions stall with duplicated approvals.
 
 ## Cluster Information
 - **Total Findings:** 192

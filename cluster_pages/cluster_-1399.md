@@ -4,7 +4,7 @@
 **Count:** 69  
 
 ## Label
-Inconsistent balance validation and state updates lead to incorrect transaction thresholds, inflated totals, and flawed economic logic, enabling unauthorized claims, misaligned deposits, and potential denial-of-service.
+Skewed balance validation coupled with stale state updates lets inactive validators keep old non-zero balances, inflating totalBalance and risking underflow reverts or DoS when reactivated.
 
 ## Cluster Information
 - **Total Findings:** 69

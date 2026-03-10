@@ -4,7 +4,7 @@
 **Count:** 23  
 
 ## Label
-Inaccurate reward calculations due to unvalidated state updates or improper balance tracking, enabling attackers to manipulate reward pools or induce unfair token distributions.
+Deeply nested loops that recompute rewards over every position, farm, and epoch without batching or caps cause transactions to exceed gas limits, so reward claims and position closures fail and penalize users.
 
 ## Cluster Information
 - **Total Findings:** 23

@@ -4,7 +4,7 @@
 **Count:** 19  
 
 ## Label
-Misuse of data or state references leading to incorrect calculations, flawed validations, or erroneous state transitions, resulting in financial misrepresentation, over-distribution, or transaction failures.
+Incorrect tracking of claimable balances when state changes owners or periods causes aggregation or return values to misrepresent totals, leading to lost funds, unfair payouts, or claims failing due to drained balances.
 
 ## Cluster Information
 - **Total Findings:** 19

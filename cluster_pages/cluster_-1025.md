@@ -4,7 +4,7 @@
 **Count:** 22  
 
 ## Label
-Failure to increment critical state nonces during operator operations, leading to inconsistent validator key indexing, compromised signature validation, and potential nonce-based attacks or state corruption.
+Operators enqueue validator operations without validating sender-supplied nonces or validator status, so invalid entries and non-monotonic sequencing can trigger collisions, freezes, or replayed operations that corrupt L1 ordering.
 
 ## Cluster Information
 - **Total Findings:** 22

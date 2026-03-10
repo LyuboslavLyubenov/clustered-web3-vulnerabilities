@@ -4,7 +4,7 @@
 **Count:** 173  
 
 ## Label
-Replay and state overwrite attacks via insufficient input validation and deterministic identifier generation, enabling unauthorized access, transaction manipulation, and irreversible recovery failures.
+Deterministic permit signatures lacking per-user nonces or contextual state validation allow replay or front-running that drains approvals, triggers failed transactions, and forces denials of service with irreversible fund loss.
 
 ## Cluster Information
 - **Total Findings:** 173

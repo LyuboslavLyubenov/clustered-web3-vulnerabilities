@@ -4,7 +4,7 @@
 **Count:** 18  
 
 ## Label
-Gas-based denial-of-service and resource exhaustion via unbounded or malicious gas parameter manipulation, enabling attackers to flood systems, inflate costs, or bypass safeguards at negligible cost.
+Predictable PDA derivation without existence checks lets attackers pre-create escrow or token accounts, blocking pool/order creation and causing denial of service by preventing legitimate transactions.
 
 ## Cluster Information
 - **Total Findings:** 18

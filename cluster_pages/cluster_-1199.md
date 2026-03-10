@@ -4,7 +4,7 @@
 **Count:** 31  
 
 ## Label
-Failure to validate real-time price movements or transaction logic leads to exploitable price manipulation, missed liquidations, and risk-free profit extraction through timing and market abuse.
+Insufficient validation of spread and price impact updates during trade closures allows attackers to exploit timing differences for price manipulation, forcing liquidations or position adjustments at unfavorable rates and enabling risk-free profits.
 
 ## Cluster Information
 - **Total Findings:** 31

@@ -4,7 +4,7 @@
 **Count:** 244  
 
 ## Label
-Insufficient input validation and improper state initialization lead to out-of-bounds access, undefined behavior, and unauthorized state manipulation, enabling exploitation through invalid data, race conditions, or inconsistent transitions.
+Vault reassignment skips validation and health checks, leaving stale mapping entries and allowing repeated diffs, which lets balances drift and transfers fail, so attackers can hijack ownership.
 
 ## Cluster Information
 - **Total Findings:** 244

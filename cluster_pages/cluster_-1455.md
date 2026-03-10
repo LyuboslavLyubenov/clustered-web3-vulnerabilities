@@ -4,7 +4,7 @@
 **Count:** 11  
 
 ## Label
-Attackers manipulate asset balances via donations to exploit rounding or initialization flaws, artificially inflating share prices or reducing share supply, leading to unfair advantages, asset loss, or price manipulation in ERC-4626-based vaults.
+Donations before initialization or rounding safeguards allow attackers to pump asset balances without minting shares, skewing share-to-asset ratios and draining users by inflating prices or stealing assets.
 
 ## Cluster Information
 - **Total Findings:** 11

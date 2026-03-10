@@ -4,7 +4,7 @@
 **Count:** 7  
 
 ## Label
-Lack of price validation enables attackers to manipulate token prices or exchange rates, allowing them to extract assets or inflate supply through front-running and MEV exploitation.
+Missing price and reserve validation in swap/pool logic lets attackers front-run transactions, drive reserves to zero, and siphon or misprice assets, enabling fund draining or supply inflation.
 
 ## Cluster Information
 - **Total Findings:** 7

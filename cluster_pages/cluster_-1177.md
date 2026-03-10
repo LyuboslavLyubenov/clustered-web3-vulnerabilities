@@ -4,7 +4,7 @@
 **Count:** 24  
 
 ## Label
-Unauthorized administrative control enabling unchecked state modifications, fund manipulation, and loss of user safeguards through insufficient access checks and lack of validation or transparency.
+Insufficient admin access checks allow operators to arbitrarily alter storage and drain reserves, leaving withdrawals failing and users exposed to liquidity depletion.
 
 ## Cluster Information
 - **Total Findings:** 24

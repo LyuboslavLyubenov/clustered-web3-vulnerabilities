@@ -4,7 +4,7 @@
 **Count:** 136  
 
 ## Label
-Precision loss and logic flaws in reward calculations due to improper handling of fixed-point arithmetic, incorrect loop bounds, and inconsistent state updates, leading to systematic underpayment, denial of service, and wealth leakage.
+Unchecked fixed-point multiplications and underflow/overflow-implicit reward-growth math rely on wrapping that Solidity 0.8 forbids, so `earned` can revert or miscompute and users cannot claim their rewards.
 
 ## Cluster Information
 - **Total Findings:** 136

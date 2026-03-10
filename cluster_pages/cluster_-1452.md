@@ -4,7 +4,7 @@
 **Count:** 58  
 
 ## Label
-Inconsistent or flawed price calculations due to incorrect rounding, invalid ratio checks, and improper validation of price inputs lead to erroneous asset valuations, compromised safety, and cascading financial errors.
+Failing to validate price-related inputs and mode flags allows uncertain payment calculations such that changing fees or auction modes mid-flight breaks flows and traps extra funds or leaves orders unfulfilled.
 
 ## Cluster Information
 - **Total Findings:** 58

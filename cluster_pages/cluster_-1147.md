@@ -4,7 +4,7 @@
 **Count:** 15  
 
 ## Label
-Unauthorized function execution via insufficient access control and signature validation, enabling attackers to exploit or drain funds through arbitrary or impersonated calls.
+Unvalidated initialization calldata and weak signature checks let attackers hijack privileged delegatecalls, enabling unauthorized function execution and draining funds or acting with agent-level privileges.
 
 ## Cluster Information
 - **Total Findings:** 15

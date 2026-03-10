@@ -4,7 +4,7 @@
 **Count:** 159  
 
 ## Label
-Insufficient bounds checking and error handling enable attackers to trigger denial-of-service attacks, inflate gas costs, or exploit memory copying, leading to system stalls, fund drain, or unauthorized operations.
+Inconsistent validation of minting controls leaves admin updates unbounded, allowing owners to unsafely adjust minter/wallet addresses and potentially drain funds or cause denial of service when tokens misroute.
 
 ## Cluster Information
 - **Total Findings:** 159

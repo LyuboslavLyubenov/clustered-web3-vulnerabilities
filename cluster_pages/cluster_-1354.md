@@ -4,7 +4,7 @@
 **Count:** 66  
 
 ## Label
-Failure to synchronize or validate state during critical operations leads to irreversible fund loss, incorrect balances, or denial-of-service, enabling irreversible or erroneous token transfers.
+Insufficient synchronization and recovery controls when minting, swapping, or deploying vaults lets mismatched parameters or locked tokens persist, causing irreversible fund loss, DoS, or unauthorized control.
 
 ## Cluster Information
 - **Total Findings:** 66

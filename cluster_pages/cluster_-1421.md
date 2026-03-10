@@ -4,7 +4,7 @@
 **Count:** 219  
 
 ## Label
-Failure to update critical state variables after ownership or operation changes, leading to incorrect state tracking, lost funds, or failed operations due to missing or inconsistent state synchronization.
+Failing to reset per-gateway stake and unstake counters when ownership or peerId cycles leaves stale records that let attackers withdraw funds repeatedly, ultimately draining contract balances and leaving operations inconsistent.
 
 ## Cluster Information
 - **Total Findings:** 219

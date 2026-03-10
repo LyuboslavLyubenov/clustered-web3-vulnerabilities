@@ -4,7 +4,7 @@
 **Count:** 577  
 
 ## Label
-Signature replay and misuse vulnerabilities enabling unauthorized transactions, impersonation, or front-running through insufficient message uniqueness, lack of sender validation, or inadequate input sanitization.
+Missing nonce/chain-id binding and insufficient sender/context validation let old signatures or unsigned data be replayed, enabling unauthorized token transfers, impersonation, or front-running.
 
 ## Cluster Information
 - **Total Findings:** 577

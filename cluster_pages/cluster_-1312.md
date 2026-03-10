@@ -4,7 +4,7 @@
 **Count:** 8  
 
 ## Label
-High gas cost and systemic failure due to repeated external calls and oracle dependency, leading to scalability issues and widespread protocol collapse under failure conditions.
+Expired oracle versions reuse prior valid prices because KeeperOracle commit copies the previous price instead of marking the version invalid, so markets treat invalid data as valid and keep orders open, breaking settlement guarantees.
 
 ## Cluster Information
 - **Total Findings:** 8

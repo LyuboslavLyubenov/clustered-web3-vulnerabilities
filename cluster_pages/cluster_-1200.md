@@ -4,7 +4,7 @@
 **Count:** 155  
 
 ## Label
-Failure to account for transaction fees in token transfers leads to incorrect liquidity calculations, fund loss, and unintended fee charges, enabling users to gain unfair advantages or lose protocol value.
+Checking transfer amounts against policy before deducting fee-on-transfer or rebasing adjustments causes protocols to credit liquidity or receipts based on inflated values, which results in underbacked balances and potential withdrawal shortfalls.
 
 ## Cluster Information
 - **Total Findings:** 155

@@ -4,7 +4,7 @@
 **Count:** 75  
 
 ## Label
-Inconsistent state validation and access controls across contracts lead to unauthorized access, state mismatches, and exploitable behavior due to missing or misaligned parameter checks and invariant enforcement.
+Divergent validation and access control logic across contracts leaves missing parameter checks and invariant enforcement, allowing attackers to bypass safeguards, gain unauthorized access, and corrupt shared state.
 
 ## Cluster Information
 - **Total Findings:** 75

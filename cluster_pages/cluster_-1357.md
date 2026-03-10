@@ -4,7 +4,7 @@
 **Count:** 703  
 
 ## Label
-Missing input validation and access controls enable malicious actors to exploit unauthorized operations, leading to unauthorized contract interactions, reentrancy, or denial-of-service through improper state checks or invalid parameter handling.
+Skipping validation of address parameters and state updates lets attackers reuse stale identifiers or zero addresses, enabling unauthorized operations that corrupt mappings, leak funds, or bypass expected access controls across adapters and gateways.
 
 ## Cluster Information
 - **Total Findings:** 703

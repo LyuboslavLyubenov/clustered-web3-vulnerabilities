@@ -4,7 +4,7 @@
 **Count:** 304  
 
 ## Label
-Insecure token approval mechanisms leading to unauthorized transfers, silent failures, or denial-of-service due to improper allowance handling and lack of validation.
+Using raw ERC20 approve calls for tokens with non-standard signatures or inconsistent allowance semantics causes reverts or ignored permissions, blocking swaps and permitting unauthorized transfers that drain or lock user funds.
 
 ## Cluster Information
 - **Total Findings:** 304

@@ -4,7 +4,7 @@
 **Count:** 21  
 
 ## Label
-Failure to properly validate or update Total Collateral Ratio (TCR) during redemptions enables cascading TCR drops, silent mode transitions, and invalid invariants, leading to systemic instability and griefing attacks.
+Redeeming without checking TCR against the correct threshold allows recovery-mode requirements to be skipped, cascading TCR drops and invalid invariants that block collateral retrieval and expose the protocol to instability and griefing.
 
 ## Cluster Information
 - **Total Findings:** 21

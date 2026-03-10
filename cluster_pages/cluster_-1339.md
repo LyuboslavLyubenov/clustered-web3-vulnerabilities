@@ -4,7 +4,7 @@
 **Count:** 13  
 
 ## Label
-Failure to validate recipient addresses across chains leads to irreversible asset misdirection or manipulation due to incorrect address mapping or assumptions about address consistency.
+Not verifying bridged recipient addresses against expected cross-chain peers allows malicious or incorrect contracts to receive messages, resulting in irreversible fund loss or unauthorized execution on the destination chain.
 
 ## Cluster Information
 - **Total Findings:** 13

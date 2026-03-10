@@ -4,7 +4,7 @@
 **Count:** 52  
 
 ## Label
-Precision errors in invariant checks due to flawed arithmetic operations, rounding, or improper scaling lead to invalid state transitions and enable attackers to manipulate or extract value without respecting pool constraints.
+Flawed scaling and rounding when computing the stable-pool invariant k yields zero for tiny deposits, breaking the safety check and letting attackers mint, drain assets, and DOS the pool.
 
 ## Cluster Information
 - **Total Findings:** 52

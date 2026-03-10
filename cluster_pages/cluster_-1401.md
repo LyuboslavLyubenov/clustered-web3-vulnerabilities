@@ -4,7 +4,7 @@
 **Count:** 31  
 
 ## Label
-Insufficient access control and bounds checking enable unauthorized asset withdrawals or permanent fund locking, leading to high-impact liquidity drain or user fund trapping.
+Inadequate access control and bounds validation around asset-dependent flows allows unexpected fallback behaviors or sub-account interactions to consume gas or bypass governance, enabling attackers to drain liquidity or lock user funds.
 
 ## Cluster Information
 - **Total Findings:** 31

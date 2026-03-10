@@ -4,7 +4,7 @@
 **Count:** 212  
 
 ## Label
-Misinterpretation of asset-sharing semantics and parameter logic leads to incorrect fund withdrawals, fee miscalculations, and inconsistent limits, causing permanent user losses or protocol incompatibility.
+Misaligned assumptions about ERC4626 asset semantics and parameter logic cause vault interfaces to report or enforce wrong limits, resulting in incorrect withdrawals, fee miscalculations, and locked funds for integrators.
 
 ## Cluster Information
 - **Total Findings:** 212

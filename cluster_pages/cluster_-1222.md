@@ -4,7 +4,7 @@
 **Count:** 31  
 
 ## Label
-Inadequate input validation and improper state synchronization lead to invalid state transitions, incorrect data returns, and unauthorized operations, enabling malicious actors to forge messages, manipulate validator sets, or trigger harmful side effects.
+Failing to validate required cross-chain balances or paired inputs before updating validator or folio state causes inconsistent transitions that break redelegations, lock accounts, and block protocol rebalancing operations.
 
 ## Cluster Information
 - **Total Findings:** 31

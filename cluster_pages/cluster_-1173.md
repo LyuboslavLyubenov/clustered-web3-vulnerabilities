@@ -4,7 +4,7 @@
 **Count:** 511  
 
 ## Label
-Inadequate input validation and arithmetic safeguards lead to incorrect state transitions, financial misalignment, and potential overflow or underflow, enabling malicious actors to manipulate fees, liquidity, or ratios.
+Inadequate tracking of net staked assets and unconditional validation against zero limits causes limit checks to reject valid stakes or max updates, shrinking available liquidity and blocking future staking or swap operations.
 
 ## Cluster Information
 - **Total Findings:** 511

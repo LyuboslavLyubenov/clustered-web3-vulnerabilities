@@ -4,7 +4,7 @@
 **Count:** 265  
 
 ## Label
-Insufficient input validation and state transition flaws enable attackers to exploit financial invariants, cause unintended portfolio exposure, or manipulate auction outcomes through bid re-execution, zero-value bids, or unbounded challenge cycles.
+Allowing arbitrary swap parameters and balance queries without validating against expected state or accounting enables attackers to manipulate swap flags and balances, locking victim funds and forcing inconsistent auction or vault outcomes.
 
 ## Cluster Information
 - **Total Findings:** 265

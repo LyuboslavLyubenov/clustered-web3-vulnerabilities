@@ -4,7 +4,7 @@
 **Count:** 10  
 
 ## Label
-Missing upper bounds on administrative fee settings enable arbitrary, unbounded fee increases, leading to excessive costs, financial loss, and degraded user trust due to unchecked administrative control.
+Unbounded admin fee setters omit upper limits, so administrators can inflate fees arbitrarily, leading to runaway costs that frustrate users and damage platform trust.
 
 ## Cluster Information
 - **Total Findings:** 10

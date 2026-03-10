@@ -4,7 +4,7 @@
 **Count:** 24  
 
 ## Label
-Missing account and mint validation enables attackers to spoof token accounts, redirect stakes, or forge valid operations—undermining system integrity and leading to unauthorized token transfers or incorrect state calculations.
+Missing account and mint verification allows spoofed token accounts and mismatched mint contexts, so attackers can bypass whitelist checks and trigger incorrect cross-chain deposits or unauthorized transfers, corrupting balances and economic accounting.
 
 ## Cluster Information
 - **Total Findings:** 24

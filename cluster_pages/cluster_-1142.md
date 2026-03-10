@@ -4,7 +4,7 @@
 **Count:** 73  
 
 ## Label
-Failure to validate or check contract state before execution leads to incorrect state updates, unauthorized operations, or silent failures, risking asset loss, inconsistent accounting, or exploitation during invalid or transitional states.
+Skipping validation of contract state or transitional conditions before making state changes allows operations that proceed with outdated, zeroed, or unauthorized values and can result in incorrect accounting, frozen assets, or DoS/asset theft.
 
 ## Cluster Information
 - **Total Findings:** 73

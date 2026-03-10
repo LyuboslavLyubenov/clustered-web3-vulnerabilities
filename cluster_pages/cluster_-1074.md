@@ -4,7 +4,7 @@
 **Count:** 10  
 
 ## Label
-Improper validation of input parameters and transaction data leads to unauthorized function execution, incorrect state transitions, or bypassed access controls, enabling reentrancy, spoofed calls, or denial-of-service.
+Failure to validate user-supplied Command payloads before anchoring them to compliance diamond calls allows arbitrary ABI data to reach sensitive facets, letting attackers drain native tokens or corrupt protocol state.
 
 ## Cluster Information
 - **Total Findings:** 10

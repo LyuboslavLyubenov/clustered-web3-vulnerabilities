@@ -4,7 +4,7 @@
 **Count:** 200  
 
 ## Label
-Inadequate validation of position size changes leads to incorrect state transitions, unauthorized position adjustments, and increased liquidation risk through flawed arithmetic or logic checks.
+Faulty state update that never records newly seized collateral as a supplied asset while changing position sizes causes zero collateral balance, so liquidators cannot redeem seized rewards until they manually supply the token.
 
 ## Cluster Information
 - **Total Findings:** 200

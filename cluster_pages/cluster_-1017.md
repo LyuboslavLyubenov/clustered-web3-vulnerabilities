@@ -4,7 +4,7 @@
 **Count:** 11  
 
 ## Label
-Missing input and state validation leads to unauthorized fund withdrawals, invalid state transitions, and potential financial loss through improper checks on participation, game status, and balance constraints.
+Missing checks on player participation state, balances, and payout amounts allow adversaries to bypass validation, causing unauthorized withdrawals, invalid game transitions, and financial loss once malformed game data is processed.
 
 ## Cluster Information
 - **Total Findings:** 11

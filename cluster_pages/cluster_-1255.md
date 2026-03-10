@@ -4,7 +4,7 @@
 **Count:** 60  
 
 ## Label
-Inconsistent or missing validation of zero or invalid deposit amounts across asset types leads to unauthorized fund transfers, state corruption, or failed status updates, enabling front-running, misallocation, or permanent fund trapping.
+Skipping precise validation between sent and received OFT amounts when fees, dust removal, or differing decimals distort balances lets transfers revert or misattribute assets, blocking cross-chain movement and risking unauthorized withdrawals.
 
 ## Cluster Information
 - **Total Findings:** 60

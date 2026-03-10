@@ -4,7 +4,7 @@
 **Count:** 6  
 
 ## Label
-Inconsistent function signatures and return types lead to incorrect interface IDs and function selectors, enabling interoperability failures and signature forgery through malformed or padded call data.
+Missing or mis-typed interface functions corrupt interface identifiers and cause contract calls against the faulty interface to revert, preventing downstream services from executing their intended logic.
 
 ## Cluster Information
 - **Total Findings:** 6

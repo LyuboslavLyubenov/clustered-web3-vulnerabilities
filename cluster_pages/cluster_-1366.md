@@ -4,7 +4,7 @@
 **Count:** 23  
 
 ## Label
-Misleading balance tracking and flawed deposit mechanisms lead to incorrect user entitlements, fund depletion, and loss of rewards due to failure to account for dynamic token supply or transfer fees.
+Failing to measure actual received token amounts and to adjust deposits/swaps for fee-on-transfer dynamics causes bookkeeping to overstate balances, which leads to incorrect claims, drained reserves, and lost rewards.
 
 ## Cluster Information
 - **Total Findings:** 23

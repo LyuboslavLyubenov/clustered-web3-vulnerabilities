@@ -4,7 +4,7 @@
 **Count:** 100  
 
 ## Label
-Inaccurate asset valuation and share calculations due to flawed arithmetic, rounding, or validation lead to incorrect user allocations, potential fund loss, and system failures in capital access and redistribution.
+Misapplied math/rounding in share burns or asset transfers (wrong APR formula, fee-on-transfer handling, rounding direction) skews price calculations, letting misallocations or withdrawals leak value and unfairly favor certain users.
 
 ## Cluster Information
 - **Total Findings:** 100

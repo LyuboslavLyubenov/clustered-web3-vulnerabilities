@@ -4,7 +4,7 @@
 **Count:** 264  
 
 ## Label
-Decimal precision mismatches in token handling lead to incorrect value calculations, flawed transfers, and financial losses due to improper scaling and lack of consistent decimal normalization across functions and chains.
+Mismatched decimal scaling between token operations causes inconsistent handling of fees and balances, so calculations believe more value moved than actually transferred, producing incorrect accounting and risking liquidity shortfalls for users.
 
 ## Cluster Information
 - **Total Findings:** 264

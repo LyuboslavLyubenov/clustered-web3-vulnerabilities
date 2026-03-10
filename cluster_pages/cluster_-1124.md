@@ -4,7 +4,7 @@
 **Count:** 7  
 
 ## Label
-Misuse of `msg.sender` in external functions leads to incorrect state access, unintended defaults, and inconsistent behavior for external callers—compromising accuracy and reliability of returned values.
+External functions read/write counters using `msg.sender` instead of the original caller when multicallers invoke them, so state locks to `address(1)` and users cannot fetch or update their counters.
 
 ## Cluster Information
 - **Total Findings:** 7

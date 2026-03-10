@@ -4,7 +4,7 @@
 **Count:** 22  
 
 ## Label
-Failure to validate input parameters against zero leads to division-by-zero panics, compromising contract stability and risking denial of service or ineffective risk controls.
+Unchecked acceptance of zero or negative inputs before division/logarithm calculations lets arithmetic operations hit division-by-zero or invalid math results, destabilizing contracts and allowing denial-of-service or corrupt data in dependent systems.
 
 ## Cluster Information
 - **Total Findings:** 22

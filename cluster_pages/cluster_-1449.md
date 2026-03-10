@@ -4,7 +4,7 @@
 **Count:** 19  
 
 ## Label
-Missing zero-amount validation in transfers leads to reverts on tokens that reject zero-value transfers, causing denial-of-service, failed operations, or unintended state changes.
+Failing to guard transfers against zero amounts causes tokens that reject zero-value transfers to revert, leading to stalled callbacks and broader denial-of-service when collateral cancellation logic tries to move nothing.
 
 ## Cluster Information
 - **Total Findings:** 19

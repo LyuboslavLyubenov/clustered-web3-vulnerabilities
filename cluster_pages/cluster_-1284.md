@@ -4,7 +4,7 @@
 **Count:** 624  
 
 ## Label
-Reentrancy vulnerabilities enable attackers to exploit recursive function calls before state updates, leading to unauthorized fund extraction or incorrect state transitions through improper interaction ordering and missing guards.
+Calling hooklets or refunds before final callbacks and lacking cross-contract reentrancy guards lets attackers re-enter during intermediate state, corrupting referral/reward accounting and enabling unauthorized unlocks, deposits, or withdrawals.
 
 ## Cluster Information
 - **Total Findings:** 624

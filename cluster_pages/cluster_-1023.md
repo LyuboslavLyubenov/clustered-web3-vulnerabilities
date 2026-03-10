@@ -4,7 +4,7 @@
 **Count:** 39  
 
 ## Label
-Unauthorized access to user funds through insecure delegation and lack of access control boundaries, enabling malicious actors to drain assets without user consent or protocol oversight.
+Failing to reset all Fenwick tree slots after withdrawals leaves stale balances at non-power-of-two indices, causing new deposits to include legacy totals and letting users withdraw inflated amounts, bleeding others’ assets.
 
 ## Cluster Information
 - **Total Findings:** 39

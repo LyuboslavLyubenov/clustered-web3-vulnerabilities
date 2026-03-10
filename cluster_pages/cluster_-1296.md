@@ -4,7 +4,7 @@
 **Count:** 50  
 
 ## Label
-**Improper fee handling due to flawed logic, state inconsistency, or incorrect assumptions about fee application, leading to double charges, loss of funds, or fee evasion.**
+Flawed logic and incorrect state assumptions about how fees are applied cause the contract to miscalculate balances, enabling double charges, loss of protocol revenue, or total fee evasion for swaps and flash loans.
 
 ## Cluster Information
 - **Total Findings:** 50

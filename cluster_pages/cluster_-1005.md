@@ -4,7 +4,7 @@
 **Count:** 1049  
 
 ## Label
-Precision loss and logic flaws in reward calculations due to improper handling of fixed-point arithmetic, incorrect loop bounds, and inconsistent state updates, leading to systematic underpayment, denial of service, and wealth leakage.
+Calling emergency recovery routines instead of reward-aware functions while shadowing rewardRate or ignoring original AVM owners leaves stored reward metrics stale, preventing recalculations and permanently diverting rewards from rightful users.
 
 ## Cluster Information
 - **Total Findings:** 1049

@@ -4,7 +4,7 @@
 **Count:** 9  
 
 ## Label
-Inconsistent state synchronization across pool updates leads to flawed share tracking, incorrect reward calculations, and phantom or lost asset distributions, causing financial discrepancies and unfair user outcomes.
+Stale or missing updates to shared state (pool, share, and owner mappings) cause payout calculations to rely on outdated share counts, resulting in incorrect rewards and phantom or lost coupon distributions.
 
 ## Cluster Information
 - **Total Findings:** 9

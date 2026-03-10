@@ -4,7 +4,7 @@
 **Count:** 99  
 
 ## Label
-Inaccurate state updates due to improper edge case handling, leading to fund locking, incorrect matching, or erroneous token transfers and enabling denial-of-service or financial loss.
+Missing edge-case state checks allow token supply or liquidity calculations to lock funds or misroute swaps, causing denial of service and financial loss by preventing correct matching or transfers.
 
 ## Cluster Information
 - **Total Findings:** 99

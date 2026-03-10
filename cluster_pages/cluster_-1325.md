@@ -4,7 +4,7 @@
 **Count:** 81  
 
 ## Label
-Insufficient input validation and improper state initialization lead to out-of-bounds access, undefined behavior, and unauthorized state manipulation, enabling exploitation through invalid data, race conditions, or inconsistent transitions.
+Failure to validate vault uniqueness, asset alignment, and mapping cleanup lets stale or mismatched entries survive, corrupting accounting state and enabling unauthorized actions or incorrect access.
 
 ## Cluster Information
 - **Total Findings:** 81

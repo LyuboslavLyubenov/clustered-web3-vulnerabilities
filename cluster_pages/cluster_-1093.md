@@ -4,7 +4,7 @@
 **Count:** 642  
 
 ## Label
-Reentrancy vulnerabilities enable attackers to exploit recursive function calls before state updates, leading to unauthorized fund extraction or incorrect state transitions through improper interaction ordering and missing guards.
+Shared global reentrancy guard lets cross-contract hook-invoked callbacks call malicious contracts before balances/vault reserves/referral scores are committed, allowing attackers to disable protections and drain those assets.
 
 ## Cluster Information
 - **Total Findings:** 642

@@ -4,7 +4,7 @@
 **Count:** 19  
 
 ## Label
-Failure to validate or update state upon blacklisting leads to incorrect allocations, denial of service, and loss of yield optimization due to inconsistent or blocked protocol state progression.
+Skipping idempotent checks when blacklisting or jailing already-blocked validators allows `JailValidators()` to error, so `EndBlock()` reverts and proving scheme activation, root submissions, and upgrades stay blocked.
 
 ## Cluster Information
 - **Total Findings:** 19

@@ -4,7 +4,7 @@
 **Count:** 6  
 
 ## Label
-Failure to validate critical preconditions before executing transfers or balance checks, leading to incorrect state transitions, fund locks, or misleading user feedback.
+Insufficient validation of transfer or funding preconditions—like mask combinations that always allow operations or zero refunds on revert-on-zero tokens—lets state transitions proceed without funds, locking sellers out of their payouts.
 
 ## Cluster Information
 - **Total Findings:** 6

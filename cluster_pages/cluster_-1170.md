@@ -4,7 +4,7 @@
 **Count:** 50  
 
 ## Label
-Missing authorization and account validation allow attackers to bypass access controls, manipulate state, or execute unauthorized operations through improper instruction checks or flawed account handling.
+Inconsistent authorization checks or flawed account parsing expose missing validation, letting attackers bypass access controls and mark protected accounts as writable so they can manipulate balances and execute unauthorized state changes or fund transfers.
 
 ## Cluster Information
 - **Total Findings:** 50

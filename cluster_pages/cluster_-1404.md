@@ -4,7 +4,7 @@
 **Count:** 42  
 
 ## Label
-Inaccurate state calculations due to flawed arithmetic, missing adjustments, or imprecise rounding lead to incorrect debt tracking, compromised financial accuracy, and loss of protocol revenue.
+Applying interest twice, stale indexes, or precision-loss arithmetic inflates debt figures and erroneously triggers liquidations while degrading protocol revenue and depositor returns.
 
 ## Cluster Information
 - **Total Findings:** 42

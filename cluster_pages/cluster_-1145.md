@@ -4,7 +4,7 @@
 **Count:** 735  
 
 ## Label
-Failure to validate or check contract state before execution leads to incorrect state updates, unauthorized operations, or silent failures, risking asset loss, inconsistent accounting, or exploitation during invalid or transitional states.
+Allowing execution without validating caller-controlled parameters or current swap/bridge state enables attackers to trigger arbitrary calls, corrupt nonces, or lock deployments, resulting in unauthorized operations and permanent service disruption.
 
 ## Cluster Information
 - **Total Findings:** 735

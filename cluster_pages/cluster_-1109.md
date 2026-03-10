@@ -4,7 +4,7 @@
 **Count:** 962  
 
 ## Label
-Missing input validation and access controls enable malicious actors to exploit unauthorized operations, leading to unauthorized contract interactions, reentrancy, or denial-of-service through improper state checks or invalid parameter handling.
+Permitting arbitrary exchange/address/router calldata without validation lets attackers force the proxy to make unauthorized calls, corrupt Permit2 nonces, and lock swap flows or misreport swap state, effectively blocking swaps.
 
 ## Cluster Information
 - **Total Findings:** 962

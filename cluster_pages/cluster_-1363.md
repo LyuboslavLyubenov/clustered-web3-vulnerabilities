@@ -4,7 +4,7 @@
 **Count:** 135  
 
 ## Label
-Failure to validate recipient contracts during ERC721/ERC1155 minting, leading to asset trapping or irreversible loss due to missing receiver interface checks.
+Mint paths fail to validate that recipient contracts support the ERC721/ERC1155 receiver interfaces and approved transfers, so NFTs revert or get stuck, preventing safe receipt and enabling asset loss or DoS.
 
 ## Cluster Information
 - **Total Findings:** 135

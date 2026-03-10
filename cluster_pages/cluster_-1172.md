@@ -4,7 +4,7 @@
 **Count:** 14  
 
 ## Label
-Inefficient account handling and misaligned instruction logic lead to unnecessary transaction costs, redundant state operations, and invalid instruction execution due to incorrect mutability or account requirements.
+Misconfigured instructions that mark key accounts read-only or include unnecessary system accounts cause incorrect mutability and ordering, so transactions either fail, abort due to locked state access, or consume extra compute and rent.
 
 ## Cluster Information
 - **Total Findings:** 14

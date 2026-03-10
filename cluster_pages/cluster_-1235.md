@@ -4,7 +4,7 @@
 **Count:** 104  
 
 ## Label
-Inconsistent or stale oracle price usage leads to inaccurate collateral calculations, enabling exploitation through arbitrage, inflated ratios, and asymmetric incentives, ultimately undermining margin safety and economic disincentives.
+Stale or inconsistent oracle prices cause collateral math to use wrong valuations, letting arbitrage or asymmetric incentives corrupt margin safety and undermining liquidation thresholds.
 
 ## Cluster Information
 - **Total Findings:** 104

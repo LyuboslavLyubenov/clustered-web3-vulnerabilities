@@ -4,7 +4,7 @@
 **Count:** 161  
 
 ## Label
-Failure to validate or enforce whitelisted entity constraints leads to unauthorized access, redundant operations, or persistent exposure to malicious actors through inadequate input checks, state management, or control flow design.
+Insufficient validation and enforcement of whitelist constraints lets unapproved entities remain active, leading to unauthorized access, redundant operations, or persistent exposure to malicious actors through stale or incorrect state.
 
 ## Cluster Information
 - **Total Findings:** 161

@@ -4,7 +4,7 @@
 **Count:** 9  
 
 ## Label
-Front-running attacks exploit transaction ordering and inadequate fee controls, allowing malicious actors to profit from or disrupt legitimate claims by manipulating gas pricing and reward mechanisms.
+Attackers exploit reliance on tx.gasprice checks and predictable execution ordering to front-run operator jobs, enabling bond slashing or theft and undermining honest requesters' karma rewards.
 
 ## Cluster Information
 - **Total Findings:** 9

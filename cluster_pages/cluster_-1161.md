@@ -4,7 +4,7 @@
 **Count:** 32  
 
 ## Label
-Missing initialization or setter functions leads to permanent, unchangeable default values, causing critical flaws in fee management, protocol functionality, and revenue control.
+Hardcoded default fee counters and absent setters lock gauge fee state at placeholder balances, so fee collection reports phantom rewards and eventually reverts, blocking revenue distribution and bribe payouts.
 
 ## Cluster Information
 - **Total Findings:** 32

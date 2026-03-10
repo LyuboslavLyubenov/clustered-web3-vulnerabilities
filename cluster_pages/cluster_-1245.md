@@ -4,7 +4,7 @@
 **Count:** 37  
 
 ## Label
-Inconsistent or incorrect total supply tracking due to unit errors, flawed state updates, or misuse of supply variables, leading to inaccurate supply reporting, division-by-zero, or invalid state transitions.
+Failing to decrement `supply` when NFTs merge before re-depositing inflates the tracked total, so the invariant accounting is broken and on-chain balances or governance calculations treat supply as higher than reality.
 
 ## Cluster Information
 - **Total Findings:** 37

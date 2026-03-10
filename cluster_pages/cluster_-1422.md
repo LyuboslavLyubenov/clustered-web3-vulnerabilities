@@ -4,7 +4,7 @@
 **Count:** 175  
 
 ## Label
-Failure to account for accrued interest in rate calculations and state updates leads to mispriced rates, retroactive rate application, and inaccurate utilization, enabling financial exploitation and protocol instability.
+Omitting accrued interest and per-vault state when updating rate strategies causes rate calculations to reuse stale or zero parameters, mispricing borrowing costs and enabling severe financial exploitation or protocol instability.
 
 ## Cluster Information
 - **Total Findings:** 175

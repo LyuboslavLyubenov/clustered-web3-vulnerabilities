@@ -4,7 +4,7 @@
 **Count:** 149  
 
 ## Label
-Inconsistent fee handling and data validation across critical functions lead to inaccurate cost estimates, financial loss, and protocol dysfunction due to flawed logic, missing checks, or misaligned state assumptions.
+Using different actors and formulas to recompute fees between preview and execution functions causes recalculated fees to be applied without charging the user, which corrupts accounting and enables double spending.
 
 ## Cluster Information
 - **Total Findings:** 149

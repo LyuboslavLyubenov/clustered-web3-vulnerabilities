@@ -4,7 +4,7 @@
 **Count:** 19  
 
 ## Label
-Failure to validate or enforce vesting parameters allows attackers or admins to manipulate token release schedules, leading to incorrect distributions, loss of economic control, or unintended early releases.
+Absent checks on vesting timestamps, caps, and related parameters allow attackers or admins to craft invalid schedules, enabling premature or inflated token releases that misallocate rewards and destabilize economic controls.
 
 ## Cluster Information
 - **Total Findings:** 19

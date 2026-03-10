@@ -4,7 +4,7 @@
 **Count:** 876  
 
 ## Label
-Precision loss and logic flaws in reward calculations due to improper handling of fixed-point arithmetic, incorrect loop bounds, and inconsistent state updates, leading to systematic underpayment, denial of service, and wealth leakage.
+Reward accounting functions call incorrect helpers or shadow storage when resolving owners, so reward rates stay wrong and beneficiaries consistently receive underpayments or permanently lose rewards due to outdated distributions.
 
 ## Cluster Information
 - **Total Findings:** 876

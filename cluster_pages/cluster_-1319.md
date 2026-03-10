@@ -4,7 +4,7 @@
 **Count:** 29  
 
 ## Label
-Premature state modifications and gas-limited transfers create race conditions and transaction failures, leading to inefficiencies, logical errors, and operational risks in token handling and state transitions.
+Premature deposits and 2300-gas transfers before completing recipient validation waste gas and cause reverts when complex receivers need more, undermining reliable token routing and state transitions.
 
 ## Cluster Information
 - **Total Findings:** 29

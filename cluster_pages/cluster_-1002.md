@@ -4,7 +4,7 @@
 **Count:** 8  
 
 ## Label
-Lack of SPDX license identifiers compromises legal clarity and trust by creating ambiguity in licensing terms, exposing projects to intellectual property risks and undermining auditability and compliance in smart contracts.
+Missing SPDX identifiers or LICENSE files in Solidity sources prevents compilers from confirming permissions, so compliance status stays undefined and audits fail while intellectual property/distribution exposures persist.
 
 ## Cluster Information
 - **Total Findings:** 8

@@ -4,7 +4,7 @@
 **Count:** 68  
 
 ## Label
-Inaccurate mathematical calculations in pricing and rate computations due to flawed arithmetic logic or improper precision handling, leading to erroneous asset valuations, flawed trade execution, and potential financial loss.
+Flawed pricing logic—like ignoring swap fees, relying on stale or hardcoded rates, or risking division-by-zero when ratios collapse—produces incorrect exchange values that enable arbitrage, liquidation, and lost funds.
 
 ## Cluster Information
 - **Total Findings:** 68

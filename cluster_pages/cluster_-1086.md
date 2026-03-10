@@ -4,7 +4,7 @@
 **Count:** 12  
 
 ## Label
-Misuse of deprecated ETH transfer methods leads to silent failures, reentrancy risks, and loss of funds due to lack of result validation and EVM upgrade incompatibility.
+Continuing to rely on Istanbul-deprecated .transfer()/ .send() calls without validating results lets failed ETH sends go unnoticed, exposing contracts to reentrancy and risking locked or lost funds.
 
 ## Cluster Information
 - **Total Findings:** 12

@@ -4,7 +4,7 @@
 **Count:** 6  
 
 ## Label
-Failure to validate zero withdrawal amounts leads to reverts during emergency or reallocation, locking funds due to improper input checks and inadequate handling of empty positions.
+Not validating zero withdrawal amounts lets calls hit validation logic that requires positive amounts, causing reallocation or emergency exits to revert and leaving liquidity locked in the affected pool.
 
 ## Cluster Information
 - **Total Findings:** 6

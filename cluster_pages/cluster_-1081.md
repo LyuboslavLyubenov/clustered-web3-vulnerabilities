@@ -4,7 +4,7 @@
 **Count:** 222  
 
 ## Label
-Inadequate arithmetic precision and improper state management enable attackers to manipulate token allocations, bypass vesting, or exploit remainders for unfair gains, leading to financial loss or unfair advantages.
+Unchecked arithmetic on reward and split math combined with missing bounds checks lets overflows or underflows corrupt reward data, leading to incorrect payouts, failed claims, and fake voting power.
 
 ## Cluster Information
 - **Total Findings:** 222

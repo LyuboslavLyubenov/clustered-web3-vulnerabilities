@@ -4,7 +4,7 @@
 **Count:** 22  
 
 ## Label
-Inaccurate decimal handling in share and asset calculations leads to flawed liquidity, pricing, and conversion mechanics, enabling attacks or capital misallocation through arithmetic errors and improper normalization.
+Assuming vault share decimals match the underlying asset makes share-price math run at wrong precision, causing needless surge fees or uint120 overflows that can abort swaps and rebalance orders, locking liquidity.
 
 ## Cluster Information
 - **Total Findings:** 22

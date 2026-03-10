@@ -4,7 +4,7 @@
 **Count:** 13  
 
 ## Label
-Missing access control and authorization checks enable unauthorized users or entities to manipulate core financial logic, leading to fund drains, unlimited leverage, or invalid asset approvals.
+Guardian approval hashes omit `_proof`, so the final signer can choose arbitrary proof data, letting them force or withhold liveness bond returns to assigned provers and potentially drain or misallocate those funds.
 
 ## Cluster Information
 - **Total Findings:** 13

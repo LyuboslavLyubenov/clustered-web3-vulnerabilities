@@ -4,7 +4,7 @@
 **Count:** 351  
 
 ## Label
-Flawed ownership and approval validation leads to unauthorized access, denial of service, and incorrect token state, enabling users to bypass intended access controls or manipulate token balances.
+Failing to reset approval or ownership state when reusing commitment or token IDs allows stale approvals to persist, enabling attackers to bypass controls and either block votes or drain tokens.
 
 ## Cluster Information
 - **Total Findings:** 351

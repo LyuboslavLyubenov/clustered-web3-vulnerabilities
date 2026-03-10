@@ -4,7 +4,7 @@
 **Count:** 44  
 
 ## Label
-Insufficient asset validation leads to incorrect calculations, enabling underflow, denial of service, or asset mismanagement through flawed balance checks and reliance on unreliable external balances.
+Relying on previewWithdraw rounding up without validating sUSDe conversions causes miscalculated asset transfers, leaking value to redeemers and making accounting inconsistent so yUSDe depositors lose funds.
 
 ## Cluster Information
 - **Total Findings:** 44

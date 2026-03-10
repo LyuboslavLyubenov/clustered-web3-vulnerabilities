@@ -4,7 +4,7 @@
 **Count:** 47  
 
 ## Label
-Inconsistent token accounting and flawed liquidity validation lead to visibility gaps, unintended constraints, and yield erosion, enabling users to hide assets, exploit fee mechanics, or destabilize pool invariants.
+Unrestricted LP token burning combined with mismatched supply accounting lets attackers shrink the pool supply, breaking mint math so later deposits fruitlessly mint zero LPs or trigger slippage failures that deny service or silently steal funds.
 
 ## Cluster Information
 - **Total Findings:** 47

@@ -4,7 +4,7 @@
 **Count:** 59  
 
 ## Label
-Lack of proper access control and validation enables unauthorized or malicious actors to execute critical operations, bypassing intended safeguards through insufficient checks on callers, addresses, or contract interfaces.
+Missing caller validation and compromised-address checks let compromised or unauthorized addresses bypass access controls, execute sensitive functions, and manipulate funds, opening the protocol to theft or other contract disruptions.
 
 ## Cluster Information
 - **Total Findings:** 59

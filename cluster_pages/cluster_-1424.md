@@ -4,7 +4,7 @@
 **Count:** 7  
 
 ## Label
-Incorrect token transfer sourcing enables unauthorized movement, reverts, and double payments due to flawed balance validation and improper recipient assignment.
+Flawed transfer logic that skips proper balance checking and routes tokens to contracts lacking withdrawal paths causes funds to lock, enabling unauthorized movements and preventing rightful claims when the balance expectations diverge.
 
 ## Cluster Information
 - **Total Findings:** 7

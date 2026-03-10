@@ -4,7 +4,7 @@
 **Count:** 17  
 
 ## Label
-Failure to validate NFT ownership before critical operations, enabling spoofing, unauthorized acquisition, or exposure of invalid metadata due to insufficient checks against ERC721 ownership rules.
+Skipping ERC721 ownership validation before burning or resetting NFTs lets functions operate on tokens the caller no longer owns, breaking reward claims and allowing spoofed rewards that lock unclaimable bribes.
 
 ## Cluster Information
 - **Total Findings:** 17

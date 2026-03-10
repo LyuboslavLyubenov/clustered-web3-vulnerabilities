@@ -4,7 +4,7 @@
 **Count:** 212  
 
 ## Label
-Inconsistent fee calculations across withdrawal and preview functions lead to incorrect asset valuation, inflated deposits, and reduced protocol revenue—enabling users to extract more than intended through mathematical errors in fee compounding or application.
+Misinterpreting ERC4626 asset-sharing semantics across withdraw/mint wrappers and preview functions prevents consistent deposit/withdraw limits, causing integration failures, unexpected withdrawals, and protocol losses when vaults report wrong allowances.
 
 ## Cluster Information
 - **Total Findings:** 212

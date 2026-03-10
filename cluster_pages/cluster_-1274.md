@@ -4,7 +4,7 @@
 **Count:** 6  
 
 ## Label
-Failure to validate function return values leads to unhandled execution errors and silent state mismatches, compromising correctness and reliability of critical operations.
+Ignoring EnumerableSet return booleans in collateral/action updates prevents detecting duplicates or missing entries, so events still fire while state stays wrong, masking failures and undermining protocol correctness.
 
 ## Cluster Information
 - **Total Findings:** 6

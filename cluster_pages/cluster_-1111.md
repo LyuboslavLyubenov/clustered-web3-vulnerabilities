@@ -4,7 +4,7 @@
 **Count:** 19  
 
 ## Label
-Hardcoded addresses limit flexibility, expose contracts to misconfiguration, and prevent dynamic updates—increasing attack surface and undermining cross-chain deployability and maintainability.
+Hardcoding protocol addresses bypasses dynamic address resolution so that upgrades leave consumers calling obsolete contracts, breaking functionality and exposing integrations to stale dependencies attackers can exploit.
 
 ## Cluster Information
 - **Total Findings:** 19

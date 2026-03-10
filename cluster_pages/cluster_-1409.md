@@ -4,7 +4,7 @@
 **Count:** 7  
 
 ## Label
-Race conditions in balance updates lead to misleading event emissions and inconsistent state visibility, enabling erroneous transfers or fund loss through improper ordering or delayed balance adjustments.
+Delayed or improperly ordered balance synchronization before emitting transfer events creates race conditions, resulting in incorrect event data and allowing misallocated transfers or potential fund loss.
 
 ## Cluster Information
 - **Total Findings:** 7

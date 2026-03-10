@@ -4,7 +4,7 @@
 **Count:** 202  
 
 ## Label
-Insufficient state validation enables unauthorized state overwrites or double execution, leading to fund loss, inconsistent transitions, or unintended payments due to missing checks on existing states or values.
+Failing to validate that mappings or auction state remain fresh allows stale assignments to be overwritten, enabling adversaries to reroute vaults or block bids and drain assets.
 
 ## Cluster Information
 - **Total Findings:** 202

@@ -4,7 +4,7 @@
 **Count:** 17  
 
 ## Label
-Clock-based state validation failures leading to invalid state transitions, premature clock exhaustion, and unfair or redundant claim execution in dispute resolution.
+Faulty clock-based state validation that assumes synchronized deterministic clocks triggers invalid state transitions and exhausts clock resources, making dispute resolution unfair or reopening settled claims.
 
 ## Cluster Information
 - **Total Findings:** 17

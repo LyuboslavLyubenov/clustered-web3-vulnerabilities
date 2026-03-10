@@ -4,7 +4,7 @@
 **Count:** 21  
 
 ## Label
-Failure to validate critical invariants across control flow paths enables attackers to induce crashes, disrupt consensus, or manipulate data—leading to denial-of-service or loss of integrity through unverified or malformed inputs.
+Failing to validate critical invariants on proposal and sanity-check paths lets attackers supply forged inputs or mis-set tolerances, causing wrongful bond payouts, griefing users, and destabilizing consensus.
 
 ## Cluster Information
 - **Total Findings:** 21

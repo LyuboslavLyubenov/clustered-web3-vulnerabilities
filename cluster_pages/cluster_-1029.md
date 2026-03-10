@@ -4,7 +4,7 @@
 **Count:** 56  
 
 ## Label
-Failure to validate or properly handle return values from critical operations leads to silent failures, loss of execution data, and undetected state changes, undermining security, transparency, and correctness.
+Ignoring or not validating returns of critical functions causes untracked failure conditions that propagate inconsistent state and open a broader attack surface, undermining correctness and leaving callers blind to errors.
 
 ## Cluster Information
 - **Total Findings:** 56

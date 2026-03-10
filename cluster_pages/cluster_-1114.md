@@ -4,7 +4,7 @@
 **Count:** 84  
 
 ## Label
-Failure to validate access or collect fees during asset transfers leads to unauthorized movement of tokens or value leakage, enabling attackers to withdraw assets or manipulate slashing without proper authorization or fee collection.
+Because native asset bridges call ERC20 transfer helpers against the sentinel native address, the low-level call always succeeds without moving funds, so fee collection fails and the protocol loses revenue on every bridge.
 
 ## Cluster Information
 - **Total Findings:** 84

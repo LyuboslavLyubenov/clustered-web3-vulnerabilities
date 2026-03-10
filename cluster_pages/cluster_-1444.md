@@ -4,7 +4,7 @@
 **Count:** 153  
 
 ## Label
-Failure to update critical state variables after ownership or operation changes, leading to incorrect state tracking, lost funds, or failed operations due to missing or inconsistent state synchronization.
+Neglecting to refresh vault accounting after ownership or phase shifts causes redundant balances or unnoticed rounding errors, allowing withdrawals to overpay recipients and leak value from the protocol.
 
 ## Cluster Information
 - **Total Findings:** 153

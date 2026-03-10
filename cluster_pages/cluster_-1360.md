@@ -4,7 +4,7 @@
 **Count:** 94  
 
 ## Label
-Inadequate input validation and arithmetic safeguards lead to incorrect state transitions, financial misalignment, and potential overflow or underflow, enabling malicious actors to manipulate fees, liquidity, or ratios.
+Mutable configuration combined with flawed guard checks (e.g., tunable limits, rounding gaps, OR-based bounds) lets attackers bypass constraints, triggering unauthorized state transitions, mispricing, or reserve manipulation.
 
 ## Cluster Information
 - **Total Findings:** 94

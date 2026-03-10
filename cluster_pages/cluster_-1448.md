@@ -4,7 +4,7 @@
 **Count:** 84  
 
 ## Label
-Inconsistent state validation and incomplete access controls enable attackers to manipulate token balances, bypass safeguards, or extract funds—leading to fund loss, supply overruns, or systemic risk.
+Validation that omits the new minted/borrowed token state—such as stale cap checks or wrong chain token references—allows limits to be exceeded and liquidations to fail, risking fund loss and systemic insolvency.
 
 ## Cluster Information
 - **Total Findings:** 84

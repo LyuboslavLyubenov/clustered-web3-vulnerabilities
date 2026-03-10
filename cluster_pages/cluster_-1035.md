@@ -4,7 +4,7 @@
 **Count:** 54  
 
 ## Label
-Insufficient balance validation and improper state tracking lead to unauthorized fund manipulation, incorrect repayment recognition, and loss of assets due to timing flaws and token dynamics.
+Failing to validate asset balances and refresh liquidity or module state before hedging, swaps, or withdrawals leaves totals stale, allowing zero-value withdraw attempts that revert, mint wrong shares, or bleed funds.
 
 ## Cluster Information
 - **Total Findings:** 54

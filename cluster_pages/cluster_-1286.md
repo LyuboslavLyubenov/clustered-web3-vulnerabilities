@@ -4,7 +4,7 @@
 **Count:** 26  
 
 ## Label
-Failure to synchronize asset state and ownership transfers leads to irreversible loss of user control and inconsistent value reporting, enabling fund mismanagement and protocol failures.
+Incomplete Fenwick tree reset after withdrawals leaves stale balances, allowing attackers to withdraw excess funds from other users and misreport pool state, causing permanent user asset loss and fund mismanagement.
 
 ## Cluster Information
 - **Total Findings:** 26

@@ -4,7 +4,7 @@
 **Count:** 31  
 
 ## Label
-Inadequate validation and state isolation in advanced order fulfillment lead to incorrect asset transfers, inconsistent recipient handling, and exploitable state mismatches during execution.
+Rounding-up asset conversion combined with insufficient validation of withdrawal state causes redemptions to transfer more shares than intended, leaking value to certain holders while draining the protocol and other depositors.
 
 ## Cluster Information
 - **Total Findings:** 31

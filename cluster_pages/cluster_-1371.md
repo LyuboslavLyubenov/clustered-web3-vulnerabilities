@@ -4,7 +4,7 @@
 **Count:** 21  
 
 ## Label
-Failure to properly handle errors or invalid inputs leads to incorrect state transitions, incorrect calculations, or denial of service, resulting in financial loss or compromised functionality.
+Missing validation of critical input parameters such as `twapInterval` or `PRICE_BAND_WIDTH` allows zeros or inconsistent widths, causing core calculations and deletions to fail and leaving contracts unusable or financially harmed.
 
 ## Cluster Information
 - **Total Findings:** 21

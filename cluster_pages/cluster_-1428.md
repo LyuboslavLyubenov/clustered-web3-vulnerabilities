@@ -4,7 +4,7 @@
 **Count:** 17  
 
 ## Label
-Insufficient state validation and flawed access control allow unauthorized full liquidity extraction during active periods, enabling attackers to drain funds through bypassed balance and period checks.
+Recalculating the initial deposit using mutable governance parameters instead of stored originals causes cancelProgram to miscalculate buffer amounts, so cancelation fails or treasury receives wrong funds when governance adjusts minimum deposit or liquidation periods.
 
 ## Cluster Information
 - **Total Findings:** 17

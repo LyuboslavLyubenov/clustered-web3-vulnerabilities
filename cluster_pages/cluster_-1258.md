@@ -4,7 +4,7 @@
 **Count:** 83  
 
 ## Label
-Front-running exploits via mempool ordering enable attackers to profit from transaction timing gaps, manipulating prices, rewards, or state changes before legitimate users, leading to asymmetric gains and reward misallocation.
+Mempool-transparent transaction ordering combined with missing timing controls lets adversaries front-run deposits or reward claims, allowing them to capture rewards or block withdrawals ahead of legit users, skewing payouts and causing DoS.
 
 ## Cluster Information
 - **Total Findings:** 83

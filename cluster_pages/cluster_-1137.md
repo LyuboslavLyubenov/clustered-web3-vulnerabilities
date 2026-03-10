@@ -4,7 +4,7 @@
 **Count:** 18  
 
 ## Label
-**Blacklist exploitation leading to reward denial, fund locking, and unfair distributions via transaction reverts or unvalidated transfers.**
+**Unconditional transfers to potentially blacklisted addresses cause reverts, locking funds and denying cancellations, liquidations, or rewards because the token contract blocks blacklisted recipients.**
 
 ## Cluster Information
 - **Total Findings:** 18

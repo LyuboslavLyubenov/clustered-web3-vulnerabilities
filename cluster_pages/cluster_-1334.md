@@ -4,7 +4,7 @@
 **Count:** 11  
 
 ## Label
-Failure to validate message origin or target leads to unauthorized fund transfers, double-spending, or permanent loss of assets due to insufficient cross-domain authentication and state consistency checks.
+Skipping cross-domain origin and destination verification allows forged L1/L2 messages to execute unauthorized fund transfers, double-spend effects, or asset loss because the relay trust boundaries lack authentication or state consistency checks.
 
 ## Cluster Information
 - **Total Findings:** 11

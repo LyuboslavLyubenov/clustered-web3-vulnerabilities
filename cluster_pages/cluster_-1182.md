@@ -4,7 +4,7 @@
 **Count:** 202  
 
 ## Label
-Race conditions and improper state validation enable attackers to bypass withdrawal proofs, manipulate balances, or exploit timing to withdraw funds without valid conditions—leading to unauthorized fund access or loss.
+Race conditions caused by delayed or missing state validation during critical flows let attackers bypass withdrawal proofs or accept unexpected changes, enabling unauthorized fund withdrawals or compromised asset integrity.
 
 ## Cluster Information
 - **Total Findings:** 202

@@ -4,7 +4,7 @@
 **Count:** 325  
 
 ## Label
-Precision loss and logic flaws in reward calculations due to improper handling of fixed-point arithmetic, incorrect loop bounds, and inconsistent state updates, leading to systematic underpayment, denial of service, and wealth leakage.
+Inconsistent fee accounting arises from using receiver/owner-controlled variables and untrimmed deposit amounts when computing claimable fees, causing incorrect accrual that double-spends depositors and bloats reported protocol revenue.
 
 ## Cluster Information
 - **Total Findings:** 325

@@ -4,7 +4,7 @@
 **Count:** 7  
 
 ## Label
-Failure to persist reward token state leads to permanent loss of user rewards and irreversible contract failure due to missing state tracking and dynamic array misuse.
+Root cause is relying on transient reward token lists without persisting per-account reward balances, so removed or non-transferable tokens (like stash AURA) fail during payout, permanently trapping user rewards.
 
 ## Cluster Information
 - **Total Findings:** 7

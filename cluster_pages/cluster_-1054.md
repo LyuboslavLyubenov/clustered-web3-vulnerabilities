@@ -4,7 +4,7 @@
 **Count:** 75  
 
 ## Label
-Failure to properly route or validate funds during liquidation leads to unaddressed bad debt, undercollateralization, and protocol instability through incorrect entity authorization or missing token inclusion.
+Relying on previewWithdraw round-up share counts when sending liquidation payouts causes the system to mint and transfer extra sUSDe, draining protocol liquidity and leaving yUSDe deposits permanently undercollateralized.
 
 ## Cluster Information
 - **Total Findings:** 75

@@ -4,7 +4,7 @@
 **Count:** 9  
 
 ## Label
-Insufficient state validation and incorrect power calculations allow users to manipulate voting power and locked supply, bypassing caps and distorting governance incentives through biased, time-ignoring, or double-counted updates.
+Reuse of stale locked balances to compute new bias without accounting for decay or the already applied increase lets attackers inflate voting power and veToken rewards, distorting governance and distribution.
 
 ## Cluster Information
 - **Total Findings:** 9

@@ -4,7 +4,7 @@
 **Count:** 11  
 
 ## Label
-Misconfigured pricing logic and flawed state validation enable attackers or users to manipulate prices, bypass controls, or face denial of service—undermining accuracy, transparency, and usability in token pricing mechanisms.
+Broken price calculations and insufficient validation allow attackers to manipulate token valuations or force buyers to pay inflated amounts, leading to asset extraction, MEV front-running, and denial of service when limits trigger reverts.
 
 ## Cluster Information
 - **Total Findings:** 11

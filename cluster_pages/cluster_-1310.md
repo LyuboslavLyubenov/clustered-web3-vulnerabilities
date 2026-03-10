@@ -4,7 +4,7 @@
 **Count:** 35  
 
 ## Label
-Missing safety buffers and validation checks in liquidation logic lead to unjustified, cascading, or exploitable liquidations, exposing users and lenders to financial loss and systemic risk.
+Liquidations that proceed without enforcing liquidator collateral transfers or bad-debt accounting allow insolvent borrowers to be partially cleared while protocol absorbs losses, triggering systemic risk and unfair user damage.
 
 ## Cluster Information
 - **Total Findings:** 35

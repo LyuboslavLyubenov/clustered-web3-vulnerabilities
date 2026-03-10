@@ -4,7 +4,7 @@
 **Count:** 113  
 
 ## Label
-Missing authorization and account validation allow attackers to bypass access controls, manipulate state, or execute unauthorized operations through improper instruction checks or flawed account handling.
+Missing or inconsistent vault/operator authorization and mapping validation allows stale or overwritten account mappings to bypass access controls, enabling attackers to hijack privileges or manipulate vault state for unauthorized asset extraction.
 
 ## Cluster Information
 - **Total Findings:** 113

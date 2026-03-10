@@ -4,7 +4,7 @@
 **Count:** 13  
 
 ## Label
-Failure to validate `msg.sender` or transaction success leads to unauthorized access, incorrect state updates, or fund loss through improper authorization or reentrancy-like behavior.
+Because the contracts skip verifying msg.sender when acting on behalf of other users, they may operate on the caller’s accounts instead of victims’, causing unauthorized state changes and failed or lossy fund operations.
 
 ## Cluster Information
 - **Total Findings:** 13

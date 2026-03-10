@@ -4,7 +4,7 @@
 **Count:** 37  
 
 ## Label
-Common vulnerability type: **Arithmetic errors due to unhandled zero divisions or improper ratio calculations, leading to lost assets, incorrect token distributions, or denied user actions.**
+Failing to guard against zero reserves or imbalanced ratio math causes zero-value transfers or division-by-zero errors, reverting critical flows and permanently locking user funds or preventing legitimate actions.
 
 ## Cluster Information
 - **Total Findings:** 37

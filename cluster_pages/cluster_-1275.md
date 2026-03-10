@@ -4,7 +4,7 @@
 **Count:** 104  
 
 ## Label
-Hardcoded numerical values lack context, increase error risk, and undermine readability and auditability in critical logic paths, leading to maintainability and security vulnerabilities.
+Embedding hardcoded numerical literals instead of the intended named constants removes contextual meaning, increasing risk of miscalculation or security bugs across logic paths and making the code harder to audit or maintain.
 
 ## Cluster Information
 - **Total Findings:** 104

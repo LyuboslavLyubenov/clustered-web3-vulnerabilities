@@ -4,7 +4,7 @@
 **Count:** 46  
 
 ## Label
-Failure to accurately apply time-based interest calculations leads to incorrect debt exposure and retroactive interest misstatements, enabling financial misrepresentation and potential loss.
+Applying interest twice while recalculating borrowed amounts inflates shortfall checks and triggers errant liquidations because already accrued debt is multiplied again by the borrow index, producing inaccurate exposure.
 
 ## Cluster Information
 - **Total Findings:** 46

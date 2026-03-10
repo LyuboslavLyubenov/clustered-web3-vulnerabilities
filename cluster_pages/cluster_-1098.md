@@ -4,7 +4,7 @@
 **Count:** 60  
 
 ## Label
-Inconsistent sender validation via `msg.sender` instead of `_msgSender()` enables spoofed or unauthorized access, leading to privilege escalation, unauthorized operations, and denial-of-service in proxy or meta-transaction environments.
+Failing to derive the actual sender through _msgSender()/LibMulticaller causes caller origin checks to rely on plain msg.sender, enabling attackers to spoof identities in proxy/multicall flows and drain funds or trigger privileged ops.
 
 ## Cluster Information
 - **Total Findings:** 60

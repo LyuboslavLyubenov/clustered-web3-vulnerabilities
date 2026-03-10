@@ -4,7 +4,7 @@
 **Count:** 193  
 
 ## Label
-Inconsistent fee handling and data validation across critical functions lead to inaccurate cost estimates, financial loss, and protocol dysfunction due to flawed logic, missing checks, or misaligned state assumptions.
+Using differing actors (recipient/owner versus msg.sender) in fee accounting causes fee tracking to double count or skip charges, leading to incorrect balances and potential unauthorized fund loss while misleading protocol state.
 
 ## Cluster Information
 - **Total Findings:** 193

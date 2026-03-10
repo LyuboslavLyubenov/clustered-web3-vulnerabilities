@@ -4,7 +4,7 @@
 **Count:** 39  
 
 ## Label
-Fee asymmetry and inconsistent fee application due to flawed conditional logic, leading to unfair user treatment, economic misrepresentation, and potential exploitation.
+Calculating bridging and staking fees sequentially during staking while applying both fees to the gross amount when unstaking causes fee asymmetry, so users pay inconsistent charges and arbitrage the cheaper direction.
 
 ## Cluster Information
 - **Total Findings:** 39

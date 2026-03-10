@@ -4,7 +4,7 @@
 **Count:** 16  
 
 ## Label
-Inadequate validation logic in user operation processing leads to incorrect error handling, signature reuse, policy bypass, and inconsistent state checks, enabling replay attacks, validation failures, and compromised security.
+Missing safeguards in `validateUserOp()` policy enforcement allow empty execution batches or ignored policy data to bypass checks, so replayed or malformed operations can succeed, causing failed signatures and unauthorized transactions.
 
 ## Cluster Information
 - **Total Findings:** 16

@@ -4,7 +4,7 @@
 **Count:** 52  
 
 ## Label
-Missing validation of zero addresses in governance functions enables attackers to disable critical operations, leading to loss of control and system failure through invalid or unauthorized configuration.
+Allowing governance setters to accept the zero address without validation lets attackers or mistakes disable critical partners, breaking protocol flows and leaving privileged operations dead or control entirely lost.
 
 ## Cluster Information
 - **Total Findings:** 52

@@ -4,7 +4,7 @@
 **Count:** 8  
 
 ## Label
-Unbounded fee controls enable central authority to manipulate or disrupt core operations through arbitrary fee setting, leading to financial abuse, integer overflows, and denial-of-service.
+Root cause: centralized ability to set uncapped fees or force fee recipients to revert; impact: transactions can be blocked, protocol revenue lost, and malicious actors can drain or deny service.
 
 ## Cluster Information
 - **Total Findings:** 8

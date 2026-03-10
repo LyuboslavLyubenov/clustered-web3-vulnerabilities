@@ -4,7 +4,7 @@
 **Count:** 24  
 
 ## Label
-Inconsistent or incorrect total supply tracking due to unit errors, flawed state updates, or misuse of supply variables, leading to inaccurate supply reporting, division-by-zero, or invalid state transitions.
+Delayed or missing updates to total supply when external calls or bridged token accounting occur allow unchecked misreporting and can break downstream invariants or trigger unsafe CEI violations during receiver callbacks.
 
 ## Cluster Information
 - **Total Findings:** 24

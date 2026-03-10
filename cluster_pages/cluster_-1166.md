@@ -4,7 +4,7 @@
 **Count:** 98  
 
 ## Label
-Inadequate input validation and arithmetic safeguards lead to incorrect state transitions, financial misalignment, and potential overflow or underflow, enabling malicious actors to manipulate fees, liquidity, or ratios.
+Rounding in the stable pool invariant calculation and missing validation of _k allow the invariant to reach zero, letting first liquidity providers drain assets and DOS the pool for others.
 
 ## Cluster Information
 - **Total Findings:** 98

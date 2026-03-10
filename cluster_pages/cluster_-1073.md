@@ -4,7 +4,7 @@
 **Count:** 23  
 
 ## Label
-Lack of proper authorization and control over critical operations leads to unauthorized asset transfers or misallocation, enabling malicious actors to exploit system gaps and compromise fund security.
+Using safeTransferFrom without granting the contract an allowance when it transfers its own tokens causes operations to revert, preventing fee withdrawals and leaving protocol assets stuck inside the contract.
 
 ## Cluster Information
 - **Total Findings:** 23

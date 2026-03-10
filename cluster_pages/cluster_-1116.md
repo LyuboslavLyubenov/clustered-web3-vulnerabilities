@@ -4,7 +4,7 @@
 **Count:** 103  
 
 ## Label
-Missing boundary checks and invalid state validations enable unauthorized minting beyond per-generation limits, leading to infinite generations, inflated prices, and inconsistent token counting.
+Missing per-cycle state updates and bounds validation let minting skip its enforcement checks (shadowed governor status and unstored lastMintedPeriod), so emissions can run indefinitely, inflating supply and breaking emission controls.
 
 ## Cluster Information
 - **Total Findings:** 103

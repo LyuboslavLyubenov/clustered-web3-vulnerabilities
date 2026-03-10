@@ -4,7 +4,7 @@
 **Count:** 300  
 
 ## Label
-Failure to wrap residual or excess native ETH into WETH before returning it to users, leading to asset loss and incorrect trade reporting due to improper handling of ETH in swap and deposit flows.
+Failing to wrap or refund surplus native ETH before returning funds after swaps and deposits leaves user contracts with locked ETH and causes failed trades or liquidity operations due to missing WETH for downstream steps.
 
 ## Cluster Information
 - **Total Findings:** 300

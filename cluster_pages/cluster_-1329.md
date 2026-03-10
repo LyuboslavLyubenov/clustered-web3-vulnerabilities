@@ -4,7 +4,7 @@
 **Count:** 26  
 
 ## Label
-Insufficient ownership and authorization checks enable unauthorized asset manipulation, leading to loss of control, unauthorized transfers, and potential theft through improper validation of caller identity or transaction order.
+Missing ownership and authorization validation before sensitive operations lets attackers bypass safeguards, which causes unsuspecting order creators or privileged accounts to permanently lose NFTs or other assets when operations finalize.
 
 ## Cluster Information
 - **Total Findings:** 26

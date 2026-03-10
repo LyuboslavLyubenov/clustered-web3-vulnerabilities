@@ -4,7 +4,7 @@
 **Count:** 210  
 
 ## Label
-Failure to validate permit signatures leads to front-running, phishing, and unauthorized transfers due to insufficient message transparency, allowance checks, and nonce enforcement.
+Permit signature validation that skips message transparency, allowance, and nonce checks lets attackers replay, front-run, or spoof approvals, causing phishing successes and unauthorized token transfers.
 
 ## Cluster Information
 - **Total Findings:** 210

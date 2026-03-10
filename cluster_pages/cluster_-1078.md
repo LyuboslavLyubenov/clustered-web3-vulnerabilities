@@ -4,7 +4,7 @@
 **Count:** 339  
 
 ## Label
-Failure to validate transaction rekeying and state changes enables attackers to rekey accounts or double-spend funds, leading to unauthorized withdrawals and loss of asset value through insufficient transaction semantics and missing access controls.
+Inconsistent approval/ownership validation between functions such as deposit_for/increase_amount/withdraw lets unauthorized addresses manipulate locked balances, bypass access controls, and withdraw or alter token holdings that should belong to NFT owners.
 
 ## Cluster Information
 - **Total Findings:** 339

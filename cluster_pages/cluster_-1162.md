@@ -4,7 +4,7 @@
 **Count:** 11  
 
 ## Label
-Lack of dependency version control leads to inconsistent, insecure, and unreproducible smart contract deployments, enabling supply chain risks and exploitation of unpatched vulnerabilities.
+Failure to pin and verify dependency versions (including stray outdated copies and unverified third-party libraries) allows inconsistent deployments and exposes contracts to supply-chain tampering or unknown vulnerabilities.
 
 ## Cluster Information
 - **Total Findings:** 11

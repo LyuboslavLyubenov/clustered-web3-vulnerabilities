@@ -4,7 +4,7 @@
 **Count:** 735  
 
 ## Label
-Redundant storage usage leading to increased gas costs, inconsistent state, and poor performance due to unnecessary variable declarations, improper memory-to-storage interactions, and inefficient storage reads.
+Deleting a large pending-deposit array in one go without batching causes gas consumption to spike past block limits, enabling attackers to DoS processing and drop new deposits when the queue is filled.
 
 ## Cluster Information
 - **Total Findings:** 735

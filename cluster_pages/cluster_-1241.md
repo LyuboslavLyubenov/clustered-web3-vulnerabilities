@@ -4,7 +4,7 @@
 **Count:** 20  
 
 ## Label
-Missing input validation leads to invalid state transitions, irreversible failures, and exploitable behavior due to unbounded or malformed parameters.
+Unchecked parsing or decoding failures from malformed inputs bypass validation, causing panics that crash the node and deny service whenever attackers send invalid requests.
 
 ## Cluster Information
 - **Total Findings:** 20

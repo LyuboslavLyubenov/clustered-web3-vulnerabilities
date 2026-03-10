@@ -4,7 +4,7 @@
 **Count:** 14  
 
 ## Label
-Redundant or inefficient loop operations leading to excessive gas costs due to repeated state changes or unnecessary function calls, with no direct security impact but significant performance degradation.
+Redundant loops and repeated state changes or validations repeatedly touch storage and conduct unnecessary calls, inflating gas consumption and degrading transaction performance without altering correctness.
 
 ## Cluster Information
 - **Total Findings:** 14

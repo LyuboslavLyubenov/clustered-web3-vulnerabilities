@@ -4,7 +4,7 @@
 **Count:** 55  
 
 ## Label
-Race conditions and improper state updates lead to denial of service, fund loss, or broken rollover flows due to flawed indexing, premature checks, or stale references in critical system operations.
+Neglected cleanup of stale mappings after key rotations and racing updates lets outdated users or shares remain, so subsequent deposits or epoch unwinds misdirect funds or revert operations.
 
 ## Cluster Information
 - **Total Findings:** 55

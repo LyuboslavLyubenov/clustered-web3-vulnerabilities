@@ -4,7 +4,7 @@
 **Count:** 6  
 
 ## Label
-Failure to account for interest, reentrancy, and slippage enables attackers to manipulate debt exposure, drain funds, or disable leverage—leading to unauthorized asset loss or permanent debt exposure.
+Lack of slippage safeguards, interest accounting, and reentrancy controls lets attackers alter debt exposure or skip repayments, so the vault either drains assets or ends up with unrecoverable leverage debt.
 
 ## Cluster Information
 - **Total Findings:** 6

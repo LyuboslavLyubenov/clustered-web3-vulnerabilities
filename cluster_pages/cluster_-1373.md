@@ -4,7 +4,7 @@
 **Count:** 58  
 
 ## Label
-Insufficient or incorrect accounting of user funds leads to double withdrawals, unaccounted surpluses, and unauthorized borrowing, causing severe user losses and enabling attacker exploitation through flawed state tracking and validation.
+Failing to adjust tracked balances and collateral totals when rounding yields or withdrawals (root cause) allows recipients to extract extra assets, double-withdraw, or borrow against phantom funds, draining honest depositors and protocol liquidity.
 
 ## Cluster Information
 - **Total Findings:** 58

@@ -4,7 +4,7 @@
 **Count:** 8  
 
 ## Label
-Precision loss in fixed-point arithmetic due to inconsistent decimal scaling and floating-point conversions, leading to incorrect comparisons, inaccurate calculations, and flawed decision logic.
+Mismatch between marketRate normalized to 18 decimals and redeemRate stored at 6 decimals causes the comparison to always treat marketRate as higher, bypassing market-based redemption limits and overpaying reserve tokens.
 
 ## Cluster Information
 - **Total Findings:** 8

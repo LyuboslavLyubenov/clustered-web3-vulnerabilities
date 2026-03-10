@@ -4,7 +4,7 @@
 **Count:** 13  
 
 ## Label
-Inaccurate mathematical calculations in pricing and rate computations due to flawed arithmetic logic or improper precision handling, leading to erroneous asset valuations, flawed trade execution, and potential financial loss.
+Outdated fee multipliers and version-agnostic price impact state cause closing price computations to misestimate trade value, producing incorrect valuations that expose traders to mispriced positions and unexpected losses.
 
 ## Cluster Information
 - **Total Findings:** 13

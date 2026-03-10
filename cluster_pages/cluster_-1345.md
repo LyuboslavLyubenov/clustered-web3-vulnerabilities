@@ -4,7 +4,7 @@
 **Count:** 16  
 
 ## Label
-Failure to validate input parameters in swap logic leads to malformed transactions, unintended state changes, and potential fund loss due to unchecked assumptions and missing error handling in critical functions.
+Missing validation of swap inputs lets attackers submit manipulated parameters, causing malformed cross-chain debt requests or stale approvals that produce unauthorized minting and asset loss.
 
 ## Cluster Information
 - **Total Findings:** 16

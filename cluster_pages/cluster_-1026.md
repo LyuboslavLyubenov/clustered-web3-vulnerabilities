@@ -4,7 +4,7 @@
 **Count:** 10  
 
 ## Label
-Inconsistent liquidity or asset threshold validations lead to incorrect edge-case handling, risking underpayment, failed withdrawals, or violated invariants due to unit mismatches or unhandled minimum thresholds.
+Ignoring minimum redemption or denomination thresholds when estimating redeemable balances causes overreported liquidity and triggers router reverts, failed withdrawals, or permanently locked funds when redemption cannot proceed.
 
 ## Cluster Information
 - **Total Findings:** 10

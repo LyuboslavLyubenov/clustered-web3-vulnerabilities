@@ -4,7 +4,7 @@
 **Count:** 292  
 
 ## Label
-Failure to synchronize or validate state during critical operations leads to irreversible fund loss, incorrect balances, or denial-of-service, enabling irreversible or erroneous token transfers.
+Failure to synchronize on-chain state and validate inputs for balance and bid operations lets attackers exploit stale balances, causing bid reverts, unauthorized locked-tokens inflation, and TVL limit corruption.
 
 ## Cluster Information
 - **Total Findings:** 292

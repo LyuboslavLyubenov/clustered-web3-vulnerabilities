@@ -4,7 +4,7 @@
 **Count:** 279  
 
 ## Label
-Common vulnerability type: Exploitable price or state manipulation through timing, front-running, and insufficient validation of dynamic market conditions, enabling profit extraction via sandwich attacks and arbitrage.
+Common vulnerability type: Insufficient validation of mutable market and state transitions plus exploitable mempool timing gaps lets attackers front-run or sandwich victims, disrupting pricing and balances while siphoning funds.
 
 ## Cluster Information
 - **Total Findings:** 279

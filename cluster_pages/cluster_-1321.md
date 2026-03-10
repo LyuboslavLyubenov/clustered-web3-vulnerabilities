@@ -4,7 +4,7 @@
 **Count:** 49  
 
 ## Label
-Lack of proper access control and validation leads to unauthorized asset manipulation, fund locking, and incorrect liquidity assessments, enabling users to bypass safety checks and exploit system invariants.
+Failing to update vault approvals when rotating liquidationManager leaves the previous controller privileged while the replacement lacks permissions, so compromised actors can keep draining assets and liquidations fail.
 
 ## Cluster Information
 - **Total Findings:** 49

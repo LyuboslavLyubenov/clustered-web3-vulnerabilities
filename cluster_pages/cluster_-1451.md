@@ -4,7 +4,7 @@
 **Count:** 33  
 
 ## Label
-Failure to update internal token balances after transfers leads to stale state data, causing incorrect reserve calculations, over-issuance, and potential double-dip attacks that compromise economic stability and protocol accuracy.
+Because the contract never refreshes its accounting for balances after token transfers, reserve totals stay stale and the system can over-issue value or allow repeated claims, undermining economic stability and accuracy.
 
 ## Cluster Information
 - **Total Findings:** 33

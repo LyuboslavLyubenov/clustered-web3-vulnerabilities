@@ -4,7 +4,7 @@
 **Count:** 8  
 
 ## Label
-Vulnerabilities allow actors to bypass or avoid fee payments through mechanism flaws in fee handling, front-running, or off-chain dependency reliance, leading to potential fund loss or protocol misuse.
+Failure to enforce protocol and routing fees, paired with front-running or untrusted relayers, lets actors omit or alter payments to drain revenue and unfairly reduce users' returns.
 
 ## Cluster Information
 - **Total Findings:** 8

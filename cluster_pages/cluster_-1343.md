@@ -4,7 +4,7 @@
 **Count:** 89  
 
 ## Label
-Failure to validate or check contract state before execution leads to incorrect state updates, unauthorized operations, or silent failures, risking asset loss, inconsistent accounting, or exploitation during invalid or transitional states.
+Root cause: failing to validate contract state before execution; impact: incorrect updates, unauthorized operations, and asset loss when callers trigger invalid or transitional states.
 
 ## Cluster Information
 - **Total Findings:** 89

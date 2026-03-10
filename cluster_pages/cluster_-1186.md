@@ -4,7 +4,7 @@
 **Count:** 848  
 
 ## Label
-Inadequate input validation and improper state synchronization lead to invalid state transitions, incorrect data returns, and unauthorized operations, enabling malicious actors to forge messages, manipulate validator sets, or trigger harmful side effects.
+Inconsistent ownership/state validation when computing past votes and quorums lets proposals bypass real voting power, locking governance routes like `nudge` and causing incorrect power calculations that disrupt emissions control.
 
 ## Cluster Information
 - **Total Findings:** 848

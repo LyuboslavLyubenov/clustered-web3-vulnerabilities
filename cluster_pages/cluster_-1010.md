@@ -4,7 +4,7 @@
 **Count:** 29  
 
 ## Label
-Unused debugging logs in production contracts expose sensitive internal state and execution details, increasing attack surface through information leakage and unnecessary gas costs.
+Leaving Foundry's console.sol import and console.log calls in production contracts hardcodes development logging, exposing internal state and execution flow while inflating gas costs and broadening the attack surface.
 
 ## Cluster Information
 - **Total Findings:** 29

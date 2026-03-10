@@ -4,7 +4,7 @@
 **Count:** 39  
 
 ## Label
-Inadequate validation and improper state management in linked list operations lead to dangling references, loops, and unauthorized account inclusion, causing incorrect state calculations and potential infinite loops or unauthorized access.
+Failing to tolerate extra accounts when validating linked-list-like signer lists causes repeated assertion errors, which lock the inbound processing queue and halt additional Solana transactions.
 
 ## Cluster Information
 - **Total Findings:** 39

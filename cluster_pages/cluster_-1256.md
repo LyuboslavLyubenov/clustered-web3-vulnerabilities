@@ -4,7 +4,7 @@
 **Count:** 17  
 
 ## Label
-Predictable contract addresses enable front-running and arbitrage attacks, allowing attackers to manipulate token prices or exploit pool creation timing through deterministic address generation and insufficient validation.
+Deterministic contract address generation without entropy allows adversaries to front-run deployments and arbitrage opportunities, letting them manipulate pool creations and steal fees before legitimate participants can react.
 
 ## Cluster Information
 - **Total Findings:** 17

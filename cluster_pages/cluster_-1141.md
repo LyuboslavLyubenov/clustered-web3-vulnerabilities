@@ -4,7 +4,7 @@
 **Count:** 14  
 
 ## Label
-Race conditions and flawed state logic enable unauthorized or duplicate operations, leading to inconsistent or invalid state transitions in critical functions.
+Concurrent updates to rate-limit configuration reset usage counters before inflight operations settle, enabling attackers to repeat inflows or outflows and leaving the contract with inconsistent limits and over-allocated capacity.
 
 ## Cluster Information
 - **Total Findings:** 14

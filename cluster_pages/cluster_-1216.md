@@ -4,7 +4,7 @@
 **Count:** 152  
 
 ## Label
-Centralized administrative control through single-point ownership enables unauthorized manipulation of critical functions, exposing systems to governance abuse, fund withdrawal, and irreversible attacks.
+Single-owner administrator key controlling upgrades, funds, and pausing centralizes critical controls; compromise lets an attacker alter logic, freeze markets, or steal funds.
 
 ## Cluster Information
 - **Total Findings:** 152

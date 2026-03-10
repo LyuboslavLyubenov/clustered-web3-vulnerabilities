@@ -4,7 +4,7 @@
 **Count:** 129  
 
 ## Label
-Insufficient input validation allows malicious or erroneous values to bypass critical bounds, leading to invalid state transitions, over-leveraging, and denial-of-service, compromising collateralization and system integrity.
+Insufficient validation of invariants and oracle parameters is the root cause, letting unexpected inputs bypass approvals and bounds checks and causing invalid state transitions that break asset integrity and halt swaps.
 
 ## Cluster Information
 - **Total Findings:** 129

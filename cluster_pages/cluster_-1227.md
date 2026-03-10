@@ -4,7 +4,7 @@
 **Count:** 11  
 
 ## Label
-**Bounds checking failures leading to invalid state, memory corruption, or unauthorized access due to missing runtime validation of owner limits and thresholds.**
+Missing runtime validation of MAX_MSAFE_OWNERS_LIMIT against the actual owner cap (32 minus nonce) lets the multisig owner count exceed expected bounds, corrupting state and exposing unauthorized owner configurations.
 
 ## Cluster Information
 - **Total Findings:** 11

@@ -4,7 +4,7 @@
 **Count:** 29  
 
 ## Label
-Failure to provide fund withdrawal mechanisms leads to permanent, irrecoverable loss of assets due to lack of exit paths, exposing contracts to financial loss and undermining user trust and liquidity.
+Missing withdrawal functions for collected ETH/ERC-20 fees prevents managers from retrieving balances, locking funds forever and causing irrecoverable financial loss plus service disruption.
 
 ## Cluster Information
 - **Total Findings:** 29

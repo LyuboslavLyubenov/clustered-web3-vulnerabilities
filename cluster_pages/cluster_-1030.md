@@ -4,7 +4,7 @@
 **Count:** 1227  
 
 ## Label
-Failure to validate account ownership or token identity leads to unauthorized access, mint manipulation, or invalid state transitions, enabling attackers to bypass authorization and exploit token or account mismatches.
+Insecure handling of token transfers, ownership checks, and supply caps allows attackers to exploit unverified transfers or mint caps, resulting in drained funds, exceeded supply limits, and corrupted balances.
 
 ## Cluster Information
 - **Total Findings:** 1227

@@ -4,7 +4,7 @@
 **Count:** 71  
 
 ## Label
-Attackers manipulate utilization or collateralization ratios via flash loans or state manipulation, bypassing safeguards to achieve inflated borrowing, drain liquidity, or trigger system failures without proper validation or locking mechanisms.
+Flawed flash loan or state manipulation paths corrupt collateralization/utilization ratios, letting attackers inflate borrowing and drain liquidity because safeguards never verify authorized initiators or lock positions.
 
 ## Cluster Information
 - **Total Findings:** 71

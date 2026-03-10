@@ -4,7 +4,7 @@
 **Count:** 14  
 
 ## Label
-Failure to refund users upon order cancellation or amendment, leading to fund loss and broken financial accountability due to improper state updates and missing refund mechanisms.
+Missing refund logic and state cleanup when canceling orders or votes leaves tokens stuck in contracts (root cause) and causes users to permanently lose deposits while enabling attackers to grief the protocol (impact).
 
 ## Cluster Information
 - **Total Findings:** 14

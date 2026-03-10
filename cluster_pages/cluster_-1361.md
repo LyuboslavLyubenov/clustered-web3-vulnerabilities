@@ -4,7 +4,7 @@
 **Count:** 703  
 
 ## Label
-Failure to properly validate or handle token transfer outcomes, leading to unauthorized transfers, reentrancy, or system lockouts due to missing return value checks or inadequate error handling.
+Relying on ERC20 transfer/transferFrom without checking return values or reverts lets silent failures occur, enabling unauthorized transfers, reentrancy, or funds getting stuck when tokens reject or fail transfers.
 
 ## Cluster Information
 - **Total Findings:** 703

@@ -4,7 +4,7 @@
 **Count:** 16  
 
 ## Label
-Inconsistent fee handling across order types or flows enables users to bypass intended fees, leading to revenue loss and protocol misalignment through asymmetric or unenforced fee application.
+Asymmetric fee validation that blocks share reductions or applies swap fees twice lets actors bypass intended charges, causing revenue leakage and preventing administrators from adjusting recipients or collecting predictable earnings.
 
 ## Cluster Information
 - **Total Findings:** 16

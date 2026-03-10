@@ -4,7 +4,7 @@
 **Count:** 12  
 
 ## Label
-Redundant or flawed state checks and recalculations lead to inconsistent state, unexpected behavior, or denial-of-service, compromising reliability and user access.
+Redundant recalculation of withdrawal limits tied to shrinking pool size forces repeated state checks, causing inconsistent user withdrawals and wasted gas that may strand funds or freeze operations.
 
 ## Cluster Information
 - **Total Findings:** 12

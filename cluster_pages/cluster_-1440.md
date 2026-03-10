@@ -4,7 +4,7 @@
 **Count:** 9  
 
 ## Label
-Misuse of data or state references leading to incorrect calculations, flawed validations, or erroneous state transitions, resulting in financial misrepresentation, over-distribution, or transaction failures.
+Using wrong shared references for token programs or balances causes incorrect calculations that lead to mismatched validations and result in failed transfers, over-distributions, or reverted transactions.
 
 ## Cluster Information
 - **Total Findings:** 9

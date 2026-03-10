@@ -4,7 +4,7 @@
 **Count:** 73  
 
 ## Label
-Failure to validate success or state conditions in critical operations leads to irreversible fund loss, denial of service, or unauthorized fund drainage due to inadequate error handling and lack of runtime enforcement.
+Missing validation of success or target state in critical calls allows silent failures and reverted state to persist, enabling irreversible fund loss, DoS, or unauthorized drains when errors go unchecked.
 
 ## Cluster Information
 - **Total Findings:** 73

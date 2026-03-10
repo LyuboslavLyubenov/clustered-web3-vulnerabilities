@@ -4,7 +4,7 @@
 **Count:** 10  
 
 ## Label
-Improper reward or state synchronization during critical operations enables attackers to manipulate rewards, inflate stakes, or freeze scores, leading to unfair advantage, inaccurate calculations, and denial-of-service.
+Delaying reward sync until after reward operations leaves balances stale, so attackers can front-run or insert deposits that compound unminted rewards and steal distributions, shortchanging legitimate stakers.
 
 ## Cluster Information
 - **Total Findings:** 10

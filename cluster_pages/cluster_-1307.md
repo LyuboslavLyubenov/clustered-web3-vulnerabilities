@@ -4,7 +4,7 @@
 **Count:** 26  
 
 ## Label
-Inconsistent access control logic leads to ambiguous or misapplied permissions, enabling unauthorized actions, undermining decentralization, and creating confusion in role management and policy enforcement.
+Because DAO permission updates combine individual revocations with bulk grants, inconsistent access controls let privileged actors retain or regain rights unexpectedly, undermining governance control and enabling unauthorized DAO writes.
 
 ## Cluster Information
 - **Total Findings:** 26

@@ -4,7 +4,7 @@
 **Count:** 29  
 
 ## Label
-Failure to clear state upon ownership transfer enables persistent access or unintended control by former owners, leading to security breaches and loss of deterministic access.
+Stale migration-era storage left uncleared during ownership or contract upgrades causes legacy variables to influence new flows, enabling unintended access controls or incorrect accounting and compromising determinism and security.
 
 ## Cluster Information
 - **Total Findings:** 29

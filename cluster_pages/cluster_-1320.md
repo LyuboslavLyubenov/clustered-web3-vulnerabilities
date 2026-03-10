@@ -4,7 +4,7 @@
 **Count:** 15  
 
 ## Label
-Flawed mathematical modeling in swap calculations leads to incorrect pricing, non-monotonic outputs, and exploitable rounding errors, enabling profit extraction or state manipulation.
+Inconsistent swap-domain math—misapplied rounding and reverse simulation calculations—distorts pricing and multi-hop quotes so attackers can exploit non-monotonic outcomes or extract profit from faulty swap paths.
 
 ## Cluster Information
 - **Total Findings:** 15

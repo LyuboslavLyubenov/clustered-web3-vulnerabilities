@@ -4,7 +4,7 @@
 **Count:** 713  
 
 ## Label
-Lack of input validation and type boundaries enables attackers to forge, manipulate, or misroute assets, leading to fund loss, data exposure, or system misbehavior through ambiguous or inconsistent data handling.
+Failure to validate address inputs and update associated ownership mappings lets attackers bypass zero-address guards or allowance checks, leading to unauthorized fund transfers, stale gateway records, and blocked allocations.
 
 ## Cluster Information
 - **Total Findings:** 713

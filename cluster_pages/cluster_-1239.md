@@ -4,7 +4,7 @@
 **Count:** 16  
 
 ## Label
-Incorrect ratio or liquidity calculations due to flawed logic, improper state usage, or bypassing composability, leading to erroneous caps, false quotes, or invalid allocations with potential financial loss.
+Missing coverage ratio and accrued treasury checks cause inaccurate liquidity estimates and quotes, enabling operations that later revert or violate caps and potentially inflict financial loss for users.
 
 ## Cluster Information
 - **Total Findings:** 16

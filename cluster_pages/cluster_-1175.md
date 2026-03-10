@@ -4,7 +4,7 @@
 **Count:** 7  
 
 ## Label
-Improper data layout and type usage lead to state inconsistencies, incorrect comparisons, and ambiguous state transitions, enabling unintended behavior and security risks through flawed storage packing and type selection.
+Inconsistent storage layout and type usage (like string hashing instead of enums or non-linear vector ordering) corrupts logical comparisons and state transitions, causing incorrect behavior and wasted gas that can undermine contract security.
 
 ## Cluster Information
 - **Total Findings:** 7

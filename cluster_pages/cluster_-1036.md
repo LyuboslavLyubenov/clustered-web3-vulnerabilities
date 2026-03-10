@@ -4,7 +4,7 @@
 **Count:** 228  
 
 ## Label
-Insufficient or incorrect accounting of user funds leads to double withdrawals, unaccounted surpluses, and unauthorized borrowing, causing severe user losses and enabling attacker exploitation through flawed state tracking and validation.
+Not decrementing total staked/collateral after withdrawals or counter-trade refunds causes stale limits and refund amounts, so the protocol rejects valid new stakes and shortchanges users on collateral returns.
 
 ## Cluster Information
 - **Total Findings:** 228

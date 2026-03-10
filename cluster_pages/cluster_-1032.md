@@ -4,7 +4,7 @@
 **Count:** 38  
 
 ## Label
-Function signature collisions and improper function selector handling lead to unintended function routing, access control failures, or logic errors due to identical 4-byte selectors across contracts or missing interface differentiation.
+Forgetting or repeating diamond function selectors when assembling facets leads to missing interface methods or selector collisions, which breaks interface detection, disables intended functionality, and undermines facet-based access controls.
 
 ## Cluster Information
 - **Total Findings:** 38

@@ -4,7 +4,7 @@
 **Count:** 26  
 
 ## Label
-Missing access controls and state management in withdrawal flows allow unauthorized operations, state inconsistencies, and fund loss during pause, cancellation, or buffer handling.
+Withdrawal flows lack consistent access gates and buffer-aware state restoration, allowing pause/cancel bypasses that trigger extra validator exits, draining funds and misreporting liquidity.
 
 ## Cluster Information
 - **Total Findings:** 26

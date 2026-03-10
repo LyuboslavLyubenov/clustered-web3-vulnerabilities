@@ -4,7 +4,7 @@
 **Count:** 17  
 
 ## Label
-Failure to verify or use authoritative pool state enables attackers to manipulate prices or trigger denial-of-service via race conditions, leading to failed liquidity creation and compromised liquidity security.
+Because the contract fails to verify or update authoritative pool state before minting, attackers can race it, corrupting price data or stalling liquidity creation and undermining liquidity security.
 
 ## Cluster Information
 - **Total Findings:** 17

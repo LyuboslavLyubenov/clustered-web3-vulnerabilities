@@ -4,7 +4,7 @@
 **Count:** 31  
 
 ## Label
-Self-liquidation flaws enable borrowers or creditors to profitably liquidate undercollateralized positions by misrepresenting debt exposure or bypassing fee and incentive controls, leading to unfair collateral distribution and compromised economic fairness.
+Self-liquidation flaws arise when liquidation logic lets actors misreport debt or bypass fee and incentive controls, enabling profitable takeovers of undercollateralized positions and starving honest users of collateral while skewing economic fairness.
 
 ## Cluster Information
 - **Total Findings:** 31

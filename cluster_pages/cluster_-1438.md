@@ -4,7 +4,7 @@
 **Count:** 14  
 
 ## Label
-Insufficient collateral validation and improper asset allocation lead to unauthorized withdrawals, yield extraction, and illiquidity, enabling attackers to drain funds or manipulate share values through flawed access controls and logic.
+Weak asset and collateral validation plus overbroad access checks let attackers bypass strategy removal or paused-pool guards, causing unauthorized withdrawals, yield extraction, or liquidity loss.
 
 ## Cluster Information
 - **Total Findings:** 14

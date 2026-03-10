@@ -4,7 +4,7 @@
 **Count:** 64  
 
 ## Label
-Reentrancy attacks exploiting ERC777 token hooks, enabling attackers to drain funds, manipulate loan states, or cause denial-of-service through unauthorized token transfers and state inconsistencies.
+Unrestricted callback hooks and delayed state updates let ERC777/ERC721 transfers reenter critical flows before balances or mappings clear, enabling attackers to double-withdraw funds and spam events.
 
 ## Cluster Information
 - **Total Findings:** 64

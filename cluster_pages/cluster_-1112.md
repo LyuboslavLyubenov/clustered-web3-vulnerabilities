@@ -4,7 +4,7 @@
 **Count:** 13  
 
 ## Label
-Redundant state mutations and unnecessary storage operations that waste gas, introduce inefficiency, and risk unintended state inconsistencies without affecting functionality.
+Duplicate state or unused parameters stem from inherited contracts reusing fields or passing redundant data, causing extra storage writes and confusing interfaces that waste gas and enlarge the attack surface.
 
 ## Cluster Information
 - **Total Findings:** 13

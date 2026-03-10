@@ -4,7 +4,7 @@
 **Count:** 20  
 
 ## Label
-Lack of access control enables unauthorized actors to manipulate liquidity, steal assets, or exploit approvals through direct function calls or input manipulation, leading to fund loss, front-running, and improper token issuance.
+Missing access control over guardian updates and mint functions lets attackers bypass slippage protections and manipulate token issuance, which results in lenders losing funds and unauthorized asset withdrawals.
 
 ## Cluster Information
 - **Total Findings:** 20

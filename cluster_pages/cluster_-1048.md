@@ -4,7 +4,7 @@
 **Count:** 14  
 
 ## Label
-Unchecked loop increments cause out-of-bounds access or infinite loops, leading to state corruption and potential revenue loss due to unvalidated iteration bounds.
+Unchecked loop increments that escape iteration limit validation allow loops to run indefinitely or exceed buffer bounds, corrupting contract state and potentially locking transactions or draining funds.
 
 ## Cluster Information
 - **Total Findings:** 14

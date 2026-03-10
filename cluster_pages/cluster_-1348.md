@@ -4,7 +4,7 @@
 **Count:** 835  
 
 ## Label
-Failure to validate or handle zero addresses leads to incorrect state updates, failed transactions, unintended fund transfers, or bypassed fee mechanisms—enabling loss of funds, reward inflation, or unauthorized control.
+Missing validation or handling for zero addresses lets special burn semantics slip into state variables, so assignments can break ownership, bypass fees, or reroute funds leading to failed transactions and loss.
 
 ## Cluster Information
 - **Total Findings:** 835

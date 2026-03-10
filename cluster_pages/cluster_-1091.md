@@ -4,7 +4,7 @@
 **Count:** 380  
 
 ## Label
-Signature replay and misuse vulnerabilities enabling unauthorized transactions, impersonation, or front-running through insufficient message uniqueness, lack of sender validation, or inadequate input sanitization.
+Reusing or missing nonces for permit-like signatures lets attackers replay old authorizations, enabling unauthorized swaps or approval drains that block legitimate liquidity removals and waste user gas.
 
 ## Cluster Information
 - **Total Findings:** 380

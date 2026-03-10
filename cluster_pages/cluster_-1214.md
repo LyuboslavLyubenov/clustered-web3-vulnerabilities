@@ -4,7 +4,7 @@
 **Count:** 38  
 
 ## Label
-Inconsistent eligibility and disqualification logic across contracts, leading to incorrect state validation, transaction reverts, and flawed reward distribution due to improper state checks and missing race condition handling.
+Unbounded reward and lock iteration inside the repeated `updateReward` modifier, compounded by unnecessary additional modifier usage, exhausts gas and can DOS `fullyClaimReward`/claim paths.
 
 ## Cluster Information
 - **Total Findings:** 38

@@ -4,7 +4,7 @@
 **Count:** 83  
 
 ## Label
-Insufficient or incorrect accounting of user funds leads to double withdrawals, unaccounted surpluses, and unauthorized borrowing, causing severe user losses and enabling attacker exploitation through flawed state tracking and validation.
+Neglecting to sync actual token transfers and hedge-adjusted liquidity state in mint/withdraw flows causes accounting divergence, leading to mint failures, incorrect share pricing, and drained user funds from unexpected reverts or losses.
 
 ## Cluster Information
 - **Total Findings:** 83

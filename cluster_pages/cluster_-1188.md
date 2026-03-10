@@ -4,7 +4,7 @@
 **Count:** 14  
 
 ## Label
-Failure to validate transfer outcomes or state conditions leads to inconsistent or incorrect state updates, enabling fund loss, reentrancy, or misrepresentation of asset balances.
+Skipping verification that transfers actually change the expected state lets attackers fake exits or leave deposits stranded while balances update, leading to queue bypasses, locked holdings, or unrecoverable funds.
 
 ## Cluster Information
 - **Total Findings:** 14

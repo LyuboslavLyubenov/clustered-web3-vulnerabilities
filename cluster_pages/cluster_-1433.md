@@ -4,7 +4,7 @@
 **Count:** 25  
 
 ## Label
-Insufficient slippage protection due to flawed price assumptions and premature caps, enabling attackers to exploit price volatility and supply dynamics, resulting in users receiving fewer tokens than expected.
+Flawed slippage checks that rely on static price assumptions and premature caps fail to bound price changes, letting attackers exploit volatility so buyers pay more and receive fewer tokens than expected.
 
 ## Cluster Information
 - **Total Findings:** 25

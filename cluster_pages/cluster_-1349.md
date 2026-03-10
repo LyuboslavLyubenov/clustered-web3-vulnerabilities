@@ -4,7 +4,7 @@
 **Count:** 10  
 
 ## Label
-Cross-chain message validation failures enabling unauthorized access, sender spoofing, or message manipulation, leading to denial-of-service, asset lock, or unintended state changes.
+Missing validation of cross-chain message origin and intended recipient allows replayed or spoofed messages, leading to unauthorized execution, asset theft, or state corruption on the receiving chain.
 
 ## Cluster Information
 - **Total Findings:** 10

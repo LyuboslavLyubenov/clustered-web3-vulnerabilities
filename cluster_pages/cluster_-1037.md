@@ -4,7 +4,7 @@
 **Count:** 14  
 
 ## Label
-Race conditions in subscription management due to out-of-order state updates, allowing subscribers to remain active during callbacks and exploit system state.
+Out-of-order hook lifecycle updates leave contexts behind when subscribers are removed, causing stale state to persist and letting future hook invocations behave unpredictably or bypass intended safeguards.
 
 ## Cluster Information
 - **Total Findings:** 14

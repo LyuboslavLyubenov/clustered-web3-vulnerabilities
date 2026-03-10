@@ -4,7 +4,7 @@
 **Count:** 52  
 
 ## Label
-Failure to verify state conditions enables unauthorized actions, leading to value leakage, inflated rewards, or unauthorized withdrawals due to insufficient checks on active status or transaction boundaries.
+Skipped state validation and buffer accounting during withdrawal and cancellation flows leaves withdrawal controls exploitable and causes liquidity misreporting plus unnecessary L1 operations that degrade staking efficiency.
 
 ## Cluster Information
 - **Total Findings:** 52

@@ -4,7 +4,7 @@
 **Count:** 11  
 
 ## Label
-Flawed access control and invalid state validation enable attackers to manipulate pool memberships, siphon rewards, or bypass authorization by misrepresenting sender identity or pool existence.
+Missing validation of pool authenticity and caller identity lets attackers register fake pools or manipulate access, leading to unauthorized control, reward siphoning, and bypassed authorization.
 
 ## Cluster Information
 - **Total Findings:** 11

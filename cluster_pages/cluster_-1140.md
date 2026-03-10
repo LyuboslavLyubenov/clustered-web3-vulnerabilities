@@ -4,7 +4,7 @@
 **Count:** 120  
 
 ## Label
-Inconsistent or incorrect fee calculation due to improper rounding, missing logic paths, or flawed input handling, leading to revenue loss, free swaps, or denial-of-service via invalid transaction validation.
+Failure to propagate updated accumulated fee values from manual fee realization to the global borrowing state leaves future fee math subtracting stale accumulations, causing underflows and transaction reverts that block swaps.
 
 ## Cluster Information
 - **Total Findings:** 120

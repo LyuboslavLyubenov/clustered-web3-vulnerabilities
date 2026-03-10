@@ -4,7 +4,7 @@
 **Count:** 163  
 
 ## Label
-Insufficient input validation and access control enable attackers to submit invalid, malformed, or unauthorized requests, leading to resource exhaustion, data manipulation, unauthorized operations, and fee drain—undermining system integrity and security.
+Omitting validation of distribution and admin configuration parameters allows crafted inputs to bypass safeguards, letting invalid setups and unauthorized changes trigger reverts, misconfigurations, or asset loss.
 
 ## Cluster Information
 - **Total Findings:** 163

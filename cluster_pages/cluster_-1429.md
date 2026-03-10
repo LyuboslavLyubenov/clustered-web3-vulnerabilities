@@ -4,7 +4,7 @@
 **Count:** 46  
 
 ## Label
-Rounding and truncation errors in share and token calculations enable attackers to extract profits, drain rewards, or manipulate allocations through imprecise arithmetic and insufficient edge-case validation.
+Truncated rounding in share/token conversions leaves user-facing calculations biased, letting attackers receive shares or assets without burning enough and gradually extract value from rewards and allocations.
 
 ## Cluster Information
 - **Total Findings:** 46

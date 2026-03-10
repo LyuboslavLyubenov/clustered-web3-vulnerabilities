@@ -4,7 +4,7 @@
 **Count:** 107  
 
 ## Label
-Flawed input validation and state variable misuse lead to incorrect economic assumptions, misconfigurations, and miscalculated financial settlements, compromising contract integrity and potentially causing financial loss or system failure.
+Asset configuration logic fails to refresh index mappings when inputs change, so stale base indices point to wrong assets and downstream operations process incorrect pricing or leak funds.
 
 ## Cluster Information
 - **Total Findings:** 107

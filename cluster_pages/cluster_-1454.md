@@ -4,7 +4,7 @@
 **Count:** 9  
 
 ## Label
-Timing and pricing misalignments enable attackers to exploit arithmetic errors or dynamic price fluctuations, leading to inflated collateral values, unprofitable mints, or arbitrage profits through incorrect value calculations.
+Conditional collateralLevel math that switches between weighted and fixed pricing based on token supply lets attackers manipulate thresholds, so they redeem bonds at inflated rates and extract extra assets beyond their entitlement.
 
 ## Cluster Information
 - **Total Findings:** 9

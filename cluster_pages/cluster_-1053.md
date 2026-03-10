@@ -4,7 +4,7 @@
 **Count:** 79  
 
 ## Label
-Inadequate access control and inconsistent governance authorization lead to unauthorized function execution, permission gaps, and asset manipulation, enabling attackers to compromise token ownership, freeze funds, or exploit governance mechanisms.
+Omitting initialization guards on internal or deployment hooks lets attackers reinitialize or misconfigure tokens and proxies (root cause), enabling governance bypass to seize assets, freeze funds, or hijack ownership (impact).
 
 ## Cluster Information
 - **Total Findings:** 79

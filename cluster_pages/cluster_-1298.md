@@ -4,7 +4,7 @@
 **Count:** 32  
 
 ## Label
-Redundant computations and inefficient storage layouts lead to increased gas costs and reduced performance through repeated calculations, poor data type selection, and suboptimal state access.
+Repeated computations and poor storage layout selection (root cause) cause excessive gas usage and degraded performance as the contract recalculates unchanged results and performs needless state accesses.
 
 ## Cluster Information
 - **Total Findings:** 32

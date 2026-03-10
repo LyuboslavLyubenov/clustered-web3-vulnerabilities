@@ -4,7 +4,7 @@
 **Count:** 16  
 
 ## Label
-Misuse of state variables and missing data fields lead to incorrect token mappings, flawed valuation, and ambiguous parameter tracking—compromising oracle accuracy, auditability, and system stability.
+Stale oracle versions because migration timestamps, liquidity-change hooks, and invalid flags are never updated, so markets treat expired data as valid, thwarting order invalidation and risking incorrect trades as well as systemic balance corruption.
 
 ## Cluster Information
 - **Total Findings:** 16

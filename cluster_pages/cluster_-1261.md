@@ -4,7 +4,7 @@
 **Count:** 87  
 
 ## Label
-Predictable contract addresses enable front-running and arbitrage attacks, allowing attackers to manipulate token prices or exploit pool creation timing through deterministic address generation and insufficient validation.
+Deterministic contract deployment via CREATE/CREATE2 without randomness lets attackers precompute addresses, enabling front-running liquidity pool setup that drains WETH and collapses token prices when real contracts deploy.
 
 ## Cluster Information
 - **Total Findings:** 87

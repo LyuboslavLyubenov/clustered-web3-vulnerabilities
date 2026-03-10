@@ -4,7 +4,7 @@
 **Count:** 734  
 
 ## Label
-Inconsistent state updates between loan lifecycle contracts enable premature liquidations, bypassing payment timelines and default rules, allowing malicious actors to exploit timing and state immutability for low-cost attacks.
+Not decrementing tracked stakes when withdrawals occur and still enforcing max stake validation against a zero limit causes the system to reject valid deposits while inflating locked balances and draining liquidity.
 
 ## Cluster Information
 - **Total Findings:** 734

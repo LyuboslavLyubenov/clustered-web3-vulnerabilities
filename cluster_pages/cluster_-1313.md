@@ -4,7 +4,7 @@
 **Count:** 221  
 
 ## Label
-Redundant array length reads in loops cause excessive gas costs due to repeated memory or storage accesses, leading to performance degradation and potential denial-of-service through high transaction costs.
+Repeatedly reading array length inside loops instead of caching it wastes gas on each iteration, increasing transaction costs and risking denial-of-service by making low-degree functions prohibitively expensive.
 
 ## Cluster Information
 - **Total Findings:** 221

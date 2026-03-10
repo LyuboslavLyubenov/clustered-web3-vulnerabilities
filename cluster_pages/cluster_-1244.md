@@ -4,7 +4,7 @@
 **Count:** 402  
 
 ## Label
-Incorrect function calls and flawed address comparisons lead to unauthorized asset transfers or failed transactions, enabling asset siphoning or loss through improper state logic and mismatched token approvals.
+Skipping return-value validation on ERC20 transfers and poorly scoped withdrawal permissions lets malicious callers siphon assets or drain reserves because failed or unintended transfers silently succeed or allowed tokens are pulled.
 
 ## Cluster Information
 - **Total Findings:** 402

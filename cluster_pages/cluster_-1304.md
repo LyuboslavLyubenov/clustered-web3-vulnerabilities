@@ -4,7 +4,7 @@
 **Count:** 24  
 
 ## Label
-Gas-based denial-of-service and resource exhaustion via unbounded or malicious gas parameter manipulation, enabling attackers to flood systems, inflate costs, or bypass safeguards at negligible cost.
+Allowing unbounded or malicious gas parameter inputs lets attackers spike execution cost or trigger gas exhaustion, causing transactions to revert and denying service to legitimate users.
 
 ## Cluster Information
 - **Total Findings:** 24

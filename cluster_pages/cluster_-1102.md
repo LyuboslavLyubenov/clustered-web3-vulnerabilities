@@ -4,7 +4,7 @@
 **Count:** 27  
 
 ## Label
-Inconsistent state validation and pricing logic enable attackers to exploit MEV, front-run yield updates, or manipulate reward distributions, leading to unfair gains, dilution, or protocol instability through predictable, low-effort attacks.
+Missing bounds on price/reserves updates and stale state tracking lets MEV bots front-run or manipulate yield reports, skewing reported prices, enabling unfair profits, and diluting returns for honest users.
 
 ## Cluster Information
 - **Total Findings:** 27

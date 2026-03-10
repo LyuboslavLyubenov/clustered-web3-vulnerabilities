@@ -4,7 +4,7 @@
 **Count:** 10  
 
 ## Label
-Addressing chain-specific token address collisions and improper initialization enables attackers to hijack token supply, create invalid pools, or exploit state inconsistencies, leading to inflation, denial-of-service, or unauthorized minting.
+Chain-specific deterministic address collisions combined with improper token initialization and strict invariant checks let attackers hijack supply or block setup, causing inflation or DoS by deploying malicious tokens or failing bonding curves.
 
 ## Cluster Information
 - **Total Findings:** 10

@@ -4,7 +4,7 @@
 **Count:** 36  
 
 ## Label
-Memory manipulation flaws leading to data corruption, unintended overwrites, or arbitrary memory access due to improper validation, unsafe operations, or flawed memory handling in smart contract execution.
+Unsafely handled memory reads and writes lack validation or constraints, letting malformed storage cells and unchecked execution instructions corrupt data and crash or permanently disable smart contracts and verifiers.
 
 ## Cluster Information
 - **Total Findings:** 36

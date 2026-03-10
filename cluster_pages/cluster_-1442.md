@@ -4,7 +4,7 @@
 **Count:** 7  
 
 ## Label
-Failure to accurately track and include in-flight or transit assets in TVL calculations, leading to inflated or underreported TVL, flawed share pricing, and potential profit extraction or user fund loss.
+Not accounting for pending or in-transit assets lets TVL calculations rely on stale collateral balances, so pricing, withdrawal limits, and protections allow attackers to withdraw excessive funds or distort shares.
 
 ## Cluster Information
 - **Total Findings:** 7

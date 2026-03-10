@@ -4,7 +4,7 @@
 **Count:** 99  
 
 ## Label
-Inconsistent state validation and access controls across contracts lead to unauthorized access, state mismatches, and exploitable behavior due to missing or misaligned parameter checks and invariant enforcement.
+Omitting rigorous validation of critical invariants and access controls lets attackers exploit hooks or race windows to obtain unauthorized approvals or force invalid state transitions that risk asset security.
 
 ## Cluster Information
 - **Total Findings:** 99

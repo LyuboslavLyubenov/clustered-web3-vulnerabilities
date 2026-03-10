@@ -4,7 +4,7 @@
 **Count:** 64  
 
 ## Label
-Failure to account for dynamic token balances during transfers or withdrawals, leading to incorrect state updates, fund loss, and exploitable inconsistencies in rebasing or fee-on-transfer token systems.
+Failing to track transient token balances before and after transfer or unlock callbacks (root cause) allows misallocated am-AMM/fee-on-transfer funds to be used for orders and so causes incorrect withdrawals and asset loss (impact).
 
 ## Cluster Information
 - **Total Findings:** 64

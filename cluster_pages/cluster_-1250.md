@@ -4,7 +4,7 @@
 **Count:** 954  
 
 ## Label
-Insufficient data validation and unchecked arithmetic lead to incorrect price calculations, enabling manipulation and loss of oracle integrity through unbounded growth or reliance on invalid historical data.
+Oracle price calculations rely on hardcoded observation intervals and bypassed calm-period checks that skip freshness validation, allowing attackers to manipulate liquidity and distort valuations with stale prices.
 
 ## Cluster Information
 - **Total Findings:** 954

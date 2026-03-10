@@ -4,7 +4,7 @@
 **Count:** 402  
 
 ## Label
-Inadequate bounds checking and flawed logic in token ID validation lead to infinite loops, out-of-bounds writes, incorrect state updates, and unauthorized operations, compromising data integrity and system functionality.
+Omitting checks for ERC20 transfer return statuses and ignoring eligibility requirements for pull actions lets transfers fail silently or withdraw protected assets, risking unauthorized withdrawals and depletion of funds reserved for users.
 
 ## Cluster Information
 - **Total Findings:** 402

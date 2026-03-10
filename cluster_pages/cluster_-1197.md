@@ -4,7 +4,7 @@
 **Count:** 54  
 
 ## Label
-Improper slippage calculation leads to unrealistically low redemption thresholds, causing severe slippage, unintended token losses, and potential fund exposure due to flawed slippage discounting in multi-asset pool exits.
+Misordering the price impact/spread adjustment after stop-loss triggering causes execution prices to be recalculated too late, exposing users to worse-than-expected fills and unexpected losses when stop losses or position reductions execute.
 
 ## Cluster Information
 - **Total Findings:** 54

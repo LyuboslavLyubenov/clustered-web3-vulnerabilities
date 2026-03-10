@@ -4,7 +4,7 @@
 **Count:** 12  
 
 ## Label
-Redundant storage usage leading to increased gas costs, inconsistent state, and poor performance due to unnecessary variable declarations, improper memory-to-storage interactions, and inefficient storage reads.
+Duplicate storage declarations and unnecessary struct copies are the root cause of redundant storage reads/writes, inflating gas costs and risking inconsistent state when stale values overshadow intended storage slots.
 
 ## Cluster Information
 - **Total Findings:** 12

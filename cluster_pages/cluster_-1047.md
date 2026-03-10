@@ -4,7 +4,7 @@
 **Count:** 14  
 
 ## Label
-Failure to handle invalid or edge cases with immediate reverts leads to silent failures, state corruption, or exploitable runtime errors, enabling griefing, DoS, or unauthorized operations.
+Skipping validation of optional ERC-721 metadata calls alongside canceled predecessor states before executing dependent operations hides failures, leaving executions blocked or incompatible and enabling denial-of-service plus unauthorized state inconsistencies.
 
 ## Cluster Information
 - **Total Findings:** 14

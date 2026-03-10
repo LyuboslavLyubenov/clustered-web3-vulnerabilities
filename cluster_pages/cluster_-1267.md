@@ -4,7 +4,7 @@
 **Count:** 107  
 
 ## Label
-Race conditions and improper state validation enable attackers to bypass withdrawal proofs, manipulate balances, or exploit timing to withdraw funds without valid conditions—leading to unauthorized fund access or loss.
+Race conditions in withdrawal proof verification caused by improper state validation allow attackers to bypass non-EVM authorization checks, resulting in unauthorized fund transfers or stolen refunds.
 
 ## Cluster Information
 - **Total Findings:** 107

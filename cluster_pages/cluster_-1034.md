@@ -4,7 +4,7 @@
 **Count:** 54  
 
 ## Label
-Inaccurate calculations due to improper division, zero checks, or flawed precision handling lead to incorrect pricing, share valuation, or liquidity management, enabling financial misrepresentation, deadlocks, or exploitable edge-case manipulations.
+Updating epoch buckets with division or rounding that zeroes denominators or shrinks totals corrupts the calculation basis, causing pricing and share allocations to misalign and liquidity accounting to fail.
 
 ## Cluster Information
 - **Total Findings:** 54

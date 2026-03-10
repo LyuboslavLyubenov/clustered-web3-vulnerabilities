@@ -4,7 +4,7 @@
 **Count:** 12  
 
 ## Label
-Failure to validate token uniqueness and identity leads to invalid pool states, enabling incorrect balance updates, duplicate pair registrations, and potential fund extraction through improper address comparison or indexing.
+Failing to deduplicate tokens and verify identities before inserting pairs lets identical entries corrupt pool state, misreport balances, register duplicates, and open opportunities for attackers to reroute or steal funds.
 
 ## Cluster Information
 - **Total Findings:** 12

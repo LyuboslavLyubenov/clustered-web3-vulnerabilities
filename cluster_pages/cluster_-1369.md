@@ -4,7 +4,7 @@
 **Count:** 8  
 
 ## Label
-Direct ERC20 function calls without return value validation lead to silent failures, fund loss, or state corruption due to unhandled errors and non-standard token behaviors.
+Calling ERC20 transfer/approve/transferFrom without checking their return values or using SafeERC20 means unhandled failures from non-compliant tokens can silently break flows, corrupt balances, or cause lost funds.
 
 ## Cluster Information
 - **Total Findings:** 8

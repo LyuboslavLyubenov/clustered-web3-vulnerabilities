@@ -4,7 +4,7 @@
 **Count:** 26  
 
 ## Label
-Inadequate validation and flawed state transitions lead to incorrect asset calculations, unauthorized access, or unfair value distribution during withdrawals.
+Rounding up reward conversions via previewWithdraw causes overstated sUSDe transfers, allowing redemptions to siphon excess value from the protocol and harm other depositors.
 
 ## Cluster Information
 - **Total Findings:** 26

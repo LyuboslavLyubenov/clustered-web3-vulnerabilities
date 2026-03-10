@@ -4,7 +4,7 @@
 **Count:** 59  
 
 ## Label
-Unauthorized, stealthy contract upgrades bypassing immutability, validation, or time locks, enabling malicious state changes, backdoor access, or disruption of core functionality without user notice or auditability.
+Unprotected contract upgrade paths that skip immutability enforcement, validation, or rollback controls let attackers swap logic or reset safeguards, leading to unauthorized state changes, permanent loss of functionality, or hidden backdoors.
 
 ## Cluster Information
 - **Total Findings:** 59

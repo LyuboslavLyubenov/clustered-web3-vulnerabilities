@@ -4,7 +4,7 @@
 **Count:** 9  
 
 ## Label
-Front-running and improper state validation enable malicious actors to manipulate delegation states, block stake recovery, or evade penalties by exploiting transaction order and unchecked state transitions.
+When keepers can front-run claimAndSwap without checking shutdown state, they reintroduce assets after shutdown and can skew delegation state, block stake recovery, or dodge penalties, undermining financial integrity.
 
 ## Cluster Information
 - **Total Findings:** 9

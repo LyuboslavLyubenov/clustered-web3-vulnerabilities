@@ -4,7 +4,7 @@
 **Count:** 480  
 
 ## Label
-Inadequate timestamp validation and bounds checking lead to incorrect time-based logic, enabling malicious manipulation of time-dependent operations and compromising security, correctness, and deterministic behavior.
+Unvalidated time parameters and improper deadline enforcement allow owners or malicious actors to extend DAO timelines or let transactions revert, locking refunds and denying time-sensitive functionality.
 
 ## Cluster Information
 - **Total Findings:** 480

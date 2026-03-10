@@ -4,7 +4,7 @@
 **Count:** 43  
 
 ## Label
-Failure to properly track or update staking state over time, leading to incorrect balance calculations, reward misallocation, and potential user losses due to flawed state synchronization and lack of checkpoint protection.
+Outdated staking state updates tied to hedging and unlock validation allow liquidity counts to drift, causing incorrect balances, misallocated rewards, and stranded user funds when subsequent flows rely on stale totals.
 
 ## Cluster Information
 - **Total Findings:** 43

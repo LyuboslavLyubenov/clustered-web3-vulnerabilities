@@ -4,7 +4,7 @@
 **Count:** 72  
 
 ## Label
-Missing or flawed fee validation leads to unauthorized fee setting, incorrect fee calculation, or denial-of-service, enabling economic manipulation or transaction failure.
+Router-level or operation-level fee validation is absent, letting attackers or users set improper fees for flash loans, DEX swaps, or payable calls, causing revenue loss, slippage, and failed transactions.
 
 ## Cluster Information
 - **Total Findings:** 72

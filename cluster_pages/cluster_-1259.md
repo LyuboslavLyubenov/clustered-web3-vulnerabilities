@@ -4,7 +4,7 @@
 **Count:** 22  
 
 ## Label
-Hardcoded or unverified addresses and missing interface validation enable attackers to manipulate or misconfigure critical contract interactions, leading to failed operations, data corruption, or unauthorized execution.
+Missing or hardcoded address/interface validation around critical contract dependencies lets attackers register invalid contracts or inject wrong addresses, misrouting interactions and causing failed operations, data inconsistency, or misleading state.
 
 ## Cluster Information
 - **Total Findings:** 22

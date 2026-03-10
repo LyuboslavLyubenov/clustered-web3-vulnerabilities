@@ -4,7 +4,7 @@
 **Count:** 34  
 
 ## Label
-Failure to properly update or validate state during critical operations leads to inaccurate execution prices, corrupted state, or incorrect rewards—enabling exploitable profit opportunities or financial misrepresentation.
+Neglecting to refresh and verify basket or collateral state after internal trades or reward distribution creates stale totals, causing weight checks or reward calculations to produce incorrect prices, corrupted balances, and exploitable payouts.
 
 ## Cluster Information
 - **Total Findings:** 34

@@ -4,7 +4,7 @@
 **Count:** 23  
 
 ## Label
-Missing input bounds checking allows malicious or invalid configurations to be accepted, leading to protocol instability, mismanagement, or denial-of-service through unreasonably large or out-of-range parameter values.
+Lack of input bounds checking on configuration setters and level calculation allows attackers to push invalid or oversized parameter or level values, risking protocol instability, misconfiguration, and denial-of-service.
 
 ## Cluster Information
 - **Total Findings:** 23

@@ -4,7 +4,7 @@
 **Count:** 12  
 
 ## Label
-Lack of proper state synchronization and access control leads to inconsistent token relationships, unauthorized cross-chain operations, and incorrect denomination handling, enabling misuse and system instability.
+Failure to re-whitelist existing collections when syncing L1/L2 state allows attackers to bridge tokens while bypassing whitelist checks, enabling unauthorized cross-chain transfers and stuck assets.
 
 ## Cluster Information
 - **Total Findings:** 12

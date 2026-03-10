@@ -4,7 +4,7 @@
 **Count:** 77  
 
 ## Label
-Inaccurate state updates due to improper edge case handling, leading to fund locking, incorrect matching, or erroneous token transfers and enabling denial-of-service or financial loss.
+Failing to align asset conversion rounding and validation with actual transfers causes incorrect accounting and undiscarded mints, letting protocols overpay users, leak funds, or hit supply caps and block deposits, resulting in financial loss or DoS.
 
 ## Cluster Information
 - **Total Findings:** 77

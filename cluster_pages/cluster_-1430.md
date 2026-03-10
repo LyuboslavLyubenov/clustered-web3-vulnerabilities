@@ -4,7 +4,7 @@
 **Count:** 11  
 
 ## Label
-Misuse of comparison operators in deposit caps leads to incorrect limits, allowing partial or failed deposits, and violates ERC-4626 compliance by failing to enforce maximum deposit bounds under all conditions.
+Using strict `<` comparisons when enforcing deposit caps lets deposits bypass the defined maximum, causing partial accepts or reverts and violating ERC-4626 by failing to guarantee accurate maxDeposit/maxMint limits.
 
 ## Cluster Information
 - **Total Findings:** 11

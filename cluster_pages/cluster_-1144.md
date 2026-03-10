@@ -4,7 +4,7 @@
 **Count:** 20  
 
 ## Label
-Insufficient input validation and improper state checks enable attackers to claim rewards multiple times or redirect rewards to unauthorized addresses, leading to reward theft and financial loss.
+Insufficient caller validation on reallocation functions combined with reward-accounting that never returns invalidated funds lets adversaries repeatedly drain and deplete campaign rewards, stealing funds and blocking honest claims.
 
 ## Cluster Information
 - **Total Findings:** 20

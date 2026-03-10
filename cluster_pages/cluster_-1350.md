@@ -4,7 +4,7 @@
 **Count:** 54  
 
 ## Label
-Reentrancy vulnerabilities caused by improper state updates and premature state checks, enabling attackers to manipulate token supply or trigger invalid operations through external callbacks.
+Refunds/state updates executed before hooklet callbacks and treasury connections bypass single-use guards (root cause), so reentrant hooks can drain funds or distort withheld accounting after recursive transfers (impact).
 
 ## Cluster Information
 - **Total Findings:** 54

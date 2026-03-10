@@ -4,7 +4,7 @@
 **Count:** 45  
 
 ## Label
-Flawed mathematical calculations in fee and share accrual lead to inaccurate distributions, inflated fees, reduced LP returns, and systemic underestimation of fee floors due to imprecise fixed-point arithmetic.
+Fixed-point rounding and constant approximation errors in per-second fee conversions cause yearly fee floors to be lower than intended, leading to the protocol systematically undercharging fees and reducing expected DAO revenue.
 
 ## Cluster Information
 - **Total Findings:** 45

@@ -4,7 +4,7 @@
 **Count:** 17  
 
 ## Label
-Failure of external calls or predictable randomness leads to denial-of-service via unbounded minting or blocked execution, causing resource exhaustion or system lockout.
+Predictable randomness or failing external calls let minting loops iterate without bounds or hook loops stall, exhausting gas and preventing other transactions, producing a denial-of-service for users.
 
 ## Cluster Information
 - **Total Findings:** 17

@@ -4,7 +4,7 @@
 **Count:** 360  
 
 ## Label
-Failure to validate or enforce input constraints leads to incorrect state transitions, unauthorized access, or flawed logic execution—enabling exploitation through invalid or unintended parameter handling.
+Unrestricted admin updates combined with missing validation of bridge parameters lets attackers inject bad values, corrupt cross-chain state, and block future trades once privileged operations permanently lock in the bad configuration.
 
 ## Cluster Information
 - **Total Findings:** 360

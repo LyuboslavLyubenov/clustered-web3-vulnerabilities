@@ -4,7 +4,7 @@
 **Count:** 36  
 
 ## Label
-Race conditions enabling front-running and state-dependent exploits, allowing attackers to manipulate share allocations, trigger reverts, or withdraw funds prematurely through transaction ordering vulnerabilities.
+Failure to update approvals when swapping liquidation managers or managing LP NFTs leaves legacy contracts with vault access, so liquidations fail and funds plus fee streams become permanently inaccessible.
 
 ## Cluster Information
 - **Total Findings:** 36

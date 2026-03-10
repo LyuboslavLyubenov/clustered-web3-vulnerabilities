@@ -4,7 +4,7 @@
 **Count:** 656  
 
 ## Label
-Underflow vulnerabilities in unsigned integer arithmetic, triggered by improper bounds checking and price/asset fluctuations, leading to reverts, stalled withdrawals, or incorrect state calculations with significant operational and financial impacts.
+Unchecked unsigned arithmetic such as reward growth and transfer calculations allows intermediate products or differences to underflow/overflow in Solidity 0.8, causing revert-driven reward claim DoS and stalled withdrawals.
 
 ## Cluster Information
 - **Total Findings:** 656

@@ -4,7 +4,7 @@
 **Count:** 80  
 
 ## Label
-Inaccurate state tracking leading to flawed interest, borrowing, or liquidity calculations, enabling unfair distributions, incorrect fee allocations, or bypassing safety thresholds.
+Missing reserve and balance updates when hooking into rebalances and release flows prevents maintaining accurate state, causing interest, liquidity, and fee calculations to misprice assets, misallocate funds, or trigger unsafe transfers.
 
 ## Cluster Information
 - **Total Findings:** 80

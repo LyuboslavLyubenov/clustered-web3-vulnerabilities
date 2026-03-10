@@ -4,7 +4,7 @@
 **Count:** 54  
 
 ## Label
-Inconsistent or missing validation of zero or invalid deposit amounts across asset types leads to unauthorized fund transfers, state corruption, or failed status updates, enabling front-running, misallocation, or permanent fund trapping.
+Skipping deposit and repayment sanity checks—including zero amount/threshold checks and cross-chain borrow updates—enables unauthorized transfers, corrupt balances, or DoS.
 
 ## Cluster Information
 - **Total Findings:** 54

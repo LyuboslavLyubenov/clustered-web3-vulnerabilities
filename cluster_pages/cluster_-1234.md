@@ -4,7 +4,7 @@
 **Count:** 10  
 
 ## Label
-Flawed logical dependencies and incorrect conditionals lead to incorrect state updates or redundant operations, causing incorrect behavior or inefficiency under specific conditions.
+Incorrect boolean checks and nested conditionals assume mutually exclusive states, so updates never run when legitimate liquidity or lifecycle flags differ, leaving pools unpaused and reserves stuck.
 
 ## Cluster Information
 - **Total Findings:** 10

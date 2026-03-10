@@ -4,7 +4,7 @@
 **Count:** 405  
 
 ## Label
-Missing or flawed access control checks allow unauthorized token transfers or bypass of blacklisting, enabling front-running, fund withdrawal, or compliance violations through insufficient sender/recipient validation.
+Missing access-control validation on token transfer and vesting entry points allows malicious actors to bypass blacklist or scheduling rules, resulting in unauthorized movement or indefinite locking of user tokens.
 
 ## Cluster Information
 - **Total Findings:** 405

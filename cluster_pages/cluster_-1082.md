@@ -4,7 +4,7 @@
 **Count:** 93  
 
 ## Label
-Failure to validate or properly configure delegate authority in cross-chain messaging enables unauthorized slippage control and transaction manipulation, leading to loss of operational control and potential fund freezing.
+Missing validation of delegate authority in cross-chain messaging allows attackers to reassign router or delegate endpoints, draining gas funds and blocking messaging, which freezes liquidity and prevents timely repayments.
 
 ## Cluster Information
 - **Total Findings:** 93

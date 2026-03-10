@@ -4,7 +4,7 @@
 **Count:** 16  
 
 ## Label
-Failure to enforce critical invariants through proper validation and state checks, leading to incorrect state transitions, loss of error context, or unintended behavior under specific conditions.
+Skipping checks and cleanup on critical state transitions leaves stale pendingRecoveryData or empty failure reasons, enabling immediate unauthorized recovery actions and hiding diagnostic context that leads to incorrect behavior.
 
 ## Cluster Information
 - **Total Findings:** 16

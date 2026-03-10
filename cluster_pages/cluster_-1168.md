@@ -4,7 +4,7 @@
 **Count:** 9  
 
 ## Label
-Inconsistent account validation and improper bounds checking allow malicious actors to bypass initialization, corrupt state, or trigger panics through incorrect account type parsing or memory overwrites.
+Duplicate init/zero constraints and single-byte discriminator checks let the same account pass validation twice, causing writes to collide and corrupt state or allow bypass/panic through false account typing.
 
 ## Cluster Information
 - **Total Findings:** 9

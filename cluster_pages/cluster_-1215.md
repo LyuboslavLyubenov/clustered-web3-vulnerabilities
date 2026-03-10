@@ -4,7 +4,7 @@
 **Count:** 20  
 
 ## Label
-Cross-chain trust vulnerabilities arising from insufficient validation of chain context, state mutations, and message integrity, enabling spoofing, fund redirection, and denial of service.
+Failing to validate chain context, state changes, and inbound message integrity across relayed proofs or CCIP callbacks lets attackers spoof requests, misroute funds, and block cross-chain flows, resulting in DoS and asset loss.
 
 ## Cluster Information
 - **Total Findings:** 20

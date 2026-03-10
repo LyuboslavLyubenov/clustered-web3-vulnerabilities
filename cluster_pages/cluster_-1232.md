@@ -4,7 +4,7 @@
 **Count:** 54  
 
 ## Label
-Failure to update external library dependencies leads to exposure to known vulnerabilities, including reentrancy, access control flaws, and arithmetic errors, due to outdated or unpatched code in trusted components.
+Copying or keeping outdated OpenZeppelin modules and modified dependencies prevents security patches, causing vulnerabilities like reentrancy, access control flaws, and inaccurate math documentation to persist in deployed contracts.
 
 ## Cluster Information
 - **Total Findings:** 54

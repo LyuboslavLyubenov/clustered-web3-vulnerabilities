@@ -4,7 +4,7 @@
 **Count:** 21  
 
 ## Label
-Inaccurate state tracking in vesting mechanisms leads to double-counting, incorrect token allocations, and inconsistent claim eligibility, compromising token integrity and user entitlements.
+Incorrect state inheritance when listing vestings causes vesting counters to mix allocations, so release calculations underflow and subsequent purchasers inherit wrong claimed steps, preventing legitimate claims and causing temporary DOS.
 
 ## Cluster Information
 - **Total Findings:** 21

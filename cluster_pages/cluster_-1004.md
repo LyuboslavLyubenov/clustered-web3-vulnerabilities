@@ -4,7 +4,7 @@
 **Count:** 74  
 
 ## Label
-Failure to enforce transaction ordering, timing, and state consistency leads to unauthorized recovery, duplicate claims, and invalid parameter consumption, enabling front-running, delayed execution, and compromised account integrity.
+Unchecked ordering/timing and non-atomic state changes let attackers front-run or delay loops that manage validator rewards or recoveries, causing DoS in unbonding/recovery flows and locking user funds.
 
 ## Cluster Information
 - **Total Findings:** 74

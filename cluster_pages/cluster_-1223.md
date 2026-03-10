@@ -4,7 +4,7 @@
 **Count:** 18  
 
 ## Label
-Missing input validation in configuration updates leads to inconsistent state, arithmetic overflows, or invalid state transitions, enabling denial-of-service, asset drain, or consensus-breaking behavior.
+Failing to validate critical consensus parameter updates lets invalid values propagate into optimistic payload/config builds, breaking proposer schedules and triggering denial-of-service or consensus-finality violations.
 
 ## Cluster Information
 - **Total Findings:** 18

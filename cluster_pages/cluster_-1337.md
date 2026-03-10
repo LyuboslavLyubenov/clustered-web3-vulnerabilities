@@ -4,7 +4,7 @@
 **Count:** 281  
 
 ## Label
-Race conditions enabling front-running and state-dependent exploits, allowing attackers to manipulate share allocations, trigger reverts, or withdraw funds prematurely through transaction ordering vulnerabilities.
+Missing disableInitializers calls in upgradeable implementations let attackers front-run the initialization sequence, enabling unauthorized state manipulation and privileged withdrawals via direct implementation contract access.
 
 ## Cluster Information
 - **Total Findings:** 281

@@ -4,7 +4,7 @@
 **Count:** 21  
 
 ## Label
-Failure to validate critical parameters or addresses during contract initialization or configuration, leading to misconfigurations, unauthorized actions, or loss of funds due to missing safeguards.
+Missing validation of critical initialization/configuration parameters or addresses allows zero or out-of-spec values, blocking functional router updates and corrupting fee scalars so pools fail to launch or funds are misallocated.
 
 ## Cluster Information
 - **Total Findings:** 21

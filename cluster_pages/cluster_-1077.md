@@ -4,7 +4,7 @@
 **Count:** 10  
 
 ## Label
-Unauthorized control of critical parameters enables attackers to manipulate swaps, redirect funds, or exploit pricing gaps, leading to token theft or failed transfers through unsafe access and validation.
+Missing validation and access controls around swap/bridge parameter setters let attackers force arbitrary curves, fees, or target assets during reentrancy or sandwich flows, enabling them to drain funds and disrupt transfers.
 
 ## Cluster Information
 - **Total Findings:** 10

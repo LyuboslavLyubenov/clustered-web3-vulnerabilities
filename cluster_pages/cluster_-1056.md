@@ -4,7 +4,7 @@
 **Count:** 91  
 
 ## Label
-Unauthorized access and validation bypasses in cross-chain message handling lead to unauthorized operations, fund misuse, and transaction loss due to insufficient sender, caller, and message state checks.
+Missing caller/sender state verification in cross-chain message handling and multicall wrapper flows allows unauthorized contracts to intervene, misroute funds, and trigger Hooklet logic with incorrect identities.
 
 ## Cluster Information
 - **Total Findings:** 91

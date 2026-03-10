@@ -4,7 +4,7 @@
 **Count:** 61  
 
 ## Label
-Failure to validate state integrity leads to corrupted data structures, infinite loops, or unintended state mutations, enabling denial-of-service and unfair resource distribution through unchecked updates or self-referential loops.
+Allowing vault mappings or supported assets to change without validating existing state integrity lets attackers corrupt data structures and trigger denial-of-service or asset misallocation by producing inconsistent mappings or invalid asset relationships.
 
 ## Cluster Information
 - **Total Findings:** 61
